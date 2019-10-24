@@ -1,0 +1,1128 @@
+0,0,Classic Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-classic.jpg,KZN,0,Emp
+0,0,Classic Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-classic.jpg,KZN,0,Emp
+0,0,Classic Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-classic.jpg,KZN,0,Emp
+0,0,Black Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-black.jpg,KZN,0,Emp
+0,0,Unchained Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-unchained.jpg,KZN,0,Emp
+0,0,Classic Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-classic.jpg,KZN,0,Emp
+0,0,Classic Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-classic.jpg,KZN,0,Emp
+0,0,Classic Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-classic.jpg,KZN,0,Emp
+0,0,Goth Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-goth.jpg,KZN,0,Emp
+0,0,Classic Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-classic.jpg,KZN,0,Emp
+0,0,Classic Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-classic.jpg,KZN,0,Emp
+0,0,Classic Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-classic.jpg,KZN,0,Emp
+0,0,Classic Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-classic.jpg,KZN,0,Emp
+0,0,Classic Cassiopeia,https://www.mobafire.com/images/champion/skins/landscape/cassiopeia-classic.jpg,KZN,0,Emp
+0,0,Classic Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-classic.jpg,KZN,0,Emp
+0,0,Classic Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-classic.jpg,KZN,0,Emp
+0,0,UFO Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-ufo.jpg,KZN,0,Emp
+0,0,Classic Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-classic.jpg,KZN,0,Emp
+0,0,Classic Diana,https://www.mobafire.com/images/champion/skins/landscape/diana-classic.jpg,KZN,0,Emp
+0,0,Classic Dr. Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-classic.jpg,KZN,0,Emp
+0,0,Classic Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-classic.jpg,KZN,0,Emp
+0,0,Classic Elise,https://www.mobafire.com/images/champion/skins/landscape/elise-classic.jpg,KZN,0,Emp
+0,0,Classic Evelynn,https://www.mobafire.com/images/champion/skins/landscape/evelynn-classic.jpg,KZN,0,Emp
+0,0,Classic Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-classic.jpg,KZN,0,Emp
+0,0,Classic Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-classic.jpg,KZN,0,Emp
+0,0,Classic Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-classic.jpg,KZN,0,Emp
+0,0,Classic Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-classic.jpg,KZN,0,Emp
+0,0,Classic Galio,https://www.mobafire.com/images/champion/skins/landscape/galio-classic.jpg,KZN,0,Emp
+0,0,Classic Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-classic.jpg,KZN,0,Emp
+0,0,Classic Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-classic.jpg,KZN,0,Emp
+0,0,Classic Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-classic.jpg,KZN,0,Emp
+0,0,Classic Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-classic.jpg,KZN,0,Emp
+0,0,Classic Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-classic.jpg,KZN,0,Emp
+0,0,Classic Heimerdinger,https://www.mobafire.com/images/champion/skins/landscape/heimerdinger-classic.jpg,KZN,0,Emp
+0,0,Classic Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-classic.jpg,KZN,0,Emp
+0,0,Classic Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-classic.jpg,KZN,0,Emp
+0,0,Victorious Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-victorious.jpg,KZN,0,Emp
+0,0,Classic Jarvan IV,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-classic.jpg,KZN,0,Emp
+0,0,Victorious Jarvan,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-victorious.jpg,KZN,0,Emp
+0,0,Classic Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-classic.jpg,KZN,0,Emp
+0,0,PAX Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-pax.jpg,KZN,0,Emp
+0,0,Classic Jayce,https://www.mobafire.com/images/champion/skins/landscape/jayce-classic.jpg,KZN,0,Emp
+0,0,Classic Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-classic.jpg,KZN,0,Emp
+0,0,Classic Karthus,https://www.mobafire.com/images/champion/skins/landscape/karthus-classic.jpg,KZN,0,Emp
+0,0,Classic Kassadin,https://www.mobafire.com/images/champion/skins/landscape/kassadin-classic.jpg,KZN,0,Emp
+0,0,Classic Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-classic.jpg,KZN,0,Emp
+0,0,Classic Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-classic.jpg,KZN,0,Emp
+0,0,Silver Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-silver.jpg,KZN,0,Emp
+0,0,Judgement Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-judgement.jpg,KZN,0,Emp
+0,0,Classic Kennen,https://www.mobafire.com/images/champion/skins/landscape/kennen-classic.jpg,KZN,0,Emp
+0,0,Classic Kha'Zix,https://www.mobafire.com/images/champion/skins/landscape/khazix-classic.jpg,KZN,0,Emp
+0,0,Classic Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-classic.jpg,KZN,0,Emp
+0,0,Classic LeBlanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-classic.jpg,KZN,0,Emp
+0,0,Classic Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-classic.jpg,KZN,0,Emp
+0,0,Classic Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-classic.jpg,KZN,0,Emp
+0,0,Classic Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-classic.jpg,KZN,0,Emp
+0,0,Classic Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-classic.jpg,KZN,0,Emp
+0,0,Classic Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-classic.jpg,KZN,0,Emp
+0,0,Classic Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-classic.jpg,KZN,0,Emp
+0,0,Classic Maokai,https://www.mobafire.com/images/champion/skins/landscape/maokai-classic.jpg,KZN,0,Emp
+0,0,Classic Master Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-classic.jpg,KZN,0,Emp
+0,0,Classic Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-classic.jpg,KZN,0,Emp
+0,0,Classic Mordekaiser,https://www.mobafire.com/images/champion/skins/landscape/mordekaiser-classic.jpg,KZN,0,Emp
+0,0,Classic Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-classic.jpg,KZN,0,Emp
+0,0,Classic Nami,https://www.mobafire.com/images/champion/skins/landscape/nami-classic.jpg,KZN,0,Emp
+0,0,Classic Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-classic.jpg,KZN,0,Emp
+0,0,Classic Nautilus,https://www.mobafire.com/images/champion/skins/landscape/nautilus-classic.jpg,KZN,0,Emp
+0,0,Classic Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-classic.jpg,KZN,0,Emp
+0,0,Classic Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-classic.jpg,KZN,0,Emp
+0,0,Classic Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-classic.jpg,KZN,0,Emp
+0,0,Classic Olaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-classic.jpg,KZN,0,Emp
+0,0,Classic Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-classic.jpg,KZN,0,Emp
+0,0,Classic Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-classic.jpg,KZN,0,Emp
+0,0,Classic Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-classic.jpg,KZN,0,Emp
+0,0,Classic Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-classic.jpg,KZN,0,Emp
+0,0,King Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-king.jpg,KZN,0,Emp
+0,0,Classic Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-classic.jpg,KZN,0,Emp
+0,0,Classic Rengar,https://www.mobafire.com/images/champion/skins/landscape/rengar-classic.jpg,KZN,0,Emp
+0,0,Classic Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-classic.jpg,KZN,0,Emp
+0,0,Classic Rumble,https://www.mobafire.com/images/champion/skins/landscape/rumble-classic.jpg,KZN,0,Emp
+0,0,Classic Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-classic.jpg,KZN,0,Emp
+0,0,Human Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-human.jpg,KZN,0,Emp
+0,0,Triumphant Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-triumphant.jpg,KZN,0,Emp
+0,0,Classic Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-classic.jpg,KZN,0,Emp
+0,0,Classic Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-classic.jpg,KZN,0,Emp
+0,0,Classic Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-classic.jpg,KZN,0,Emp
+0,0,Classic Shyvana,https://www.mobafire.com/images/champion/skins/landscape/shyvana-classic.jpg,KZN,0,Emp
+0,0,Classic Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-classic.jpg,KZN,0,Emp
+0,0,Classic Sion,https://www.mobafire.com/images/champion/skins/landscape/sion-classic.jpg,KZN,0,Emp
+0,0,Classic Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-classic.jpg,KZN,0,Emp
+0,0,Huntress Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-huntress.jpg,KZN,0,Emp
+0,0,PAX Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-pax.jpg,KZN,0,Emp
+0,0,Classic Skarner,https://www.mobafire.com/images/champion/skins/landscape/skarner-classic.jpg,KZN,0,Emp
+0,0,Classic Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-classic.jpg,KZN,0,Emp
+0,0,Classic Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-classic.jpg,KZN,0,Emp
+0,0,Classic Swain,https://www.mobafire.com/images/champion/skins/landscape/swain-classic.jpg,KZN,0,Emp
+0,0,Classic Syndra,https://www.mobafire.com/images/champion/skins/landscape/syndra-classic.jpg,KZN,0,Emp
+0,0,Classic Talon,https://www.mobafire.com/images/champion/skins/landscape/talon-classic.jpg,KZN,0,Emp
+0,0,Classic Taric,https://www.mobafire.com/images/champion/skins/landscape/taric-classic.jpg,KZN,0,Emp
+0,0,Classic Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-classic.jpg,KZN,0,Emp
+0,0,Classic Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-classic.jpg,KZN,0,Emp
+0,0,Riot Girl Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-riot-girl.jpg,KZN,0,Emp
+0,0,Classic Trundle,https://www.mobafire.com/images/champion/skins/landscape/trundle-classic.jpg,KZN,0,Emp
+0,0,Classic Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-classic.jpg,KZN,0,Emp
+0,0,Classic Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-classic.jpg,KZN,0,Emp
+0,0,PAX Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-pax.jpg,KZN,0,Emp
+0,0,Classic Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-classic.jpg,KZN,0,Emp
+0,0,Medieval Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-medieval.jpg,KZN,0,Emp
+0,0,Classic Udyr,https://www.mobafire.com/images/champion/skins/landscape/udyr-classic.jpg,KZN,0,Emp
+0,0,Classic Urgot,https://www.mobafire.com/images/champion/skins/landscape/urgot-classic.jpg,KZN,0,Emp
+0,0,Classic Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-classic.jpg,KZN,0,Emp
+0,0,Classic Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-classic.jpg,KZN,0,Emp
+0,0,Classic Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-classic.jpg,KZN,0,Emp
+0,0,Classic Viktor,https://www.mobafire.com/images/champion/skins/landscape/viktor-classic.jpg,KZN,0,Emp
+0,0,Classic Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-classic.jpg,KZN,0,Emp
+0,0,Classic Volibear,https://www.mobafire.com/images/champion/skins/landscape/volibear-classic.jpg,KZN,0,Emp
+0,0,Classic Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-classic.jpg,KZN,0,Emp
+0,0,Grey Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-grey.jpg,KZN,0,Emp
+0,0,Classic Wukong,https://www.mobafire.com/images/champion/skins/landscape/wukong-classic.jpg,KZN,0,Emp
+0,0,Classic Xerath,https://www.mobafire.com/images/champion/skins/landscape/xerath-classic.jpg,KZN,0,Emp
+0,0,Classic Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-classic.jpg,KZN,0,Emp
+0,0,Classic Yorick,https://www.mobafire.com/images/champion/skins/landscape/yorick-classic.jpg,KZN,0,Emp
+0,0,Classic Zed,https://www.mobafire.com/images/champion/skins/landscape/zed-classic.jpg,KZN,0,Emp
+0,0,Classic Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-classic.jpg,KZN,0,Emp
+0,0,Classic Zilean,https://www.mobafire.com/images/champion/skins/landscape/zilean-classic.jpg,KZN,0,Emp
+0,0,Classic Zyra,https://www.mobafire.com/images/champion/skins/landscape/zyra-classic.jpg,KZN,0,Emp
+0,0,Classic Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-classic.jpg,KZN,0,Emp
+0,0,Classic Thresh,https://www.mobafire.com/images/champion/skins/landscape/thresh-classic.jpg,KZN,0,Emp
+0,0,Classic Quinn,https://www.mobafire.com/images/champion/skins/landscape/quinn-classic.jpg,KZN,0,Emp
+0,0,Classic Zac,https://www.mobafire.com/images/champion/skins/landscape/zac-classic.jpg,KZN,0,Emp
+0,0,Traditional Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-traditional.jpg,KZN,0,Emp
+0,0,Traditional Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-traditional.jpg,KZN,0,Emp
+0,0,Traditional Trundle,https://www.mobafire.com/images/champion/skins/landscape/trundle-traditional.jpg,KZN,0,Emp
+0,0,Classic Lissandra,https://www.mobafire.com/images/champion/skins/landscape/lissandra-classic.jpg,KZN,0,Emp
+0,0,Classic Aatrox,https://www.mobafire.com/images/champion/skins/landscape/aatrox-classic.jpg,KZN,0,Emp
+0,0,Classic Lucian,https://www.mobafire.com/images/champion/skins/landscape/lucian-classic.jpg,KZN,0,Emp
+0,0,Classic Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-classic.jpg,KZN,0,Emp
+0,0,Victorious Elise,https://www.mobafire.com/images/champion/skins/landscape/elise-victorious.jpg,KZN,0,Emp
+0,0,Classic Yasuo,https://www.mobafire.com/images/champion/skins/landscape/yasuo-classic.jpg,KZN,0,Emp
+0,0,Classic Vel'Koz,https://www.mobafire.com/images/champion/skins/landscape/velkoz-classic.jpg,KZN,0,Emp
+0,0,Classic Braum,https://www.mobafire.com/images/champion/skins/landscape/braum-classic.jpg,KZN,0,Emp
+0,0,Classic Gnar,https://www.mobafire.com/images/champion/skins/landscape/gnar-classic.jpg,KZN,0,Emp
+0,0,Classic Azir,https://www.mobafire.com/images/champion/skins/landscape/azir-classic.jpg,KZN,0,Emp
+0,0,Classic Kalista,https://www.mobafire.com/images/champion/skins/landscape/kalista-classic.jpg,KZN,0,Emp
+0,0,Victorious Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-victorious.jpg,KZN,0,Emp
+0,0,Classic Rek'Sai,https://www.mobafire.com/images/champion/skins/landscape/reksai-classic.jpg,KZN,0,Emp
+0,0,Classic Bard,https://www.mobafire.com/images/champion/skins/landscape/bard-classic.jpg,KZN,0,Emp
+0,0,Classic Ekko,https://www.mobafire.com/images/champion/skins/landscape/ekko-classic.jpg,KZN,0,Emp
+0,0,Classic Tahm Kench,https://www.mobafire.com/images/champion/skins/landscape/tahm-kench-classic.jpg,KZN,0,Emp
+0,0,Classic Kindred,https://www.mobafire.com/images/champion/skins/landscape/kindred-classic.jpg,KZN,0,Emp
+0,0,Victorious Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-victorious.jpg,KZN,0,Emp
+0,0,Classic Illaoi,https://www.mobafire.com/images/champion/skins/landscape/illaoi-classic.jpg,KZN,0,Emp
+0,0,Classic Jhin,https://www.mobafire.com/images/champion/skins/landscape/jhin-classic.jpg,KZN,0,Emp
+0,0,Classic Aurelion Sol,https://www.mobafire.com/images/champion/skins/landscape/aurelion-sol-classic.jpg,KZN,0,Emp
+0,0,Hextech Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-hextech.jpg,KZN,0,Emp
+0,0,Classic Taliyah,https://www.mobafire.com/images/champion/skins/landscape/taliyah-classic.jpg,KZN,0,Emp
+0,0,Soulstealer Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-soulstealer.jpg,KZN,0,Emp
+0,0,Classic Kled,https://www.mobafire.com/images/champion/skins/landscape/kled-classic.jpg,KZN,0,Emp
+0,0,Classic Ivern,https://www.mobafire.com/images/champion/skins/landscape/ivern-classic.jpg,KZN,0,Emp
+0,0,Victorious Maokai,https://www.mobafire.com/images/champion/skins/landscape/maokai-victorious.jpg,KZN,0,Emp
+0,0,Classic Camille,https://www.mobafire.com/images/champion/skins/landscape/camille-classic.jpg,KZN,0,Emp
+0,0,Dreadnova Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-dreadnova.jpg,KZN,0,Emp
+0,0,Classic Xayah,https://www.mobafire.com/images/champion/skins/landscape/xayah-classic.jpg,KZN,0,Emp
+0,0,Classic Rakan,https://www.mobafire.com/images/champion/skins/landscape/rakan-classic.jpg,KZN,0,Emp
+0,0,Classic Kayn,https://www.mobafire.com/images/champion/skins/landscape/kayn-classic.jpg,KZN,0,Emp
+0,0,Lancer Zero Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-lancer-zero.jpg,KZN,0,Emp
+0,0,Classic Ornn,https://www.mobafire.com/images/champion/skins/landscape/ornn-classic.jpg,KZN,0,Emp
+0,0,Neo PAX Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-neo-pax.jpg,KZN,0,Emp
+0,0,Victorious Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-victorious.jpg,KZN,0,Emp
+0,0,Classic Zoe,https://www.mobafire.com/images/champion/skins/landscape/zoe-classic.jpg,KZN,0,Emp
+0,0,Hextech Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kog-maw-hextech.jpg,KZN,0,Emp
+0,0,Classic Kai'Sa,https://www.mobafire.com/images/champion/skins/landscape/kaisa-classic.jpg,KZN,0,Emp
+0,0,Hextech Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-hextech.jpg,KZN,0,Emp
+0,0,Classic Pyke,https://www.mobafire.com/images/champion/skins/landscape/pyke-classic.jpg,KZN,0,Emp
+0,0,Hextech Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-hextech.jpg,KZN,0,Emp
+0,0,Hextech Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-hextech.jpg,KZN,0,Emp
+0,0,K/DA Kai'Sa Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/kaisa-kda-prestige-edition.jpg,KZN,0,Emp
+0,0,Victorious Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-victorious.jpg,KZN,0,Emp
+0,0,Classic Neeko,https://www.mobafire.com/images/champion/skins/landscape/neeko-classic.jpg,KZN,0,Emp
+0,0,Hextech Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-hextech.jpg,KZN,0,Emp
+0,0,K/DA Akali Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/akali-kda-prestige-edition.jpg,KZN,0,Emp
+0,0,Blood Moon Aatrox Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/aatrox-blood-moon-prestige-edition.jpg,KZN,0,Emp
+0,0,Classic Sylas,https://www.mobafire.com/images/champion/skins/landscape/sylas-classic.jpg,KZN,0,Emp
+0,0,Firecracker Vayne Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/vayne-firecracker-prestige-edition.jpg,KZN,0,Emp
+0,0,K/DA Ahri Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/ahri-kda-prestige-edition.jpg,KZN,0,Emp
+0,0,Fuzz Fizz Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/fizz-fuzz-prestige-edition.jpg,KZN,0,Emp
+0,0,Hextech Jarvan IV,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-hextech.jpg,KZN,0,Emp
+0,0,Classic Yuumi,https://www.mobafire.com/images/champion/skins/landscape/yuumi-classic.jpg,KZN,0,Emp
+0,0,K/DA Evelynn Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/evelynn-kda-prestige-edition.jpg,KZN,0,Emp
+0,0,Battle Academia Lux Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/lux-battle-academia-prestige-edition.jpg,KZN,0,Emp
+0,0,Classic Qiyana,https://www.mobafire.com/images/champion/skins/landscape/qiyana-classic.jpg,KZN,0,Emp
+0,0,Arcade Caitlyn Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-arcade-prestige-edition.jpg,KZN,0,Emp
+0,0,PROJECT: Irelia Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/irelia-project-prestige-edition.jpg,KZN,0,Emp
+0,0,Hextech Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-hextech.jpg,KZN,0,Emp
+0,0,Star Guardian Neeko Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/neeko-star-guardian-prestige-edition.jpg,KZN,0,Emp
+0,0,Hextech Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-hextech.jpg,KZN,0,Emp
+0,0,Valiant Sword Riven Prestige Edition,https://www.mobafire.com/images/champion/skins/landscape/riven-valiant-sword-prestige-edition.jpg,KZN,0,Emp
+0,0,Golden Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-golden.jpg,KZN,0,Emp
+0,0,Assassin Master Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-assassin.jpg,KZN,0,Emp
+0,0,White Mage Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-white-mage.jpg,KZN,0,Emp
+0,0,Phantom Karthus,https://www.mobafire.com/images/champion/skins/landscape/karthus-phantom.jpg,KZN,0,Emp
+0,0,Urf the Manatee Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-urf-the-manatee.jpg,KZN,0,Emp
+0,0,Draven Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-draven.jpg,KZN,0,Emp
+0,0,Infernal Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-infernal.jpg,KZN,0,Emp
+0,0,Stinger Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-stinger.jpg,KZN,0,Emp
+0,0,Longhorn Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-longhorn.jpg,KZN,0,Emp
+0,0,Pharaoh Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-pharaoh.jpg,KZN,0,Emp
+0,0,Vancouver Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-vancouver.jpg,KZN,0,Emp
+0,0,Emumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-emumu.jpg,KZN,0,Emp
+0,0,Re-Gifted Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-re-gifted.jpg,KZN,0,Emp
+0,0,Almost Prom King Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-almost-prom-king.jpg,KZN,0,Emp
+0,0,Team Spirit Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-team-spirit.jpg,KZN,0,Emp
+0,0,Bird of Prey Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-bird-of-prey.jpg,KZN,0,Emp
+0,0,Noxus Hunter Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-noxus-hunter.jpg,KZN,0,Emp
+0,0,Red Riding Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-red-riding.jpg,KZN,0,Emp
+0,0,Prom Queen Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-prom-queen.jpg,KZN,0,Emp
+0,0,Freljord Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-freljord.jpg,KZN,0,Emp
+0,0,Sherwood Forest Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-sherwood-forest.jpg,KZN,0,Emp
+0,0,Woad Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-woad.jpg,KZN,0,Emp
+0,0,Rusty Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-rusty.jpg,KZN,0,Emp
+0,0,Goalkeeper Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-goalkeeper.jpg,KZN,0,Emp
+0,0,Boom Boom Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-boom-boom.jpg,KZN,0,Emp
+0,0,Definitely Not Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-definitely-not.jpg,KZN,0,Emp
+0,0,Vandal Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-vandal.jpg,KZN,0,Emp
+0,0,Resistance Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-resistance.jpg,KZN,0,Emp
+0,0,Sheriff Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-sheriff.jpg,KZN,0,Emp
+0,0,Desperada Cassiopeia,https://www.mobafire.com/images/champion/skins/landscape/cassiopeia-desperada.jpg,KZN,0,Emp
+0,0,Siren Cassiopeia,https://www.mobafire.com/images/champion/skins/landscape/cassiopeia-siren.jpg,KZN,0,Emp
+0,0,Nightmare Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-nightmare.jpg,KZN,0,Emp
+0,0,Loch Ness Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-loch-ness.jpg,KZN,0,Emp
+0,0,Hot Rod Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-hot-rod.jpg,KZN,0,Emp
+0,0,Toxic Dr. Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-toxic-dr.jpg,KZN,0,Emp
+0,0,Mr. Mundoverse,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-mr.jpg,KZN,0,Emp
+0,0,Executioner Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-executioner.jpg,KZN,0,Emp
+0,0,Shadow Evelynn,https://www.mobafire.com/images/champion/skins/landscape/evelynn-shadow.jpg,KZN,0,Emp
+0,0,Masquerade Evelynn,https://www.mobafire.com/images/champion/skins/landscape/evelynn-masquerade.jpg,KZN,0,Emp
+0,0,Tango Evelynn,https://www.mobafire.com/images/champion/skins/landscape/evelynn-tango.jpg,KZN,0,Emp
+0,0,Nottingham Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-nottingham.jpg,KZN,0,Emp
+0,0,Striker Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-striker.jpg,KZN,0,Emp
+0,0,Frosted Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-frosted.jpg,KZN,0,Emp
+0,0,Spectral Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-spectral.jpg,KZN,0,Emp
+0,0,Union Jack Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-union-jack.jpg,KZN,0,Emp
+0,0,Bandito Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-bandito.jpg,KZN,0,Emp
+0,0,Royal Guard Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-royal-guard.jpg,KZN,0,Emp
+0,0,Atlantean Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-atlantean.jpg,KZN,0,Emp
+0,0,Enchanted Galio,https://www.mobafire.com/images/champion/skins/landscape/galio-enchanted.jpg,KZN,0,Emp
+0,0,Hextech Galio,https://www.mobafire.com/images/champion/skins/landscape/galio-hextech.jpg,KZN,0,Emp
+0,0,Commando Galio,https://www.mobafire.com/images/champion/skins/landscape/galio-commando.jpg,KZN,0,Emp
+0,0,Spooky Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-spooky.jpg,KZN,0,Emp
+0,0,Minuteman Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-minuteman.jpg,KZN,0,Emp
+0,0,Sanguine Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-sanguine.jpg,KZN,0,Emp
+0,0,Desert Trooper Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-desert-trooper.jpg,KZN,0,Emp
+0,0,Commando Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-commando.jpg,KZN,0,Emp
+0,0,Hillbilly Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-hillbilly.jpg,KZN,0,Emp
+0,0,Hired Gun Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-hired-gun.jpg,KZN,0,Emp
+0,0,Blast Zone Heimerdinger,https://www.mobafire.com/images/champion/skins/landscape/heimerdinger-blast-zone.jpg,KZN,0,Emp
+0,0,Nightblade Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-nightblade.jpg,KZN,0,Emp
+0,0,Aviator Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-aviator.jpg,KZN,0,Emp
+0,0,Tempest Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-tempest.jpg,KZN,0,Emp
+0,0,Commando Jarvan,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-commando.jpg,KZN,0,Emp
+0,0,The Mighty Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-the-mighty.jpg,KZN,0,Emp
+0,0,Vandal Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-vandal.jpg,KZN,0,Emp
+0,0,Sakura Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-sakura.jpg,KZN,0,Emp
+0,0,Statue of Karthus,https://www.mobafire.com/images/champion/skins/landscape/karthus-statue-of.jpg,KZN,0,Emp
+0,0,Festival Kassadin,https://www.mobafire.com/images/champion/skins/landscape/kassadin-festival.jpg,KZN,0,Emp
+0,0,Deep One Kassadin,https://www.mobafire.com/images/champion/skins/landscape/kassadin-deep-one.jpg,KZN,0,Emp
+0,0,Pre-Void Kassadin,https://www.mobafire.com/images/champion/skins/landscape/kassadin-pre-void.jpg,KZN,0,Emp
+0,0,Mercenary Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-mercenary.jpg,KZN,0,Emp
+0,0,Viridian Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-viridian.jpg,KZN,0,Emp
+0,0,Deadly Kennen,https://www.mobafire.com/images/champion/skins/landscape/kennen-deadly.jpg,KZN,0,Emp
+0,0,Swamp Master Kennen,https://www.mobafire.com/images/champion/skins/landscape/kennen-swamp-master.jpg,KZN,0,Emp
+0,0,Karate Kennen,https://www.mobafire.com/images/champion/skins/landscape/kennen-karate.jpg,KZN,0,Emp
+0,0,Caterpillar Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-caterpillar.jpg,KZN,0,Emp
+0,0,Sonoran Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-sonoran.jpg,KZN,0,Emp
+0,0,Monarch Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-monarch.jpg,KZN,0,Emp
+0,0,Prestigious LeBlanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-prestigious.jpg,KZN,0,Emp
+0,0,Traditional Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-traditional.jpg,KZN,0,Emp
+0,0,Valkyrie Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-valkyrie.jpg,KZN,0,Emp
+0,0,Sorceress Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-sorceress.jpg,KZN,0,Emp
+0,0,Commando Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-commando.jpg,KZN,0,Emp
+0,0,Shamrock Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-shamrock.jpg,KZN,0,Emp
+0,0,Marble Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-marble.jpg,KZN,0,Emp
+0,0,Shadow Prince Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-shadow-prince.jpg,KZN,0,Emp
+0,0,Vizier Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-vizier.jpg,KZN,0,Emp
+0,0,Djinn Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-djinn.jpg,KZN,0,Emp
+0,0,Totemic Maokai,https://www.mobafire.com/images/champion/skins/landscape/maokai-totemic.jpg,KZN,0,Emp
+0,0,Chosen Master Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-chosen.jpg,KZN,0,Emp
+0,0,Samurai Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-samurai-yi.jpg,KZN,0,Emp
+0,0,Waterloo Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-waterloo.jpg,KZN,0,Emp
+0,0,Road Warrior Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-road-warrior.jpg,KZN,0,Emp
+0,0,Dragon Knight Mordekaiser,https://www.mobafire.com/images/champion/skins/landscape/mordekaiser-dragon-knight.jpg,KZN,0,Emp
+0,0,Infernal Mordekaiser,https://www.mobafire.com/images/champion/skins/landscape/mordekaiser-infernal.jpg,KZN,0,Emp
+0,0,Galactic Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-galactic.jpg,KZN,0,Emp
+0,0,Pharaoh Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-pharaoh.jpg,KZN,0,Emp
+0,0,Snow Bunny Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-snow-bunny.jpg,KZN,0,Emp
+0,0,Leopard Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-leopard.jpg,KZN,0,Emp
+0,0,French Maid Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-french-maid.jpg,KZN,0,Emp
+0,0,Pharaoh Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-pharaoh.jpg,KZN,0,Emp
+0,0,Void Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-void.jpg,KZN,0,Emp
+0,0,Ravager Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-ravager.jpg,KZN,0,Emp
+0,0,Haunting Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-haunting.jpg,KZN,0,Emp
+0,0,Sasquatch Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-sasquatch.jpg,KZN,0,Emp
+0,0,Workshop Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-workshop.jpg,KZN,0,Emp
+0,0,Forsaken Olaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-forsaken.jpg,KZN,0,Emp
+0,0,Glacial Olaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-glacial.jpg,KZN,0,Emp
+0,0,Gothic Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-gothic.jpg,KZN,0,Emp
+0,0,Sewn Chaos Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-sewn-chaos.jpg,KZN,0,Emp
+0,0,Myrmidon Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-myrmidon.jpg,KZN,0,Emp
+0,0,Ruthless Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-ruthless.jpg,KZN,0,Emp
+0,0,Noxus Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-noxus.jpg,KZN,0,Emp
+0,0,Battle Regalia Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-battle-regalia.jpg,KZN,0,Emp
+0,0,Freljord Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-freljord.jpg,KZN,0,Emp
+0,0,Galactic Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-galactic.jpg,KZN,0,Emp
+0,0,Outback Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-outback.jpg,KZN,0,Emp
+0,0,Crimson Elite Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-crimson-elite.jpg,KZN,0,Emp
+0,0,Bilgerat Rumble,https://www.mobafire.com/images/champion/skins/landscape/rumble-bilgerat.jpg,KZN,0,Emp
+0,0,Tribal Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-tribal.jpg,KZN,0,Emp
+0,0,Uncle Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-uncle.jpg,KZN,0,Emp
+0,0,Mad Hatter Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-mad-hatter.jpg,KZN,0,Emp
+0,0,Royal Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-royal.jpg,KZN,0,Emp
+0,0,Yellow Jacket Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-yellow-jacket.jpg,KZN,0,Emp
+0,0,Frozen Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-frozen.jpg,KZN,0,Emp
+0,0,Boneclaw Shyvana,https://www.mobafire.com/images/champion/skins/landscape/shyvana-boneclaw.jpg,KZN,0,Emp
+0,0,Hextech Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-hextech.jpg,KZN,0,Emp
+0,0,Hextech Sion,https://www.mobafire.com/images/champion/skins/landscape/sion-hextech.jpg,KZN,0,Emp
+0,0,Lumberjack Sion,https://www.mobafire.com/images/champion/skins/landscape/sion-lumberjack.jpg,KZN,0,Emp
+0,0,Warrior Princess Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-warrior-princess.jpg,KZN,0,Emp
+0,0,Earthrune Skarner,https://www.mobafire.com/images/champion/skins/landscape/skarner-earthrune.jpg,KZN,0,Emp
+0,0,Silent Night Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-silent-night.jpg,KZN,0,Emp
+0,0,Dryad Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-dryad.jpg,KZN,0,Emp
+0,0,Bilgewater Swain,https://www.mobafire.com/images/champion/skins/landscape/swain-bilgewater.jpg,KZN,0,Emp
+0,0,Renegade Talon,https://www.mobafire.com/images/champion/skins/landscape/talon-renegade.jpg,KZN,0,Emp
+0,0,Emerald Taric,https://www.mobafire.com/images/champion/skins/landscape/taric-emerald.jpg,KZN,0,Emp
+0,0,Happy Elf Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-happy-elf.jpg,KZN,0,Emp
+0,0,Recon Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-recon.jpg,KZN,0,Emp
+0,0,Badger Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-badger.jpg,KZN,0,Emp
+0,0,Earnest Elf Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-earnest-elf.jpg,KZN,0,Emp
+0,0,Buccaneer Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-buccaneer.jpg,KZN,0,Emp
+0,0,Lil Slugger Trundle,https://www.mobafire.com/images/champion/skins/landscape/trundle-lil-slugger.jpg,KZN,0,Emp
+0,0,Highland Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-highland.jpg,KZN,0,Emp
+0,0,King Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-king.jpg,KZN,0,Emp
+0,0,Jack of Hearts Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-jack-of-hearts.jpg,KZN,0,Emp
+0,0,Tango Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-tango.jpg,KZN,0,Emp
+0,0,Kingpin Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-kingpin.jpg,KZN,0,Emp
+0,0,Whistler Village Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-whistler-village.jpg,KZN,0,Emp
+0,0,Black Belt Udyr,https://www.mobafire.com/images/champion/skins/landscape/udyr-black-belt.jpg,KZN,0,Emp
+0,0,Giant Enemy Crabgot,https://www.mobafire.com/images/champion/skins/landscape/urgot-giant-enemy-crabgot.jpg,KZN,0,Emp
+0,0,Butcher Urgot,https://www.mobafire.com/images/champion/skins/landscape/urgot-butcher.jpg,KZN,0,Emp
+0,0,Vindicator Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-vindicator.jpg,KZN,0,Emp
+0,0,Aristocrat Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-aristocratic.jpg,KZN,0,Emp
+0,0,Curling Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-curling.jpg,KZN,0,Emp
+0,0,Leprechaun Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-leprechaun.jpg,KZN,0,Emp
+0,0,Prototype Viktor,https://www.mobafire.com/images/champion/skins/landscape/viktor-prototype.jpg,KZN,0,Emp
+0,0,Count Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-count.jpg,KZN,0,Emp
+0,0,Marquis Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-marquis.jpg,KZN,0,Emp
+0,0,Thunder Lord Volibear,https://www.mobafire.com/images/champion/skins/landscape/volibear-thunder-lord.jpg,KZN,0,Emp
+0,0,Big Bad Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-big-bad.jpg,KZN,0,Emp
+0,0,Tundra Hunter Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-tundra-hunter.jpg,KZN,0,Emp
+0,0,Battlecast Xerath,https://www.mobafire.com/images/champion/skins/landscape/xerath-battlecast.jpg,KZN,0,Emp
+0,0,Commando Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-commando.jpg,KZN,0,Emp
+0,0,Imperial Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-imperial.jpg,KZN,0,Emp
+0,0,Undertaker Yorick,https://www.mobafire.com/images/champion/skins/landscape/yorick-undertaker.jpg,KZN,0,Emp
+0,0,Old Saint Zilean,https://www.mobafire.com/images/champion/skins/landscape/zilean-old-saint.jpg,KZN,0,Emp
+0,0,Groovy Zilean,https://www.mobafire.com/images/champion/skins/landscape/zilean-groovy.jpg,KZN,0,Emp
+0,0,Time Machine Zilean,https://www.mobafire.com/images/champion/skins/landscape/zilean-time-machine.jpg,KZN,0,Emp
+0,0,Midnight Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-midnight.jpg,KZN,0,Emp
+0,0,Little Knight Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-little-knight.jpg,KZN,0,Emp
+0,0,Hextech Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-hextech.jpg,KZN,0,Emp
+0,0,Apocalyptic Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-apocalyptic.jpg,KZN,0,Emp
+0,0,Arctic Warfare Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-arctic-warfare.jpg,KZN,0,Emp
+0,0,Explorer Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-explorer.jpg,KZN,0,Emp
+0,0,Fiddle Me Timbers,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-fiddle-me-timbers.jpg,KZN,0,Emp
+0,0,Nightraven Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-nightraven.jpg,KZN,0,Emp
+0,0,Tundra Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-tundra.jpg,KZN,0,Emp
+0,0,Sailor Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-sailor.jpg,KZN,0,Emp
+0,0,Rugged Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-rugged.jpg,KZN,0,Emp
+0,0,Dragonslayer Jarvan IV,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-dragon-slayer.jpg,KZN,0,Emp
+0,0,Temple Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-temple.jpg,KZN,0,Emp
+0,0,Sun Goddess Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-sun-goddess.jpg,KZN,0,Emp
+0,0,Pentakill Karthus,https://www.mobafire.com/images/champion/skins/landscape/karthus-pentakill.jpg,KZN,0,Emp
+0,0,High Command Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-high-command.jpg,KZN,0,Emp
+0,0,Wicked LeBlanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-wicked.jpg,KZN,0,Emp
+0,0,Acolyte Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-acolyte.jpg,KZN,0,Emp
+0,0,Defender Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-defender.jpg,KZN,0,Emp
+0,0,Spellthief Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-spellthief.jpg,KZN,0,Emp
+0,0,Coral Reef Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-coral-reef.jpg,KZN,0,Emp
+0,0,Cowgirl Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-cowgirl.jpg,KZN,0,Emp
+0,0,Blade Mistress Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-blade-mistress.jpg,KZN,0,Emp
+0,0,Grungy Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-grungy.jpg,KZN,0,Emp
+0,0,Perseus Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-perseus.jpg,KZN,0,Emp
+0,0,Chrome Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-chrome.jpg,KZN,0,Emp
+0,0,Blood Moon Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-blood-moon.jpg,KZN,0,Emp
+0,0,Ironscale Shyvana,https://www.mobafire.com/images/champion/skins/landscape/shyvana-ironscale.jpg,KZN,0,Emp
+0,0,Mad Scientist Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-mad-scientist.jpg,KZN,0,Emp
+0,0,Barbarian Sion,https://www.mobafire.com/images/champion/skins/landscape/sion-barbarian.jpg,KZN,0,Emp
+0,0,Bandit Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-bandit.jpg,KZN,0,Emp
+0,0,Northern Front Swain,https://www.mobafire.com/images/champion/skins/landscape/swain-northern-front.jpg,KZN,0,Emp
+0,0,Crimson Elite Talon,https://www.mobafire.com/images/champion/skins/landscape/talon-crimson-elite.jpg,KZN,0,Emp
+0,0,Armor of the Fifth Age Taric,https://www.mobafire.com/images/champion/skins/landscape/taric-armor-of-the-fifth-age.jpg,KZN,0,Emp
+0,0,Junkyard Trundle,https://www.mobafire.com/images/champion/skins/landscape/trundle-junkyard.jpg,KZN,0,Emp
+0,0,Viking Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-viking.jpg,KZN,0,Emp
+0,0,Musketeer Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-musketeer.jpg,KZN,0,Emp
+0,0,Veigar Greybeard,https://www.mobafire.com/images/champion/skins/landscape/veigar-veigar-greybeard.jpg,KZN,0,Emp
+0,0,Northern Storm Volibear,https://www.mobafire.com/images/champion/skins/landscape/volibear-northern-storm.jpg,KZN,0,Emp
+0,0,General Wukong,https://www.mobafire.com/images/champion/skins/landscape/wukong-general.jpg,KZN,0,Emp
+0,0,Runeborn Xerath,https://www.mobafire.com/images/champion/skins/landscape/xerath-runeborn.jpg,KZN,0,Emp
+0,0,TPA Dr. Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-tpa.jpg,KZN,0,Emp
+0,0,TPA Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-tpa.jpg,KZN,0,Emp
+0,0,TPA Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-tpa.jpg,KZN,0,Emp
+0,0,TPA Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-tpa.jpg,KZN,0,Emp
+0,0,TPA Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-tpa.jpg,KZN,0,Emp
+0,0,SKT Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-skt.jpg,KZN,0,Emp
+0,0,SKT Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-skt.jpg,KZN,0,Emp
+0,0,SKT Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-skt.jpg,KZN,0,Emp
+0,0,SKT Zyra,https://www.mobafire.com/images/champion/skins/landscape/zyra-skt.jpg,KZN,0,Emp
+0,0,SKT Zed,https://www.mobafire.com/images/champion/skins/landscape/zed-skt.jpg,KZN,0,Emp
+0,0,Sweeper Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-sweeper.jpg,KZN,0,Emp
+0,0,Goalkeeper Maokai,https://www.mobafire.com/images/champion/skins/landscape/maokai-goalkeeper.jpg,KZN,0,Emp
+0,0,Striker Lucian,https://www.mobafire.com/images/champion/skins/landscape/lucian-striker.jpg,KZN,0,Emp
+0,0,Red Card Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-red-card.jpg,KZN,0,Emp
+0,0,Superfan Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-superfan.jpg,KZN,0,Emp
+0,0,Debonair Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-debonair.jpg,KZN,0,Emp
+0,0,Debonair Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-debonair.jpg,KZN,0,Emp
+0,0,Fnatic Karthus,https://www.mobafire.com/images/champion/skins/landscape/karthus-fnatic.jpg,KZN,0,Emp
+0,0,Fnatic Jarvan IV,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-fnatic.jpg,KZN,0,Emp
+0,0,Fnatic Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-fnatic.jpg,KZN,0,Emp
+0,0,Fnatic Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-fnatic.jpg,KZN,0,Emp
+0,0,Fnatic Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-fnatic.jpg,KZN,0,Emp
+0,0,Safecracker Evelynn,https://www.mobafire.com/images/champion/skins/landscape/evelynn-safecracker.jpg,KZN,0,Emp
+0,0,Pickpocket Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-pickpocket.jpg,KZN,0,Emp
+0,0,Constable Trundle,https://www.mobafire.com/images/champion/skins/landscape/trundle-constable.jpg,KZN,0,Emp
+0,0,Captain Volibear,https://www.mobafire.com/images/champion/skins/landscape/volibear-captain.jpg,KZN,0,Emp
+0,0,Sweetheart Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-sweetheart.jpg,KZN,0,Emp
+0,0,Marauder Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-marauder.jpg,KZN,0,Emp
+0,0,Marauder Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-marauder.jpg,KZN,0,Emp
+0,0,Warden Nautilus,https://www.mobafire.com/images/champion/skins/landscape/nautilus-warden.jpg,KZN,0,Emp
+0,0,Warden Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-warden.jpg,KZN,0,Emp
+0,0,Archduke Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-archduke.jpg,KZN,0,Emp
+0,0,Order of the Banana Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-order-of-the-banana.jpg,KZN,0,Emp
+0,0,Urf the Nami-tee,https://www.mobafire.com/images/champion/skins/landscape/nami-urf-the-manatee.jpg,KZN,0,Emp
+0,0,Debonair Galio,https://www.mobafire.com/images/champion/skins/landscape/galio-debonair.jpg,KZN,0,Emp
+0,0,SSW Rengar,https://www.mobafire.com/images/champion/skins/landscape/rengar-ssw.jpg,KZN,0,Emp
+0,0,SSW Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-ssw.jpg,KZN,0,Emp
+0,0,SSW Talon,https://www.mobafire.com/images/champion/skins/landscape/talon-ssw.jpg,KZN,0,Emp
+0,0,Ace of Spades Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-ace-of-spades.jpg,KZN,0,Emp
+0,0,King of Clubs Mordekaiser,https://www.mobafire.com/images/champion/skins/landscape/mordekaiser-king-of-clubs.jpg,KZN,0,Emp
+0,0,Wild Card Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-wild-card.jpg,KZN,0,Emp
+0,0,Queen of Diamonds Syndra,https://www.mobafire.com/images/champion/skins/landscape/syndra-queen-of-diamonds.jpg,KZN,0,Emp
+0,0,Order of the Lotus Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-order-of-the-lotus.jpg,KZN,0,Emp
+0,0,Nightmare Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-nightmare.jpg,KZN,0,Emp
+0,0,Prehistoric Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-prehistoric.jpg,KZN,0,Emp
+0,0,Prehistoric Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-prehistoric.jpg,KZN,0,Emp
+0,0,Prehistoric Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-prehistoric.jpg,KZN,0,Emp
+0,0,Cutthroat Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-cutthroat.jpg,KZN,0,Emp
+0,0,Cutpurse Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-cutpurse.jpg,KZN,0,Emp
+0,0,Sea Hunter Aatrox,https://www.mobafire.com/images/champion/skins/landscape/aatrox-sea-hunter.jpg,KZN,0,Emp
+0,0,Rogue Admiral Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-rogue-admiral.jpg,KZN,0,Emp
+0,0,Corsair Quinn,https://www.mobafire.com/images/champion/skins/landscape/quinn-corsair.jpg,KZN,0,Emp
+0,0,Academy Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-academy.jpg,KZN,0,Emp
+0,0,Academy Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-academy.jpg,KZN,0,Emp
+0,0,Academy Ekko,https://www.mobafire.com/images/champion/skins/landscape/ekko-academy.jpg,KZN,0,Emp
+0,0,Academy Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-academy.jpg,KZN,0,Emp
+0,0,Marauder Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-marauder.jpg,KZN,0,Emp
+0,0,Marauder Olaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-marauder.jpg,KZN,0,Emp
+0,0,Warden Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-warden.jpg,KZN,0,Emp
+0,0,Warden Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-warden.jpg,KZN,0,Emp
+0,0,Braum Lionheart,https://www.mobafire.com/images/champion/skins/landscape/braum-lionheart.jpg,KZN,0,Emp
+0,0,Gragas Caskbreaker,https://www.mobafire.com/images/champion/skins/landscape/gragas-caskbreaker.jpg,KZN,0,Emp
+0,0,Ryze Whitebeard,https://www.mobafire.com/images/champion/skins/landscape/ryze-whitebeard.jpg,KZN,0,Emp
+0,0,Varus Swiftbolt,https://www.mobafire.com/images/champion/skins/landscape/varus-swiftbolt.jpg,KZN,0,Emp
+0,0,Beast Hunter Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-beast-hunter.jpg,KZN,0,Emp
+0,0,Beast Hunter Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-beast-hunter.jpg,KZN,0,Emp
+0,0,Beast Hunter Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-beast-hunter.jpg,KZN,0,Emp
+0,0,Urf Kench,https://www.mobafire.com/images/champion/skins/landscape/tahm-kench-urf.jpg,KZN,0,Emp
+0,0,Definitely Not Vel'Koz,https://www.mobafire.com/images/champion/skins/landscape/velkoz-definitely-not.jpg,KZN,0,Emp
+0,0,Iron Inquisitor Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-iron-inquisitor.jpg,KZN,0,Emp
+0,0,Cursed Revenant Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-cursed-revenant.jpg,KZN,0,Emp
+0,0,Black Scourge Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-black-scourge.jpg,KZN,0,Emp
+0,0,El León Gnar,https://www.mobafire.com/images/champion/skins/landscape/gnar-el-leon.jpg,KZN,0,Emp
+0,0,El Rayo Volibear,https://www.mobafire.com/images/champion/skins/landscape/volibear-el-rayo.jpg,KZN,0,Emp
+0,0,Sashimi Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-sashimi.jpg,KZN,0,Emp
+0,0,Barbecue Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-barbecue.jpg,KZN,0,Emp
+0,0,Butcher Olaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-butcher.jpg,KZN,0,Emp
+0,0,Jayce Brighthammer,https://www.mobafire.com/images/champion/skins/landscape/jayce-brighthammer.jpg,KZN,0,Emp
+0,0,Bard Bard,https://www.mobafire.com/images/champion/skins/landscape/bard-bard.jpg,KZN,0,Emp
+0,0,Sejuani Dawnchaser,https://www.mobafire.com/images/champion/skins/landscape/sejuani-dawnchaser.jpg,KZN,0,Emp
+0,0,Worldbreaker Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-worldbreaker.jpg,KZN,0,Emp
+0,0,Worldbreaker Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-worldbreaker.jpg,KZN,0,Emp
+0,0,Worldbreaker Trundle,https://www.mobafire.com/images/champion/skins/landscape/trundle-worldbreaker.jpg,KZN,0,Emp
+0,0,Worldbreaker Nautilus,https://www.mobafire.com/images/champion/skins/landscape/nautilus-worldbreaker.jpg,KZN,0,Emp
+0,0,Super Kennen,https://www.mobafire.com/images/champion/skins/landscape/kennen-super.jpg,KZN,0,Emp
+0,0,Renektoy,https://www.mobafire.com/images/champion/skins/landscape/renekton-renektoy.jpg,KZN,0,Emp
+0,0,Dynasty Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-dynasty.jpg,KZN,0,Emp
+0,0,Foxfire Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-foxfire.jpg,KZN,0,Emp
+0,0,All-Star Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-all-star.jpg,KZN,0,Emp
+0,0,Nurse Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-nurse.jpg,KZN,0,Emp
+0,0,Blood Moon Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-blood-moon.jpg,KZN,0,Emp
+0,0,Silverfang Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-silverfang.jpg,KZN,0,Emp
+0,0,Matador Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-matador.jpg,KZN,0,Emp
+0,0,Infernal Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-infernal.jpg,KZN,0,Emp
+0,0,Frostfire Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-frostfire.jpg,KZN,0,Emp
+0,0,FrankenTibbers Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-franken-tibbers.jpg,KZN,0,Emp
+0,0,Reverse Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-reverse.jpg,KZN,0,Emp
+0,0,Queen Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-queen.jpg,KZN,0,Emp
+0,0,Amethyst Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-amethyst.jpg,KZN,0,Emp
+0,0,Cryocore Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-cryocore.jpg,KZN,0,Emp
+0,0,Safari Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-safari.jpg,KZN,0,Emp
+0,0,Officer Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-officer.jpg,KZN,0,Emp
+0,0,Mythic Cassiopeia,https://www.mobafire.com/images/champion/skins/landscape/cassiopeia-mythic.jpg,KZN,0,Emp
+0,0,Jurassic Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-jurassic.jpg,KZN,0,Emp
+0,0,Urfrider Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-urfrider.jpg,KZN,0,Emp
+0,0,Lord Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-lord.jpg,KZN,0,Emp
+0,0,Bioforge Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-bioforge.jpg,KZN,0,Emp
+0,0,Dark Valkyrie Diana,https://www.mobafire.com/images/champion/skins/landscape/diana-dark-valkyrie.jpg,KZN,0,Emp
+0,0,Mundo Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-mundo-mundo.jpg,KZN,0,Emp
+0,0,Rageborn Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-rageborn.jpg,KZN,0,Emp
+0,0,Death Blossom Elise,https://www.mobafire.com/images/champion/skins/landscape/elise-death-blossom.jpg,KZN,0,Emp
+0,0,Pumpkinhead Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-pumpkinhead.jpg,KZN,0,Emp
+0,0,Surprise Party Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-surprise-party.jpg,KZN,0,Emp
+0,0,Headmistress Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-headmistress.jpg,KZN,0,Emp
+0,0,Fisherman Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-fisherman.jpg,KZN,0,Emp
+0,0,Toy Soldier Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-toy-soldier.jpg,KZN,0,Emp
+0,0,Special Forces Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-special-forces.jpg,KZN,0,Emp
+0,0,Dreadknight Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-dreadknight.jpg,KZN,0,Emp
+0,0,Scuba Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-scuba.jpg,KZN,0,Emp
+0,0,Santa Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-santa.jpg,KZN,0,Emp
+0,0,Gragas, Esq.,https://www.mobafire.com/images/champion/skins/landscape/gragas-gragas-esq.jpg,KZN,0,Emp
+0,0,Vandal Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-vandal.jpg,KZN,0,Emp
+0,0,Oktoberfest Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-oktoberfest.jpg,KZN,0,Emp
+0,0,Jailbreak Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-jailbreak.jpg,KZN,0,Emp
+0,0,Mafia Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-mafia.jpg,KZN,0,Emp
+0,0,Riot Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-riot.jpg,KZN,0,Emp
+0,0,Blood Knight Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-blood-knight.jpg,KZN,0,Emp
+0,0,Reaper Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-reaper.jpg,KZN,0,Emp
+0,0,Headless Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-headless.jpg,KZN,0,Emp
+0,0,Piltover Customs Heimerdinger,https://www.mobafire.com/images/champion/skins/landscape/heimerdinger-piltover-customs.jpg,KZN,0,Emp
+0,0,Snowmerdinger,https://www.mobafire.com/images/champion/skins/landscape/heimerdinger-snowmerdinger.jpg,KZN,0,Emp
+0,0,Infiltrator Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-infiltrator.jpg,KZN,0,Emp
+0,0,Frostblade Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-frostblade.jpg,KZN,0,Emp
+0,0,Hextech Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-hextech.jpg,KZN,0,Emp
+0,0,Frost Queen Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-frost-queen.jpg,KZN,0,Emp
+0,0,Darkforge Jarvan,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-darkforge.jpg,KZN,0,Emp
+0,0,Angler Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-angler.jpg,KZN,0,Emp
+0,0,Jaximus,https://www.mobafire.com/images/champion/skins/landscape/jax-jaximus.jpg,KZN,0,Emp
+0,0,Nemesis Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-nemesis.jpg,KZN,0,Emp
+0,0,Grim Reaper Karthus,https://www.mobafire.com/images/champion/skins/landscape/karthus-grim-reaper.jpg,KZN,0,Emp
+0,0,Harbinger Kassadin,https://www.mobafire.com/images/champion/skins/landscape/kassadin-harbinger.jpg,KZN,0,Emp
+0,0,Red Card Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-red-card.jpg,KZN,0,Emp
+0,0,Bilgewater Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-bilgewater.jpg,KZN,0,Emp
+0,0,Kitty Cat Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-kitty-cat.jpg,KZN,0,Emp
+0,0,Sandstorm Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-sandstorm.jpg,KZN,0,Emp
+0,0,Transcended Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-transcended.jpg,KZN,0,Emp
+0,0,Battleborn Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-battleborn.jpg,KZN,0,Emp
+0,0,Kennen M.D.,https://www.mobafire.com/images/champion/skins/landscape/kennen-kennen-m-d.jpg,KZN,0,Emp
+0,0,Arctic Ops Kennen,https://www.mobafire.com/images/champion/skins/landscape/kennen-arctic-ops.jpg,KZN,0,Emp
+0,0,Reindeer Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-reindeer.jpg,KZN,0,Emp
+0,0,Deep Sea Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-deep-sea.jpg,KZN,0,Emp
+0,0,Jurassic Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-jurassic.jpg,KZN,0,Emp
+0,0,Mistletoe LeBlanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-mistletoe.jpg,KZN,0,Emp
+0,0,Dragon Fist Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-dragon-fist.jpg,KZN,0,Emp
+0,0,Muay Thai Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-muay-thai.jpg,KZN,0,Emp
+0,0,Iron Solari Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-iron-solari.jpg,KZN,0,Emp
+0,0,Bittersweet Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-bittersweet.jpg,KZN,0,Emp
+0,0,Wicked Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-wicked.jpg,KZN,0,Emp
+0,0,Imperial Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-imperial.jpg,KZN,0,Emp
+0,0,Obsidian Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-obsidian.jpg,KZN,0,Emp
+0,0,Overlord Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-overlord.jpg,KZN,0,Emp
+0,0,Charred Maokai,https://www.mobafire.com/images/champion/skins/landscape/maokai-charred.jpg,KZN,0,Emp
+0,0,Festive Maokai,https://www.mobafire.com/images/champion/skins/landscape/maokai-festive.jpg,KZN,0,Emp
+0,0,Haunted Maokai,https://www.mobafire.com/images/champion/skins/landscape/maokai-haunted.jpg,KZN,0,Emp
+0,0,Ionia Master Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-ionia.jpg,KZN,0,Emp
+0,0,Headhunter Master Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-headhunter.jpg,KZN,0,Emp
+0,0,Secret Agent Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-secret-agent.jpg,KZN,0,Emp
+0,0,Candy Cane Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-candy-cane.jpg,KZN,0,Emp
+0,0,Mafia Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-mafia.jpg,KZN,0,Emp
+0,0,Pentakill Mordekaiser,https://www.mobafire.com/images/champion/skins/landscape/mordekaiser-pentakill.jpg,KZN,0,Emp
+0,0,Lord Mordekaiser,https://www.mobafire.com/images/champion/skins/landscape/mordekaiser-lord.jpg,KZN,0,Emp
+0,0,Exiled Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-exiled.jpg,KZN,0,Emp
+0,0,Sinful Succulence Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-sinful-succulence.jpg,KZN,0,Emp
+0,0,Dreadknight Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-dreadknight.jpg,KZN,0,Emp
+0,0,Riot K-9 Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-riot-k-9.jpg,KZN,0,Emp
+0,0,Abyssal Nautilus,https://www.mobafire.com/images/champion/skins/landscape/nautilus-abyssal.jpg,KZN,0,Emp
+0,0,Subterranean Nautilus,https://www.mobafire.com/images/champion/skins/landscape/nautilus-subterranean.jpg,KZN,0,Emp
+0,0,Bewitching Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-bewitching.jpg,KZN,0,Emp
+0,0,Frozen Terror Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-frozen-terror.jpg,KZN,0,Emp
+0,0,Demolisher Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-demolisher.jpg,KZN,0,Emp
+0,0,Pentakill Olaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-pentakill.jpg,KZN,0,Emp
+0,0,Bladecraft Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-bladecraft.jpg,KZN,0,Emp
+0,0,Full Metal Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-full-metal.jpg,KZN,0,Emp
+0,0,Glaive Warrior Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-glaive-warrior.jpg,KZN,0,Emp
+0,0,Blacksmith Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-blacksmith.jpg,KZN,0,Emp
+0,0,Lollipoppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-lollipoppy.jpg,KZN,0,Emp
+0,0,Ragdoll Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-ragdoll.jpg,KZN,0,Emp
+0,0,Scarlet Hammer Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-scarlet-hammer.jpg,KZN,0,Emp
+0,0,Molten Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-molten.jpg,KZN,0,Emp
+0,0,Ninja Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-ninja.jpg,KZN,0,Emp
+0,0,Full Metal Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-full-metal.jpg,KZN,0,Emp
+0,0,Bloodfury Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-bloodfury.jpg,KZN,0,Emp
+0,0,Rune Wars Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-rune-wars.jpg,KZN,0,Emp
+0,0,Headhunter Rengar,https://www.mobafire.com/images/champion/skins/landscape/rengar-headhunter.jpg,KZN,0,Emp
+0,0,Redeemed Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-redeemed.jpg,KZN,0,Emp
+0,0,Battle Bunny Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-battle-bunny.jpg,KZN,0,Emp
+0,0,Championship Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-championship.jpg,KZN,0,Emp
+0,0,Rumble in the Jungle,https://www.mobafire.com/images/champion/skins/landscape/rumble-rumble-in-the-jungle.jpg,KZN,0,Emp
+0,0,Professor Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-professor.jpg,KZN,0,Emp
+0,0,Zombie Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-zombie.jpg,KZN,0,Emp
+0,0,Dark Crystal Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-dark-crystal.jpg,KZN,0,Emp
+0,0,Pirate Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-pirate.jpg,KZN,0,Emp
+0,0,Sabretusk Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-sabretusk.jpg,KZN,0,Emp
+0,0,Darkrider Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-darkrider.jpg,KZN,0,Emp
+0,0,Nutcracko,https://www.mobafire.com/images/champion/skins/landscape/shaco-nutcracko.jpg,KZN,0,Emp
+0,0,Workshop Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-workshop.jpg,KZN,0,Emp
+0,0,Asylum Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-asylum.jpg,KZN,0,Emp
+0,0,Surgeon Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-surgeon.jpg,KZN,0,Emp
+0,0,Warlord Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-warlord.jpg,KZN,0,Emp
+0,0,Darkflame Shyvana,https://www.mobafire.com/images/champion/skins/landscape/shyvana-darkflame.jpg,KZN,0,Emp
+0,0,Riot Squad Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-riot-squad.jpg,KZN,0,Emp
+0,0,Surfer Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-surfer.jpg,KZN,0,Emp
+0,0,Augmented Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-augmented.jpg,KZN,0,Emp
+0,0,Warmonger Sion,https://www.mobafire.com/images/champion/skins/landscape/sion-warmonger.jpg,KZN,0,Emp
+0,0,Spectacular Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-spectacular.jpg,KZN,0,Emp
+0,0,Sandscourge Skarner,https://www.mobafire.com/images/champion/skins/landscape/skarner-sandscourge.jpg,KZN,0,Emp
+0,0,Muse Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-muse.jpg,KZN,0,Emp
+0,0,Pentakill Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-pentakill.jpg,KZN,0,Emp
+0,0,Guqin Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-guqin.jpg,KZN,0,Emp
+0,0,Divine Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-divine.jpg,KZN,0,Emp
+0,0,Justicar Syndra,https://www.mobafire.com/images/champion/skins/landscape/syndra-justicar.jpg,KZN,0,Emp
+0,0,Dragonblade Talon,https://www.mobafire.com/images/champion/skins/landscape/talon-dragonblade.jpg,KZN,0,Emp
+0,0,Bloodstone Taric,https://www.mobafire.com/images/champion/skins/landscape/taric-bloodstone.jpg,KZN,0,Emp
+0,0,Cottontail Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-cottontail.jpg,KZN,0,Emp
+0,0,Super Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-super.jpg,KZN,0,Emp
+0,0,Panda Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-panda.jpg,KZN,0,Emp
+0,0,Guerilla Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-guerilla.jpg,KZN,0,Emp
+0,0,Rocket Girl Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-rocket-girl.jpg,KZN,0,Emp
+0,0,Sultan Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-sultan.jpg,KZN,0,Emp
+0,0,High Noon Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-high-noon.jpg,KZN,0,Emp
+0,0,Underworld Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-underworld.jpg,KZN,0,Emp
+0,0,Gangster Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-gangster.jpg,KZN,0,Emp
+0,0,Vandal Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-vandal.jpg,KZN,0,Emp
+0,0,Primal Udyr,https://www.mobafire.com/images/champion/skins/landscape/udyr-primal.jpg,KZN,0,Emp
+0,0,Blight Crystal Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-blight-crystal.jpg,KZN,0,Emp
+0,0,Dragonslayer Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-dragonslayer.jpg,KZN,0,Emp
+0,0,Heartseeker Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-heartseeker.jpg,KZN,0,Emp
+0,0,Baron Von Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-baron-von.jpg,KZN,0,Emp
+0,0,Superb Villain Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-superb-villain.jpg,KZN,0,Emp
+0,0,Full Machine Viktor,https://www.mobafire.com/images/champion/skins/landscape/viktor-full-machine.jpg,KZN,0,Emp
+0,0,Nosferatu Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-nosferatu.jpg,KZN,0,Emp
+0,0,Vandal Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-vandal.jpg,KZN,0,Emp
+0,0,Feral Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-feral.jpg,KZN,0,Emp
+0,0,Firefang Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-firefang.jpg,KZN,0,Emp
+0,0,Hyena Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-hyena.jpg,KZN,0,Emp
+0,0,Volcanic Wukong,https://www.mobafire.com/images/champion/skins/landscape/wukong-volcanic.jpg,KZN,0,Emp
+0,0,Jade Dragon Wukong,https://www.mobafire.com/images/champion/skins/landscape/wukong-jade-dragon.jpg,KZN,0,Emp
+0,0,Viscero Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-viscero.jpg,KZN,0,Emp
+0,0,Winged Hussar Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-winged-hussar.jpg,KZN,0,Emp
+0,0,Pentakill Yorick,https://www.mobafire.com/images/champion/skins/landscape/yorick-pentakill.jpg,KZN,0,Emp
+0,0,Shockblade Zed,https://www.mobafire.com/images/champion/skins/landscape/zed-shockblade.jpg,KZN,0,Emp
+0,0,Mad Scientist Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-mad-scientist.jpg,KZN,0,Emp
+0,0,Major Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-major.jpg,KZN,0,Emp
+0,0,Shurima Desert Zilean,https://www.mobafire.com/images/champion/skins/landscape/zilean-shurima-desert.jpg,KZN,0,Emp
+0,0,Wildfire Zyra,https://www.mobafire.com/images/champion/skins/landscape/zyra-wildfire.jpg,KZN,0,Emp
+0,0,Arclight Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-arclight.jpg,KZN,0,Emp
+0,0,Koi Nami,https://www.mobafire.com/images/champion/skins/landscape/nami-koi.jpg,KZN,0,Emp
+0,0,Dark Candy Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-dark-candy.jpg,KZN,0,Emp
+0,0,Slay Belle Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-slay-belle.jpg,KZN,0,Emp
+0,0,Bad Santa Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-bad-santa.jpg,KZN,0,Emp
+0,0,Snow Day Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-snow-day.jpg,KZN,0,Emp
+0,0,Neon Strike Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-neon-strike.jpg,KZN,0,Emp
+0,0,Masked Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-masked.jpg,KZN,0,Emp
+0,0,Deep Terror Thresh,https://www.mobafire.com/images/champion/skins/landscape/thresh-deep-terror.jpg,KZN,0,Emp
+0,0,Steel Legion Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-steel-legion.jpg,KZN,0,Emp
+0,0,Panda Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-panda.jpg,KZN,0,Emp
+0,0,Jade Fang Cassiopeia,https://www.mobafire.com/images/champion/skins/landscape/cassiopeia-jade-fang.jpg,KZN,0,Emp
+0,0,Dragonwing Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-dragonwing.jpg,KZN,0,Emp
+0,0,Debonair Jayce,https://www.mobafire.com/images/champion/skins/landscape/jayce-debonair.jpg,KZN,0,Emp
+0,0,Phoenix Quinn,https://www.mobafire.com/images/champion/skins/landscape/quinn-phoenix.jpg,KZN,0,Emp
+0,0,Celestine Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-celestine.jpg,KZN,0,Emp
+0,0,Headhunter Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-headhunter.jpg,KZN,0,Emp
+0,0,Gladiator Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-gladiator.jpg,KZN,0,Emp
+0,0,Special Weapon Zac,https://www.mobafire.com/images/champion/skins/landscape/zac-special-weapon.jpg,KZN,0,Emp
+0,0,Bloodstone Lissandra,https://www.mobafire.com/images/champion/skins/landscape/lissandra-bloodstone.jpg,KZN,0,Emp
+0,0,Ice Drake Shyvana,https://www.mobafire.com/images/champion/skins/landscape/shyvana-ice-drake.jpg,KZN,0,Emp
+0,0,Runeguard Volibear,https://www.mobafire.com/images/champion/skins/landscape/volibear-runeguard.jpg,KZN,0,Emp
+0,0,Justicar Aatrox,https://www.mobafire.com/images/champion/skins/landscape/aatrox-justicar.jpg,KZN,0,Emp
+0,0,Ghost Bride Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-ghost-bride.jpg,KZN,0,Emp
+0,0,Woad King Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-woad-king.jpg,KZN,0,Emp
+0,0,Riot Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-riot.jpg,KZN,0,Emp
+0,0,Hired Gun Lucian,https://www.mobafire.com/images/champion/skins/landscape/lucian-hired-gun.jpg,KZN,0,Emp
+0,0,Mafia Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-mafia.jpg,KZN,0,Emp
+0,0,Championship Thresh,https://www.mobafire.com/images/champion/skins/landscape/thresh-championship.jpg,KZN,0,Emp
+0,0,Sultan Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-sultan.jpg,KZN,0,Emp
+0,0,Officer Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-officer.jpg,KZN,0,Emp
+0,0,Popstar Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-popstar.jpg,KZN,0,Emp
+0,0,High Noon Yasuo,https://www.mobafire.com/images/champion/skins/landscape/yasuo-high-noon.jpg,KZN,0,Emp
+0,0,Snow Day Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-snow-day.jpg,KZN,0,Emp
+0,0,Snowstorm Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-snowstorm.jpg,KZN,0,Emp
+0,0,Lunar Goddess Diana,https://www.mobafire.com/images/champion/skins/landscape/diana-lunar-goddess.jpg,KZN,0,Emp
+0,0,Dragonblade Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-dragonblade.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-warring-kingdoms.jpg,KZN,0,Emp
+0,0,Heartseeker Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-heartseeker.jpg,KZN,0,Emp
+0,0,Scorched Earth Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-scorched-earth.jpg,KZN,0,Emp
+0,0,Atlantean Syndra,https://www.mobafire.com/images/champion/skins/landscape/syndra-atlantean.jpg,KZN,0,Emp
+0,0,Dragonslayer Braum,https://www.mobafire.com/images/champion/skins/landscape/braum-dragonslayer.jpg,KZN,0,Emp
+0,0,Night Hunter Rengar,https://www.mobafire.com/images/champion/skins/landscape/rengar-night-hunter.jpg,KZN,0,Emp
+0,0,River Spirit Nami,https://www.mobafire.com/images/champion/skins/landscape/nami-river-spirit.jpg,KZN,0,Emp
+0,0,Woad Scout Quinn,https://www.mobafire.com/images/champion/skins/landscape/quinn-woad-scout.jpg,KZN,0,Emp
+0,0,Primetime Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-primetime.jpg,KZN,0,Emp
+0,0,Hazmat Heimerdinger,https://www.mobafire.com/images/champion/skins/landscape/heimerdinger-hazmat.jpg,KZN,0,Emp
+0,0,Dino Gnar,https://www.mobafire.com/images/champion/skins/landscape/gnar-dino.jpg,KZN,0,Emp
+0,0,Riot Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-riot.jpg,KZN,0,Emp
+0,0,Headhunter Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-headhunter.jpg,KZN,0,Emp
+0,0,Galactic Azir,https://www.mobafire.com/images/champion/skins/landscape/azir-galactic.jpg,KZN,0,Emp
+0,0,Guardian of the Sands Kha'Zix,https://www.mobafire.com/images/champion/skins/landscape/khazix-guardian-of-the-sands.jpg,KZN,0,Emp
+0,0,Order of the Lotus Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-order-of-the-lotus.jpg,KZN,0,Emp
+0,0,Championship Shyvana,https://www.mobafire.com/images/champion/skins/landscape/shyvana-championship.jpg,KZN,0,Emp
+0,0,Ravenborn Leblanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-ravenborn.jpg,KZN,0,Emp
+0,0,Blood Moon Kalista,https://www.mobafire.com/images/champion/skins/landscape/kalista-blood-moon.jpg,KZN,0,Emp
+0,0,Snow Day Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-snow-day.jpg,KZN,0,Emp
+0,0,Winter Wonder Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-winter-wonder.jpg,KZN,0,Emp
+0,0,Poro Rider Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-poro-rider.jpg,KZN,0,Emp
+0,0,Blood Moon Elise,https://www.mobafire.com/images/champion/skins/landscape/elise-blood-moon.jpg,KZN,0,Emp
+0,0,Blood Moon Thresh,https://www.mobafire.com/images/champion/skins/landscape/thresh-blood-moon.jpg,KZN,0,Emp
+0,0,Challenger Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-challenger.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-warring-kingdoms.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-warring-kingdoms.jpg,KZN,0,Emp
+0,0,Elderwood Bard,https://www.mobafire.com/images/champion/skins/landscape/bard-elderwood.jpg,KZN,0,Emp
+0,0,Secret Agent Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-secret-agent.jpg,KZN,0,Emp
+0,0,Definitely Not Udyr,https://www.mobafire.com/images/champion/skins/landscape/udyr-definitely-not.jpg,KZN,0,Emp
+0,0,Arclight Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-arclight.jpg,KZN,0,Emp
+0,0,Guardian of the Sands Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-guardian-of-the-sands.jpg,KZN,0,Emp
+0,0,Guardian of the Sands Skarner,https://www.mobafire.com/images/champion/skins/landscape/skarner-guardian-of-the-sands.jpg,KZN,0,Emp
+0,0,Blood Moon Zilean,https://www.mobafire.com/images/champion/skins/landscape/zilean-blood-moon.jpg,KZN,0,Emp
+0,0,SSW Thresh,https://www.mobafire.com/images/champion/skins/landscape/thresh-ssw.jpg,KZN,0,Emp
+0,0,SSW Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-ssw.jpg,KZN,0,Emp
+0,0,Sandstorm Ekko,https://www.mobafire.com/images/champion/skins/landscape/ekko-sandstorm.jpg,KZN,0,Emp
+0,0,Pool Party Dr. Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-pool-party.jpg,KZN,0,Emp
+0,0,Master Chef Tahm Kench,https://www.mobafire.com/images/champion/skins/landscape/tahm-kench-master-chef.jpg,KZN,0,Emp
+0,0,Gentleman Gnar,https://www.mobafire.com/images/champion/skins/landscape/gnar-gentleman.jpg,KZN,0,Emp
+0,0,Captain Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-captain.jpg,KZN,0,Emp
+0,0,Cottontail Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-cottontail.jpg,KZN,0,Emp
+0,0,Captain Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-captain.jpg,KZN,0,Emp
+0,0,Championship Kalista,https://www.mobafire.com/images/champion/skins/landscape/kalista-championship.jpg,KZN,0,Emp
+0,0,Ironside Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-ironside.jpg,KZN,0,Emp
+0,0,Slayer Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-slayer.jpg,KZN,0,Emp
+0,0,Snow Day Gnar,https://www.mobafire.com/images/champion/skins/landscape/gnar-snow-day.jpg,KZN,0,Emp
+0,0,Challenger Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-challenger.jpg,KZN,0,Emp
+0,0,Lunar Wraith Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-lunar-wraith.jpg,KZN,0,Emp
+0,0,Sweetheart Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-sweetheart.jpg,KZN,0,Emp
+0,0,Blood Moon Kennen,https://www.mobafire.com/images/champion/skins/landscape/kennen-blood-moon.jpg,KZN,0,Emp
+0,0,Blood Moon Yasuo,https://www.mobafire.com/images/champion/skins/landscape/yasuo-blood-moon.jpg,KZN,0,Emp
+0,0,Death Blossom Kha'Zix,https://www.mobafire.com/images/champion/skins/landscape/khazix-death-blossom.jpg,KZN,0,Emp
+0,0,Sir Kled,https://www.mobafire.com/images/champion/skins/landscape/kled-sir.jpg,KZN,0,Emp
+0,0,SKT Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-skt.jpg,KZN,0,Emp
+0,0,SKT Azir,https://www.mobafire.com/images/champion/skins/landscape/azir-skt.jpg,KZN,0,Emp
+0,0,SKT Elise,https://www.mobafire.com/images/champion/skins/landscape/elise-skt.jpg,KZN,0,Emp
+0,0,SKT Kalista,https://www.mobafire.com/images/champion/skins/landscape/kalista-skt.jpg,KZN,0,Emp
+0,0,SKT Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-skt.jpg,KZN,0,Emp
+0,0,SKT Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-skt.jpg,KZN,0,Emp
+0,0,Championship Zed,https://www.mobafire.com/images/champion/skins/landscape/zed-championship.jpg,KZN,0,Emp
+0,0,Baker Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-baker.jpg,KZN,0,Emp
+0,0,Championship Riven 2016,https://www.mobafire.com/images/champion/skins/landscape/riven-championship.jpg,KZN,0,Emp
+0,0,Bewitching Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-bewitching.jpg,KZN,0,Emp
+0,0,Karthus Lightsbane,https://www.mobafire.com/images/champion/skins/landscape/karthus-lightsbane.jpg,KZN,0,Emp
+0,0,Heartseeker Quinn,https://www.mobafire.com/images/champion/skins/landscape/quinn-heartseeker.jpg,KZN,0,Emp
+0,0,Festival Queen Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-festival-queen.jpg,KZN,0,Emp
+0,0,Moo Cow Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-moo-cow.jpg,KZN,0,Emp
+0,0,Pug'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-pugmaw.jpg,KZN,0,Emp
+0,0,Conqueror Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-conqueror.jpg,KZN,0,Emp
+0,0,Chemtech Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-chemtech.jpg,KZN,0,Emp
+0,0,Pizza Delivery Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-pizza-delivery.jpg,KZN,0,Emp
+0,0,Birdio,https://www.mobafire.com/images/champion/skins/landscape/galio-birdio.jpg,KZN,0,Emp
+0,0,Conqueror Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-conqueror.jpg,KZN,0,Emp
+0,0,Playmaker Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-playmaker.jpg,KZN,0,Emp
+0,0,Sweeper Rammus,https://www.mobafire.com/images/champion/skins/landscape/rammus-sweeper.jpg,KZN,0,Emp
+0,0,Conqueror Alistar,https://www.mobafire.com/images/champion/skins/landscape/alistar-conqueror.jpg,KZN,0,Emp
+0,0,Sad Robot Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-sad-robot.jpg,KZN,0,Emp
+0,0,Piltover Customs Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-piltover.jpg,KZN,0,Emp
+0,0,Soul Reaver Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-soul-reaver.jpg,KZN,0,Emp
+0,0,Full Metal Jayce,https://www.mobafire.com/images/champion/skins/landscape/jayce-full-metal.jpg,KZN,0,Emp
+0,0,Mecha Kha'Zix,https://www.mobafire.com/images/champion/skins/landscape/khazix-mecha.jpg,KZN,0,Emp
+0,0,Lion Dance Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-lion-dance.jpg,KZN,0,Emp
+0,0,Dragon Trainer Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-dragon-trainer.jpg,KZN,0,Emp
+0,0,Glacial Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-glacial.jpg,KZN,0,Emp
+0,0,Blackthorn Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-blackthorn.jpg,KZN,0,Emp
+0,0,AstroNautilus,https://www.mobafire.com/images/champion/skins/landscape/nautilus-astro.jpg,KZN,0,Emp
+0,0,Arcade Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-arcade.jpg,KZN,0,Emp
+0,0,Tyrant Swain,https://www.mobafire.com/images/champion/skins/landscape/swain-tyrant.jpg,KZN,0,Emp
+0,0,Astronaut Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-astronaut.jpg,KZN,0,Emp
+0,0,Battlecast Urgot,https://www.mobafire.com/images/champion/skins/landscape/urgot-battlecast.jpg,KZN,0,Emp
+0,0,Scorched Earth Xerath,https://www.mobafire.com/images/champion/skins/landscape/xerath-scorched-earth.jpg,KZN,0,Emp
+0,0,Pool Party Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-pool-party.jpg,KZN,0,Emp
+0,0,Steel Legion Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-steel-legion.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Jarvan IV,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-warring-kingdoms.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-warring-kingdoms.jpg,KZN,0,Emp
+0,0,iBlitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-iblitzcrank.jpg,KZN,0,Emp
+0,0,Bear Cavalry Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-bear-cavalry.jpg,KZN,0,Emp
+0,0,Pool Party Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-pool-party.jpg,KZN,0,Emp
+0,0,Arcade Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-arcade.jpg,KZN,0,Emp
+0,0,Pool Party Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Renekton,https://www.mobafire.com/images/champion/skins/landscape/renekton-pool-party.jpg,KZN,0,Emp
+0,0,Creator Viktor,https://www.mobafire.com/images/champion/skins/landscape/viktor-creator.jpg,KZN,0,Emp
+0,0,Haunted Zyra,https://www.mobafire.com/images/champion/skins/landscape/zyra-haunted.jpg,KZN,0,Emp
+0,0,Winter Wonder Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-winter-wonder.jpg,KZN,0,Emp
+0,0,Battlecast Vel'Koz,https://www.mobafire.com/images/champion/skins/landscape/velkoz-battlecast.jpg,KZN,0,Emp
+0,0,Arctic Ops Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-arctic-ops.jpg,KZN,0,Emp
+0,0,Void Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-void.jpg,KZN,0,Emp
+0,0,Dragonslayer Pantheon,https://www.mobafire.com/images/champion/skins/landscape/pantheon-dragonslayer.jpg,KZN,0,Emp
+0,0,Blade Queen Lissandra,https://www.mobafire.com/images/champion/skins/landscape/lissandra-blade-queen.jpg,KZN,0,Emp
+0,0,Soulstealer Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-soulstealer.jpg,KZN,0,Emp
+0,0,Mecha Aatrox,https://www.mobafire.com/images/champion/skins/landscape/aatrox-mecha.jpg,KZN,0,Emp
+0,0,Mecha Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-mecha.jpg,KZN,0,Emp
+0,0,Arcade Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-arcade.jpg,KZN,0,Emp
+0,0,PROJECT: Yasuo,https://www.mobafire.com/images/champion/skins/landscape/yasuo-project.jpg,KZN,0,Emp
+0,0,Underworld Wukong,https://www.mobafire.com/images/champion/skins/landscape/wukong-underworld.jpg,KZN,0,Emp
+0,0,Reaper Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-reaper.jpg,KZN,0,Emp
+0,0,Battlecast Kog'Maw,https://www.mobafire.com/images/champion/skins/landscape/kogmaw-battlecast.jpg,KZN,0,Emp
+0,0,Eternum Rek'Sai,https://www.mobafire.com/images/champion/skins/landscape/reksai-eternum.jpg,KZN,0,Emp
+0,0,El Tigre Braum,https://www.mobafire.com/images/champion/skins/landscape/braum-el-tigre.jpg,KZN,0,Emp
+0,0,Firecracker Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-firecracker.jpg,KZN,0,Emp
+0,0,Arclight Vel'Koz,https://www.mobafire.com/images/champion/skins/landscape/velkoz-arclight.jpg,KZN,0,Emp
+0,0,Heartseeker Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-heartseeker.jpg,KZN,0,Emp
+0,0,Headhunter Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-headhunter.jpg,KZN,0,Emp
+0,0,Surprise Party Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-surprise-party.jpg,KZN,0,Emp
+0,0,Guardian of the Sands Xerath,https://www.mobafire.com/images/champion/skins/landscape/xerath-guardian-of-the-sands.jpg,KZN,0,Emp
+0,0,Risen Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-risen.jpg,KZN,0,Emp
+0,0,Forsaken Jayce,https://www.mobafire.com/images/champion/skins/landscape/jayce-forsaken.jpg,KZN,0,Emp
+0,0,Master Arcanist Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-master-arcanist.jpg,KZN,0,Emp
+0,0,Star Guardian Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-star-guardian.jpg,KZN,0,Emp
+0,0,Knockout Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-knockout.jpg,KZN,0,Emp
+0,0,Pool Party Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Rek'Sai,https://www.mobafire.com/images/champion/skins/landscape/reksai-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Zac,https://www.mobafire.com/images/champion/skins/landscape/zac-pool-party.jpg,KZN,0,Emp
+0,0,Arcade Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-arcade.jpg,KZN,0,Emp
+0,0,Battle Boss Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-battle-boss.jpg,KZN,0,Emp
+0,0,PROJECT: Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-project.jpg,KZN,0,Emp
+0,0,PROJECT: Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-project.jpg,KZN,0,Emp
+0,0,PROJECT: Lucian,https://www.mobafire.com/images/champion/skins/landscape/lucian-project.jpg,KZN,0,Emp
+0,0,PROJECT: Zed,https://www.mobafire.com/images/champion/skins/landscape/zed-project.jpg,KZN,0,Emp
+0,0,Spirit Fire Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-spirit-fire.jpg,KZN,0,Emp
+0,0,Cosmic Reaver Kassadin,https://www.mobafire.com/images/champion/skins/landscape/kassadin-cosmic-reaver.jpg,KZN,0,Emp
+0,0,Demon Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-demon.jpg,KZN,0,Emp
+0,0,Shadowfire Kindred,https://www.mobafire.com/images/champion/skins/landscape/kindred-shadowfire.jpg,KZN,0,Emp
+0,0,Slayer Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-slayer.jpg,KZN,0,Emp
+0,0,Zombie Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-zombie.jpg,KZN,0,Emp
+0,0,Void Bringer Illaoi,https://www.mobafire.com/images/champion/skins/landscape/illaoi-void-bringer.jpg,KZN,0,Emp
+0,0,Gravelord Azir,https://www.mobafire.com/images/champion/skins/landscape/azir-gravelord.jpg,KZN,0,Emp
+0,0,Elderwood Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-elderwood.jpg,KZN,0,Emp
+0,0,Snow Day Bard,https://www.mobafire.com/images/champion/skins/landscape/bard-snow-day.jpg,KZN,0,Emp
+0,0,Snow Day Syndra,https://www.mobafire.com/images/champion/skins/landscape/syndra-snow-day.jpg,KZN,0,Emp
+0,0,Lunar Wraith Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-lunar-wraith.jpg,KZN,0,Emp
+0,0,Radiant Wukong,https://www.mobafire.com/images/champion/skins/landscape/wukong-radiant.jpg,KZN,0,Emp
+0,0,High Noon Jhin,https://www.mobafire.com/images/champion/skins/landscape/jhin-high-noon.jpg,KZN,0,Emp
+0,0,Heartseeker Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-heartseeker.jpg,KZN,0,Emp
+0,0,Elderwood Leblanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-elderwood.jpg,KZN,0,Emp
+0,0,Ashen Lord Aurelion Sol,https://www.mobafire.com/images/champion/skins/landscape/aurelion-sol-ashen-lord.jpg,KZN,0,Emp
+0,0,Meowkai,https://www.mobafire.com/images/champion/skins/landscape/maokai-meowkai.jpg,KZN,0,Emp
+0,0,Program Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-program.jpg,KZN,0,Emp
+0,0,Program Lissandra,https://www.mobafire.com/images/champion/skins/landscape/lissandra-program.jpg,KZN,0,Emp
+0,0,Infernal Diana,https://www.mobafire.com/images/champion/skins/landscape/diana-infernal.jpg,KZN,0,Emp
+0,0,Freljord Taliyah,https://www.mobafire.com/images/champion/skins/landscape/taliyah-freljord.jpg,KZN,0,Emp
+0,0,Super Galaxy Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-super-galaxy.jpg,KZN,0,Emp
+0,0,Super Galaxy Kindred,https://www.mobafire.com/images/champion/skins/landscape/kindred-super-galaxy.jpg,KZN,0,Emp
+0,0,Super Galaxy Shyvana,https://www.mobafire.com/images/champion/skins/landscape/shyvana-super-galaxy.jpg,KZN,0,Emp
+0,0,El Macho Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-el-macho.jpg,KZN,0,Emp
+0,0,Dark Star Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-dark-star.jpg,KZN,0,Emp
+0,0,Deep Sea Nami,https://www.mobafire.com/images/champion/skins/landscape/nami-deep-sea.jpg,KZN,0,Emp
+0,0,Pool Party Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Taric,https://www.mobafire.com/images/champion/skins/landscape/taric-pool-party.jpg,KZN,0,Emp
+0,0,PROJECT: Ekko,https://www.mobafire.com/images/champion/skins/landscape/ekko-project.jpg,KZN,0,Emp
+0,0,PROJECT: Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-project.jpg,KZN,0,Emp
+0,0,Arcade Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-arcade.jpg,KZN,0,Emp
+0,0,Arcade Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-arcade.jpg,KZN,0,Emp
+0,0,Arcade Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-arcade.jpg,KZN,0,Emp
+0,0,Star Guardian Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-star-guardian.jpg,KZN,0,Emp
+0,0,Star Guardian Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-star-guardian.jpg,KZN,0,Emp
+0,0,Star Guardian Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-star-guardian.jpg,KZN,0,Emp
+0,0,Candy King Ivern,https://www.mobafire.com/images/champion/skins/landscape/ivern-candy-king.jpg,KZN,0,Emp
+0,0,Little Devil Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-little-devil.jpg,KZN,0,Emp
+0,0,Bewitching Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-bewitching.jpg,KZN,0,Emp
+0,0,Santa Braum,https://www.mobafire.com/images/champion/skins/landscape/braum-santa.jpg,KZN,0,Emp
+0,0,Snow Day Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-snow-day.jpg,KZN,0,Emp
+0,0,Winter Wonder Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-winter-wonder.jpg,KZN,0,Emp
+0,0,Program Camille,https://www.mobafire.com/images/champion/skins/landscape/camille-program.jpg,KZN,0,Emp
+0,0,Dreadnova Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-dreadnova.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Azir,https://www.mobafire.com/images/champion/skins/landscape/azir-warring-kingdoms.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-warring-kingdoms.jpg,KZN,0,Emp
+0,0,Warring Kingdoms Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-warring-kingdoms.jpg,KZN,0,Emp
+0,0,Heartseeker Lucian,https://www.mobafire.com/images/champion/skins/landscape/lucian-heartseeker.jpg,KZN,0,Emp
+0,0,Blood Moon Diana,https://www.mobafire.com/images/champion/skins/landscape/diana-blood-moon.jpg,KZN,0,Emp
+0,0,Blood Moon Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-blood-moon.jpg,KZN,0,Emp
+0,0,Blood Moon Jhin,https://www.mobafire.com/images/champion/skins/landscape/jhin-blood-moon.jpg,KZN,0,Emp
+0,0,Blood Moon Talon,https://www.mobafire.com/images/champion/skins/landscape/talon-blood-moon.jpg,KZN,0,Emp
+0,0,Dragonslayer Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-dragonslayer.jpg,KZN,0,Emp
+0,0,Dragon Sorceress Zyra,https://www.mobafire.com/images/champion/skins/landscape/zyra-dragon-sorceress.jpg,KZN,0,Emp
+0,0,Cosmic Dusk Xayah,https://www.mobafire.com/images/champion/skins/landscape/xayah-cosmic-dusk.jpg,KZN,0,Emp
+0,0,Cosmic Blade Master Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-cosmic-blade.jpg,KZN,0,Emp
+0,0,Cosmic Dawn Rakan,https://www.mobafire.com/images/champion/skins/landscape/rakan-cosmic-dawn.jpg,KZN,0,Emp
+0,0,Dark Star Kha'Zix,https://www.mobafire.com/images/champion/skins/landscape/khazix-dark-star.jpg,KZN,0,Emp
+0,0,Dark Star Orianna,https://www.mobafire.com/images/champion/skins/landscape/orianna-dark-star.jpg,KZN,0,Emp
+0,0,SKT T1 Ekko,https://www.mobafire.com/images/champion/skins/landscape/ekko-skt-t1.jpg,KZN,0,Emp
+0,0,SKT T1 Jhin,https://www.mobafire.com/images/champion/skins/landscape/jhin-skt-t1.jpg,KZN,0,Emp
+0,0,SKT T1 Nami,https://www.mobafire.com/images/champion/skins/landscape/nami-skt-t1.jpg,KZN,0,Emp
+0,0,SKT T1 Olaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-skt-t1.jpg,KZN,0,Emp
+0,0,SKT T1 Syndra,https://www.mobafire.com/images/champion/skins/landscape/syndra-skt-t1.jpg,KZN,0,Emp
+0,0,SKT T1 Zac,https://www.mobafire.com/images/champion/skins/landscape/zac-skt-t1.jpg,KZN,0,Emp
+0,0,Soulhunter Kayn,https://www.mobafire.com/images/champion/skins/landscape/kayn-soulhunter.jpg,KZN,0,Emp
+0,0,Omega Squad Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-omega-squad.jpg,KZN,0,Emp
+0,0,Omega Squad Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-omega-squad.jpg,KZN,0,Emp
+0,0,Omega Squad Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-omega-squad.jpg,KZN,0,Emp
+0,0,Omega Squad Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-omega-squad.jpg,KZN,0,Emp
+0,0,Pentakill Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-pentakill.jpg,KZN,0,Emp
+0,0,Battle Boss Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-battle-boss.jpg,KZN,0,Emp
+0,0,Battle Boss Malzahar,https://www.mobafire.com/images/champion/skins/landscape/malzahar-battle-boss.jpg,KZN,0,Emp
+0,0,Battle Boss Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-battle-boss.jpg,KZN,0,Emp
+0,0,Thunder Lord Ornn,https://www.mobafire.com/images/champion/skins/landscape/ornn-thunder-lord.jpg,KZN,0,Emp
+0,0,Star Guardian Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-star-guardian.jpg,KZN,0,Emp
+0,0,Star Guardian Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-star-guardian.jpg,KZN,0,Emp
+0,0,Star Guardian Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-star-guardian.jpg,KZN,0,Emp
+0,0,Star Guardian Syndra,https://www.mobafire.com/images/champion/skins/landscape/syndra-star-guardian.jpg,KZN,0,Emp
+0,0,Championship Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-championship.jpg,KZN,0,Emp
+0,0,Eternum Cassiopeia,https://www.mobafire.com/images/champion/skins/landscape/cassiopeia-eternum.jpg,KZN,0,Emp
+0,0,Soaring Sword Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-soaring-sword.jpg,KZN,0,Emp
+0,0,Sacred Sword Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-sacred-sword.jpg,KZN,0,Emp
+0,0,Eternal Sword Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-eternal-sword.jpg,KZN,0,Emp
+0,0,Beekeeper Singed,https://www.mobafire.com/images/champion/skins/landscape/singed-beekeeper.jpg,KZN,0,Emp
+0,0,Arclight Yorick,https://www.mobafire.com/images/champion/skins/landscape/yorick-arclight.jpg,KZN,0,Emp
+0,0,Super Galaxy Annie,https://www.mobafire.com/images/champion/skins/landscape/annie-super-galaxy.jpg,KZN,0,Emp
+0,0,Super Galaxy Elise,https://www.mobafire.com/images/champion/skins/landscape/elise-super-galaxy.jpg,KZN,0,Emp
+0,0,Super Galaxy Gnar,https://www.mobafire.com/images/champion/skins/landscape/gnar-super-galaxy.jpg,KZN,0,Emp
+0,0,Super Galaxy Nidalee,https://www.mobafire.com/images/champion/skins/landscape/nidalee-super-galaxy.jpg,KZN,0,Emp
+0,0,Death Sworn Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-deathsworn.jpg,KZN,0,Emp
+0,0,Death Sworn Viktor,https://www.mobafire.com/images/champion/skins/landscape/viktor-deathsworn.jpg,KZN,0,Emp
+0,0,Death Sworn Zed,https://www.mobafire.com/images/champion/skins/landscape/zed-deathsworn.jpg,KZN,0,Emp
+0,0,Mecha Rengar,https://www.mobafire.com/images/champion/skins/landscape/rengar-mecha.jpg,KZN,0,Emp
+0,0,Lancer Rogue Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-lancer-rogue.jpg,KZN,0,Emp
+0,0,Lancer Paragon Blitzcrank,https://www.mobafire.com/images/champion/skins/landscape/blitzcrank-lancer-paragon.jpg,KZN,0,Emp
+0,0,Cyber Pop Zoe,https://www.mobafire.com/images/champion/skins/landscape/zoe-cyber-pop.jpg,KZN,0,Emp
+0,0,PROJECT: Jhin,https://www.mobafire.com/images/champion/skins/landscape/jhin-project.jpg,KZN,0,Emp
+0,0,PROJECT: Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-project.jpg,KZN,0,Emp
+0,0,Ambitious Elf Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-ambitious-elf.jpg,KZN,0,Emp
+0,0,Santa Draven,https://www.mobafire.com/images/champion/skins/landscape/draven-santa.jpg,KZN,0,Emp
+0,0,Snow Fawn Poppy,https://www.mobafire.com/images/champion/skins/landscape/poppy-snow-fawn.jpg,KZN,0,Emp
+0,0,God Staff Jax,https://www.mobafire.com/images/champion/skins/landscape/jax-god-staff.jpg,KZN,0,Emp
+0,0,Arctic Ops Gragas,https://www.mobafire.com/images/champion/skins/landscape/gragas-arctic-ops.jpg,KZN,0,Emp
+0,0,Lunar Guardian Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-lunar-guardian.jpg,KZN,0,Emp
+0,0,Lunar Guardian Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-lunar-guardian.jpg,KZN,0,Emp
+0,0,Lunar Empress Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-lunar-empress.jpg,KZN,0,Emp
+0,0,Sweetheart Xayah,https://www.mobafire.com/images/champion/skins/landscape/xayah-sweetheart.jpg,KZN,0,Emp
+0,0,Sweetheart Rakan,https://www.mobafire.com/images/champion/skins/landscape/rakan-sweetheart.jpg,KZN,0,Emp
+0,0,Dark Star Jarvan IV,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-dark-star.jpg,KZN,0,Emp
+0,0,Dragon Master Swain,https://www.mobafire.com/images/champion/skins/landscape/swain-dragon-master.jpg,KZN,0,Emp
+0,0,Bullet Angel Kai'Sa,https://www.mobafire.com/images/champion/skins/landscape/kaisa-bullet-angel.jpg,KZN,0,Emp
+0,0,Resistance Illaoi,https://www.mobafire.com/images/champion/skins/landscape/illaoi-resistance.jpg,KZN,0,Emp
+0,0,Lancer Stratus Wukong,https://www.mobafire.com/images/champion/skins/landscape/wukong-lancer-stratus.jpg,KZN,0,Emp
+0,0,Badlands Baron Rumble,https://www.mobafire.com/images/champion/skins/landscape/rumble-badlands-baron.jpg,KZN,0,Emp
+0,0,Blood Moon Evelynn,https://www.mobafire.com/images/champion/skins/landscape/evelynn-blood-moon.jpg,KZN,0,Emp
+0,0,Beemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-beemo.jpg,KZN,0,Emp
+0,0,Pulsefire Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-pulsefire.jpg,KZN,0,Emp
+0,0,Pulsefire Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-pulsefire.jpg,KZN,0,Emp
+0,0,Pulsefire Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-pulsefire.jpg,KZN,0,Emp
+0,0,Dark Waters Diana,https://www.mobafire.com/images/champion/skins/landscape/diana-dark-waters.jpg,KZN,0,Emp
+0,0,Dark Waters Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-dark-waters.jpg,KZN,0,Emp
+0,0,Sand Wraith Pyke,https://www.mobafire.com/images/champion/skins/landscape/pyke-sand-wraith.jpg,KZN,0,Emp
+0,0,Dark Star Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-dark-star.jpg,KZN,0,Emp
+0,0,SSG Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-ssg.jpg,KZN,0,Emp
+0,0,SSG Gnar,https://www.mobafire.com/images/champion/skins/landscape/gnar-ssg.jpg,KZN,0,Emp
+0,0,SSG Jarvan IV,https://www.mobafire.com/images/champion/skins/landscape/jarvan-iv-ssg.jpg,KZN,0,Emp
+0,0,SSG Rakan,https://www.mobafire.com/images/champion/skins/landscape/rakan-ssg.jpg,KZN,0,Emp
+0,0,SSG Taliyah,https://www.mobafire.com/images/champion/skins/landscape/taliyah-ssg.jpg,KZN,0,Emp
+0,0,SSG Xayah,https://www.mobafire.com/images/champion/skins/landscape/xayah-ssg.jpg,KZN,0,Emp
+0,0,Pool Party Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Gangplank,https://www.mobafire.com/images/champion/skins/landscape/gangplank-pool-party.jpg,KZN,0,Emp
+0,0,Pool Party Zoe,https://www.mobafire.com/images/champion/skins/landscape/zoe-pool-party.jpg,KZN,0,Emp
+0,0,Cosmic Queen Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-cosmic-queen.jpg,KZN,0,Emp
+0,0,Cosmic Enchantress Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-cosmic-enchantress.jpg,KZN,0,Emp
+0,0,Cosmic Defender Xin Zhao,https://www.mobafire.com/images/champion/skins/landscape/xin-zhao-cosmic-defender.jpg,KZN,0,Emp
+0,0,Mecha Aurelion Sol,https://www.mobafire.com/images/champion/skins/landscape/aurelion-sol-mecha.jpg,KZN,0,Emp
+0,0,Mafia Braum,https://www.mobafire.com/images/champion/skins/landscape/braum-mafia.jpg,KZN,0,Emp
+0,0,Divine Sword Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-divine-sword.jpg,KZN,0,Emp
+0,0,Enduring Sword Talon,https://www.mobafire.com/images/champion/skins/landscape/talon-enduring-sword.jpg,KZN,0,Emp
+0,0,High Noon Thresh,https://www.mobafire.com/images/champion/skins/landscape/thresh-high-noon.jpg,KZN,0,Emp
+0,0,High Noon Urgot,https://www.mobafire.com/images/champion/skins/landscape/urgot-high-noon.jpg,KZN,0,Emp
+0,0,Odyssey Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-odyssey.jpg,KZN,0,Emp
+0,0,Odyssey Malphite,https://www.mobafire.com/images/champion/skins/landscape/malphite-odyssey.jpg,KZN,0,Emp
+0,0,Odyssey Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-odyssey.jpg,KZN,0,Emp
+0,0,Odyssey Yasuo,https://www.mobafire.com/images/champion/skins/landscape/yasuo-odyssey.jpg,KZN,0,Emp
+0,0,Odyssey Ziggs,https://www.mobafire.com/images/champion/skins/landscape/ziggs-odyssey.jpg,KZN,0,Emp
+0,0,Championship Kha'Zix,https://www.mobafire.com/images/champion/skins/landscape/khazix-championship.jpg,KZN,0,Emp
+0,0,Infernal Amumu,https://www.mobafire.com/images/champion/skins/landscape/amumu-infernal.jpg,KZN,0,Emp
+0,0,Bewitching Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-bewitching.jpg,KZN,0,Emp
+0,0,Count Kledula,https://www.mobafire.com/images/champion/skins/landscape/kled-count-kledula.jpg,KZN,0,Emp
+0,0,Trick or Treat Ekko,https://www.mobafire.com/images/champion/skins/landscape/ekko-trick-or-treat.jpg,KZN,0,Emp
+0,0,K/DA Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-kda.jpg,KZN,0,Emp
+0,0,K/DA Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-kda.jpg,KZN,0,Emp
+0,0,K/DA Kai'Sa,https://www.mobafire.com/images/champion/skins/landscape/kaisa-kda.jpg,KZN,0,Emp
+0,0,K/DA Evelynn,https://www.mobafire.com/images/champion/skins/landscape/evelynn-kda.jpg,KZN,0,Emp
+0,0,Program Nami,https://www.mobafire.com/images/champion/skins/landscape/nami-program.jpg,KZN,0,Emp
+0,0,Program LeBlanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-program.jpg,KZN,0,Emp
+0,0,Praetorian Fiddlesticks,https://www.mobafire.com/images/champion/skins/landscape/fiddlesticks-praetorian.jpg,KZN,0,Emp
+0,0,Praetorian Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-praetorian.jpg,KZN,0,Emp
+0,0,Coven Camille,https://www.mobafire.com/images/champion/skins/landscape/camille-coven.jpg,KZN,0,Emp
+0,0,Coven Lissandra,https://www.mobafire.com/images/champion/skins/landscape/lissandra-coven.jpg,KZN,0,Emp
+0,0,Pajama Guardian Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-pajama-guardian.jpg,KZN,0,Emp
+0,0,Pajama Guardian Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-pajama-guardian.jpg,KZN,0,Emp
+0,0,Pajama Guardian Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-pajama-guardian.jpg,KZN,0,Emp
+0,0,Pajama Guardian Lulu,https://www.mobafire.com/images/champion/skins/landscape/lulu-pajama-guardian.jpg,KZN,0,Emp
+0,0,Pajama Guardian Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-pajama-guardian.jpg,KZN,0,Emp
+0,0,Winter Wonder Neeko,https://www.mobafire.com/images/champion/skins/landscape/neeko-winter-wonder.jpg,KZN,0,Emp
+0,0,Ice King Twitch,https://www.mobafire.com/images/champion/skins/landscape/twitch-ice-king.jpg,KZN,0,Emp
+0,0,Frozen Prince Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-frozen-prince.jpg,KZN,0,Emp
+0,0,Winter Wonder Soraka,https://www.mobafire.com/images/champion/skins/landscape/soraka-winter-wonder.jpg,KZN,0,Emp
+0,0,Snow Man Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-snow-man.jpg,KZN,0,Emp
+0,0,Blood Moon Aatrox,https://www.mobafire.com/images/champion/skins/landscape/aatrox-blood-moon.jpg,KZN,0,Emp
+0,0,Blood Moon Pyke,https://www.mobafire.com/images/champion/skins/landscape/pyke-blood-moon.jpg,KZN,0,Emp
+0,0,Blood Moon Sivir,https://www.mobafire.com/images/champion/skins/landscape/sivir-blood-moon.jpg,KZN,0,Emp
+0,0,Lunar Wraith Sylas,https://www.mobafire.com/images/champion/skins/landscape/sylas-lunar-wraith.jpg,KZN,0,Emp
+0,0,Coin Emperor Tahm Kench,https://www.mobafire.com/images/champion/skins/landscape/tahm-kench-coin-emperor.jpg,KZN,0,Emp
+0,0,Firecracker Sejuani,https://www.mobafire.com/images/champion/skins/landscape/sejuani-firecracker.jpg,KZN,0,Emp
+0,0,Firecracker Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-firecracker.jpg,KZN,0,Emp
+0,0,Heartpiercer Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-heartpiercer.jpg,KZN,0,Emp
+0,0,Heartbreaker Vi,https://www.mobafire.com/images/champion/skins/landscape/vi-heartbreaker.jpg,KZN,0,Emp
+0,0,Papercraft Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-papercraft.jpg,KZN,0,Emp
+0,0,Papercraft Nunu &amp; Willump,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-papercraft.jpg,KZN,0,Emp
+0,0,Arclight Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-arclight.jpg,KZN,0,Emp
+0,0,Corgi Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-corgi.jpg,KZN,0,Emp
+0,0,Fuzz Fizz,https://www.mobafire.com/images/champion/skins/landscape/fizz-fuzz.jpg,KZN,0,Emp
+0,0,Meowrick,https://www.mobafire.com/images/champion/skins/landscape/yorick-meowrick.jpg,KZN,0,Emp
+0,0,Pretty Kitty Rengar,https://www.mobafire.com/images/champion/skins/landscape/rengar-pretty-kitty.jpg,KZN,0,Emp
+0,0,Dunkmaster Ivern,https://www.mobafire.com/images/champion/skins/landscape/ivern-dunkmaster.jpg,KZN,0,Emp
+0,0,iG Camille,https://www.mobafire.com/images/champion/skins/landscape/camille-invictus-gaming.jpg,KZN,0,Emp
+0,0,iG Fiora,https://www.mobafire.com/images/champion/skins/landscape/fiora-invictus-gaming.jpg,KZN,0,Emp
+0,0,iG Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-invictus-gaming.jpg,KZN,0,Emp
+0,0,iG Kai'Sa,https://www.mobafire.com/images/champion/skins/landscape/kaisa-invictus-gaming.jpg,KZN,0,Emp
+0,0,iG LeBlanc,https://www.mobafire.com/images/champion/skins/landscape/leblanc-invictus-gaming.jpg,KZN,0,Emp
+0,0,iG Rakan,https://www.mobafire.com/images/champion/skins/landscape/rakan-invictus-gaming.jpg,KZN,0,Emp
+0,0,Battle Principal Yuumi,https://www.mobafire.com/images/champion/skins/landscape/yuumi-battle-principal.jpg,KZN,0,Emp
+0,0,Battle Academia Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-battle-academia.jpg,KZN,0,Emp
+0,0,Battle Academia Jayce,https://www.mobafire.com/images/champion/skins/landscape/jayce-battle-academia.jpg,KZN,0,Emp
+0,0,Battle Academia Katarina,https://www.mobafire.com/images/champion/skins/landscape/katarina-battle-academia.jpg,KZN,0,Emp
+0,0,Battle Professor Graves,https://www.mobafire.com/images/champion/skins/landscape/graves-battle-professor.jpg,KZN,0,Emp
+0,0,Little Demon Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-little-demon.jpg,KZN,0,Emp
+0,0,Dark Star Shaco,https://www.mobafire.com/images/champion/skins/landscape/shaco-dark-star.jpg,KZN,0,Emp
+0,0,Dark Star Karma,https://www.mobafire.com/images/champion/skins/landscape/karma-dark-star.jpg,KZN,0,Emp
+0,0,Battle Boss Qiyana,https://www.mobafire.com/images/champion/skins/landscape/qiyana-battle-boss.jpg,KZN,0,Emp
+0,0,Battle Boss Yasuo,https://www.mobafire.com/images/champion/skins/landscape/yasuo-battle-boss.jpg,KZN,0,Emp
+0,0,Arcade Kai'Sa,https://www.mobafire.com/images/champion/skins/landscape/kaisa-arcade.jpg,KZN,0,Emp
+0,0,Arcade Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-arcade.jpg,KZN,0,Emp
+0,0,Demacia Vice Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-demacia-vice.jpg,KZN,0,Emp
+0,0,Demacia Vice Lucian,https://www.mobafire.com/images/champion/skins/landscape/lucian-demacia-vice.jpg,KZN,0,Emp
+0,0,PROJECT: Irelia,https://www.mobafire.com/images/champion/skins/landscape/irelia-project.jpg,KZN,0,Emp
+0,0,PROJECT: Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-project.jpg,KZN,0,Emp
+0,0,PROJECT: Akali,https://www.mobafire.com/images/champion/skins/landscape/akali-project.jpg,KZN,0,Emp
+0,0,PROJECT: Warwick,https://www.mobafire.com/images/champion/skins/landscape/warwick-project.jpg,KZN,0,Emp
+0,0,Dragon Oracle Udyr,https://www.mobafire.com/images/champion/skins/landscape/udyr-dragon-oracle.jpg,KZN,0,Emp
+0,0,Elderwood Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-elderwood.jpg,KZN,0,Emp
+0,0,Elderwood Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-elderwood.jpg,KZN,0,Emp
+0,0,Elderwood Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-elderwood.jpg,KZN,0,Emp
+0,0,Infernal Varus,https://www.mobafire.com/images/champion/skins/landscape/varus-infernal.jpg,KZN,0,Emp
+0,0,Infernal Shen,https://www.mobafire.com/images/champion/skins/landscape/shen-infernal.jpg,KZN,0,Emp
+0,0,Infernal Galio,https://www.mobafire.com/images/champion/skins/landscape/galio-infernal.jpg,KZN,0,Emp
+0,0,Star Guardian Neeko,https://www.mobafire.com/images/champion/skins/landscape/neeko-star-guardian.jpg,KZN,0,Emp
+0,0,Star Guardian Zoe,https://www.mobafire.com/images/champion/skins/landscape/zoe-star-guardian.jpg,KZN,0,Emp
+0,0,Majestic Empress Morgana,https://www.mobafire.com/images/champion/skins/landscape/morgana-majestic-empress.jpg,KZN,0,Emp
+0,0,Splendid Staff Nami,https://www.mobafire.com/images/champion/skins/landscape/nami-splendid-staff.jpg,KZN,0,Emp
+0,0,Valiant Sword Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-valiant-sword.jpg,KZN,0,Emp
+0,0,Championship Ryze,https://www.mobafire.com/images/champion/skins/landscape/ryze-championship.jpg,KZN,0,Emp
+0,0,High Noon Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-high-noon.jpg,KZN,0,Emp
+0,0,High Noon Hecarim,https://www.mobafire.com/images/champion/skins/landscape/hecarim-high-noon.jpg,KZN,0,Emp
+0,0,Annie in Wonderland,https://www.mobafire.com/images/champion/skins/landscape/annie-annie-in-wonderland.jpg,KZN,0,Emp
+0,0,Zombie Brand,https://www.mobafire.com/images/champion/skins/landscape/brand-zombie.jpg,KZN,0,Emp
+0,0,Gentleman Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-gentleman.jpg,KZN,0,Emp
+0,0,Battlecast Prime Cho'Gath,https://www.mobafire.com/images/champion/skins/landscape/chogath-battlecast-prime.jpg,KZN,0,Emp
+0,0,Ice Toboggan Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-ice-toboggan.jpg,KZN,0,Emp
+0,0,Red Baron Corki,https://www.mobafire.com/images/champion/skins/landscape/corki-red-baron.jpg,KZN,0,Emp
+0,0,Corporate Mundo,https://www.mobafire.com/images/champion/skins/landscape/dr-mundo-corporate.jpg,KZN,0,Emp
+0,0,Gatekeeper Galio,https://www.mobafire.com/images/champion/skins/landscape/galio-gatekeeper.jpg,KZN,0,Emp
+0,0,Alien Invader Heimerdinger,https://www.mobafire.com/images/champion/skins/landscape/heimerdinger-alien-invader.jpg,KZN,0,Emp
+0,0,Nunu &amp; Willump Bot,https://www.mobafire.com/images/champion/skins/landscape/nunu-amp-willump-bot.jpg,KZN,0,Emp
+0,0,Brolaf,https://www.mobafire.com/images/champion/skins/landscape/olaf-brolaf.jpg,KZN,0,Emp
+0,0,Firefighter Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-firefighter.jpg,KZN,0,Emp
+0,0,Demonblade Tryndamere,https://www.mobafire.com/images/champion/skins/landscape/tryndamere-demonblade.jpg,KZN,0,Emp
+0,0,The Magnificent Twisted Fate,https://www.mobafire.com/images/champion/skins/landscape/twisted-fate-the-magnificent.jpg,KZN,0,Emp
+0,0,Blood Lord Vladimir,https://www.mobafire.com/images/champion/skins/landscape/vladimir-blood-lord.jpg,KZN,0,Emp
+0,0,Eternum Nocturne,https://www.mobafire.com/images/champion/skins/landscape/nocturne-eternum.jpg,KZN,0,Emp
+0,0,Aether Wing Kayle,https://www.mobafire.com/images/champion/skins/landscape/kayle-aether-wing.jpg,KZN,0,Emp
+0,0,Blackfrost Anivia,https://www.mobafire.com/images/champion/skins/landscape/anivia-blackfrost.jpg,KZN,0,Emp
+0,0,Forecast Janna,https://www.mobafire.com/images/champion/skins/landscape/janna-forecast.jpg,KZN,0,Emp
+0,0,Infernal Nasus,https://www.mobafire.com/images/champion/skins/landscape/nasus-infernal.jpg,KZN,0,Emp
+0,0,Super Galaxy Rumble,https://www.mobafire.com/images/champion/skins/landscape/rumble-super-galaxy.jpg,KZN,0,Emp
+0,0,Final Boss Veigar,https://www.mobafire.com/images/champion/skins/landscape/veigar-final-boss.jpg,KZN,0,Emp
+0,0,Dunkmaster Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-dunkmaster.jpg,KZN,0,Emp
+0,0,Battlecast Alpha Skarner,https://www.mobafire.com/images/champion/skins/landscape/skarner-battlecast-alpha.jpg,KZN,0,Emp
+0,0,Omega Squad Teemo,https://www.mobafire.com/images/champion/skins/landscape/teemo-omega-squad.jpg,KZN,0,Emp
+0,0,PROJECT: Yi,https://www.mobafire.com/images/champion/skins/landscape/master-yi-project.jpg,KZN,0,Emp
+0,0,Dragon Trainer Tristana,https://www.mobafire.com/images/champion/skins/landscape/tristana-dragon-trainer.jpg,KZN,0,Emp
+0,0,Mecha Zero Sion,https://www.mobafire.com/images/champion/skins/landscape/sion-mecha-zero.jpg,KZN,0,Emp
+0,0,Dark Star Thresh,https://www.mobafire.com/images/champion/skins/landscape/thresh-dark-star.jpg,KZN,0,Emp
+0,0,PROJECT: Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-project.jpg,KZN,0,Emp
+0,0,Star Guardian Jinx,https://www.mobafire.com/images/champion/skins/landscape/jinx-star-guardian.jpg,KZN,0,Emp
+0,0,God Fist Lee Sin,https://www.mobafire.com/images/champion/skins/landscape/lee-sin-god-fist.jpg,KZN,0,Emp
+0,0,Pulsefire Caitlyn,https://www.mobafire.com/images/champion/skins/landscape/caitlyn-pulsefire.jpg,KZN,0,Emp
+0,0,Dawnbringer Riven,https://www.mobafire.com/images/champion/skins/landscape/riven-dawnbringer.jpg,KZN,0,Emp
+0,0,Nightbringer Yasuo,https://www.mobafire.com/images/champion/skins/landscape/yasuo-nightbringer.jpg,KZN,0,Emp
+0,0,Star Guardian Ahri,https://www.mobafire.com/images/champion/skins/landscape/ahri-star-guardian.jpg,KZN,0,Emp
+0,0,PROJECT: Vayne,https://www.mobafire.com/images/champion/skins/landscape/vayne-project.jpg,KZN,0,Emp
+0,0,God-King Darius,https://www.mobafire.com/images/champion/skins/landscape/darius-god-king.jpg,KZN,0,Emp
+0,0,God-King Garen,https://www.mobafire.com/images/champion/skins/landscape/garen-god-king.jpg,KZN,0,Emp
+0,0,High Noon Lucian,https://www.mobafire.com/images/champion/skins/landscape/lucian-high-noon.jpg,KZN,0,Emp
+0,0,Odyssey Kayn,https://www.mobafire.com/images/champion/skins/landscape/kayn-odyssey.jpg,KZN,0,Emp
+0,0,Dragon Trainer Heimerdinger,https://www.mobafire.com/images/champion/skins/landscape/heimerdinger-dragon-trainer.jpg,KZN,0,Emp
+0,0,Solar Eclipse Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-solar-eclipse.jpg,KZN,0,Emp
+0,0,Lunar Eclipse Leona,https://www.mobafire.com/images/champion/skins/landscape/leona-lunar-eclipse.jpg,KZN,0,Emp
+0,0,Galaxy Slayer Zed,https://www.mobafire.com/images/champion/skins/landscape/zed-galaxy-slayer.jpg,KZN,0,Emp
+0,0,Battle Academia Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-battle-academia.jpg,KZN,0,Emp
+0,0,Dark Cosmic Jhin,https://www.mobafire.com/images/champion/skins/landscape/jhin-dark-cosmic.jpg,KZN,0,Emp
+0,0,PROJECT: Pyke,https://www.mobafire.com/images/champion/skins/landscape/pyke-project.jpg,KZN,0,Emp
+0,0,Star Guardian Xayah,https://www.mobafire.com/images/champion/skins/landscape/xayah-star-guardian.jpg,KZN,0,Emp
+0,0,Star Guardian Rakan,https://www.mobafire.com/images/champion/skins/landscape/rakan-star-guardian.jpg,KZN,0,Emp
+0,0,High Noon Ashe,https://www.mobafire.com/images/champion/skins/landscape/ashe-high-noon.jpg,KZN,0,Emp
+0,0,Gun Goddess Miss Fortune,https://www.mobafire.com/images/champion/skins/landscape/miss-fortune-gun-goddess.jpg,KZN,0,Emp
+0,0,Pulsefire Ezreal,https://www.mobafire.com/images/champion/skins/landscape/ezreal-pulsefire.jpg,KZN,0,Emp
+0,0,Spirit Guard Udyr,https://www.mobafire.com/images/champion/skins/landscape/udyr-spirit-guard.jpg,KZN,0,Emp
+0,0,DJ Sona,https://www.mobafire.com/images/champion/skins/landscape/sona-dj.jpg,KZN,0,Emp
+0,0,Elementalist Lux,https://www.mobafire.com/images/champion/skins/landscape/lux-elementalist.jpg,KZN,0,Emp
+0,0,Gragas, Esq.,https://www.mobafire.com/images/champion/skins/landscape/gragas-gragas-esq.jpg,KZN,0,Emp
