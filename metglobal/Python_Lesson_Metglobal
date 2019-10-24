@@ -1,0 +1,2462 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Logging"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "DEBUG:root:log ekrana yazıldı\n"
+     ]
+    }
+   ],
+   "source": [
+    "import logging\n",
+    "#DEBUG\n",
+    "#INFO\n",
+    "#WARNING\n",
+    "#ERROR\n",
+    "#CRITICAL\n",
+    "# seviye belirlediğimizde kendisinin üst seviyesindekileri yazabilir ekrana, altındakileri yazamaz dbg<x<crtcl\n",
+    "# işleyiş takibi için print yerine logging kullanıyoruz\n",
+    "\n",
+    "logging.basicConfig(level=logging.DEBUG)\n",
+    "logging.debug(\"log ekrana yazıldı\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "DEBUG:root:ok1!\n",
+      "INFO:root:ok2!\n"
+     ]
+    }
+   ],
+   "source": [
+    "logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)\n",
+    "logging.debug(\"ok1!\")\n",
+    "logging.info(\"ok2!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "WARNING:root:Warning\n",
+      "INFO:root:info\n"
+     ]
+    }
+   ],
+   "source": [
+    "logging.basicConfig(filename='test.log', filemode='a',\n",
+    "                   format='%(name)s - %(levelname)s - %(message)s',\n",
+    "                   level=logging.DEBUG)\n",
+    "logging.warning(\"Warning\")\n",
+    "logging.info(\"info\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "WARNING:Python-Tutorial:Warning!\n",
+      "INFO:Python-Tutorial:ok\n"
+     ]
+    }
+   ],
+   "source": [
+    "logging.basicConfig(filename='test.log', filemode='a',\n",
+    "                   format='%(name)s - %(levelname)s - %(message)s',\n",
+    "                   level=logging.DEBUG)\n",
+    "logger = logging.getLogger('Python-Tutorial')\n",
+    "logger.warning(\"Warning!\")\n",
+    "logger.info(\"ok\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "__main__ - WARNING - this is a warning\n",
+      "__main__ - WARNING - this is a warning\n",
+      "__main__ - WARNING - this is a warning\n",
+      "__main__ - WARNING - this is a warning\n",
+      "__main__ - WARNING - this is a warning\n",
+      "WARNING:__main__:this is a warning\n",
+      "__main__ - ERROR - this is an error\n",
+      "__main__ - ERROR - this is an error\n",
+      "__main__ - ERROR - this is an error\n",
+      "__main__ - ERROR - this is an error\n",
+      "__main__ - ERROR - this is an error\n",
+      "ERROR:__main__:this is an error\n"
+     ]
+    }
+   ],
+   "source": [
+    "# aynı logger objesinde birden fazla format oluşturmak\n",
+    "\n",
+    "# create a custom logger\n",
+    "logger = logging.getLogger(__name__)\n",
+    "\n",
+    "# create handlers\n",
+    "c_handler = logging.StreamHandler()\n",
+    "f_handler = logging.FileHandler(\"file.log\")\n",
+    "c_handler.setLevel(logging.WARNING)\n",
+    "f_handler.setLevel(logging.ERROR)\n",
+    "\n",
+    "# create formatters and add it to handlers\n",
+    "c_format = logging.Formatter('%(name)s - %(levelname)s - %(message)s')\n",
+    "f_format =logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n",
+    "c_handler.setFormatter(c_format)\n",
+    "f_handler.setFormatter(f_format)\n",
+    "\n",
+    "# add handlers tothe logger\n",
+    "logger.addHandler(c_handler)\n",
+    "logger.addHandler(f_handler)\n",
+    "\n",
+    "logger.warning(\"this is a warning\")\n",
+    "logger.error(\"this is an error\")\n",
+    "# aslında terminalden çalıştırılmalı doğrusu o"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Str"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'a b'"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'{} {}'.format(\"a\", \"b\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'b a'"
+      ]
+     },
+     "execution_count": 35,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'{1} {0}'.format(\"a\", \"b\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'a b'"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'{aa} {bb}'.format(aa=\"a\", bb=\"b\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'3.141592653589793'"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import math\n",
+    "'{m.pi}'.format(m=math)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'{burada kaçar} md'"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'{{burada kaçar}} {}'.format(\"md\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'MD python'"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name = \"md\"\n",
+    "sbjct = \"python\"\n",
+    "\n",
+    "f'{name.upper()} {sbjct}' # formatın içinde işlem yapılabilen kısaltılmışı"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'3.142'"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'{m.pi:.3f}'.format(m=math)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'80.000%'"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'{:.3%}'.format(0.80)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'2010'"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'%d' % 2010"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'md'"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'%s' % \"md\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'m d'"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data = {\"name\":\"m\", \"surname\":\"d\"}\n",
+    "'{name} {surname}'.format(**data)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Lists"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "liste = [1, 2, 3, 4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 3]"
+      ]
+     },
+     "execution_count": 66,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "liste[::2] # 2şer git"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[4, 3, 2, 1]"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "liste[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[(1, 'bir'), (2, 'iki'), (3, 'üç')]\n"
+     ]
+    }
+   ],
+   "source": [
+    "numList = [1,2,3]\n",
+    "strList = [\"bir\",\"iki\",\"üç\"]\n",
+    "response = zip(numList, strList)\n",
+    "print(list(response))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a t k\n"
+     ]
+    }
+   ],
+   "source": [
+    "a,b,c = \"atk\"\n",
+    "print(a,b,c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "merve ['demircan', '27', '16']\n"
+     ]
+    }
+   ],
+   "source": [
+    "name, *liste = \"merve,demircan,27,16\".split(\",\")\n",
+    "print(name, liste)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 3]"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "[*map(int, \"123\")] # ikinci parametredeki her elementi ilk parametre tipine dönüştürdü"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 m 2 d\n"
+     ]
+    }
+   ],
+   "source": [
+    "data1 = 1,2\n",
+    "data2 = \"m\", \"d\"\n",
+    "((a,b),(c,d)) = tuple(zip(data1, data2)) # zip iterator oluşturur, ama görülemez ondan tupleye koyduk\n",
+    "print(a,b,c,d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'m': 1,\n",
+       " 'e': 2,\n",
+       " 's': 1,\n",
+       " 'u': 1,\n",
+       " 't': 2,\n",
+       " 'o': 2,\n",
+       " 'n': 2,\n",
+       " 'c': 1,\n",
+       " 'l': 1,\n",
+       " 'p': 1,\n",
+       " 'y': 1,\n",
+       " 'h': 1}"
+      ]
+     },
+     "execution_count": 111,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s = \"mesutoncelpython\"\n",
+    "dic = {}\n",
+    "for i in s:\n",
+    "    dic[i] = dic.get(i, 0) + 1 # get yoksa oluşturur\n",
+    "dic"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 121,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'d', 'e', 'm'}"
+      ]
+     },
+     "execution_count": 121,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "item = set(\"mdmdmeee\")\n",
+    "item"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['__and__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__iand__', '__init__', '__init_subclass__', '__ior__', '__isub__', '__iter__', '__ixor__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__or__', '__rand__', '__reduce__', '__reduce_ex__', '__repr__', '__ror__', '__rsub__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__xor__', 'add', 'clear', 'copy', 'difference', 'difference_update', 'discard', 'intersection', 'intersection_update', 'isdisjoint', 'issubset', 'issuperset', 'pop', 'remove', 'symmetric_difference', 'symmetric_difference_update', 'union', 'update']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(dir(item))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(0, 'name')\n",
+      "(1, 'srname')\n"
+     ]
+    }
+   ],
+   "source": [
+    "for item in enumerate({\"name\":\"m\", \"srname\":\"d\"}):\n",
+    "    print(item)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Functions "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "172.217.169.142 185.111.232.37\n"
+     ]
+    }
+   ],
+   "source": [
+    "import socket\n",
+    "def get_ip(host):\n",
+    "    return socket.gethostbyname(host)\n",
+    "\n",
+    "print(get_ip(\"google.com\"), get_ip(\"sedefelektron.com\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "args = [1,2,3]\n",
+    "kwargs = {\"1\":\"2\", \"3\":\"4\"}\n",
+    "\n",
+    "def func(*args, **kwargs):\n",
+    "    print(args)\n",
+    "    print(kwargs)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "([1, 2, 3], {'1': '2', '3': '4'})\n",
+      "{}\n"
+     ]
+    }
+   ],
+   "source": [
+    "func(args, kwargs) # verileri ilkine attı belirtmedik diye **"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(1, 2, 3)\n",
+      "{'1': '2', '3': '4'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "func(*args, **kwargs)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "m\n",
+      "d\n",
+      "{'3': 3, '4': 4}\n"
+     ]
+    }
+   ],
+   "source": [
+    "def func(name, lastname, **kwargs):\n",
+    "    print(name)\n",
+    "    print(lastname)\n",
+    "    print(kwargs)\n",
+    "\n",
+    "data = {\"name\":\"m\", \"lastname\":\"d\", \"3\":3, \"4\":4}\n",
+    "func(**data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'mdmd'"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def func(name):\n",
+    "    def new(name=name):\n",
+    "        return name * 2\n",
+    "    return new()\n",
+    "\n",
+    "func(\"md\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Generator\n",
+    "def test(num):\n",
+    "    for item in range(num):\n",
+    "        yield item*2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<generator object test at 0x105e037d0>"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "test(4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 2, 4, 6]"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(test(4)) # birden fazla kere return edilecekse yield kullanılıyor"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Json"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import requests\n",
+    "import json\n",
+    "\n",
+    "headers = {}\n",
+    "def all_bookings():\n",
+    "    url = \"http://transfer-api-test.hotelspro.com/bookings/\"\n",
+    "    while url:\n",
+    "        response = requests.get(url=url, headers=headers)\n",
+    "        response = response.json()\n",
+    "        yield response\n",
+    "        url = response.get(\"next\")\n",
+    "\n",
+    "list(all_bookings())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Decorator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def out_function(func_name):\n",
+    "    def in_func(*args, **kwargs):\n",
+    "        # start\n",
+    "        response = func_name(*args, **kwargs)\n",
+    "        # end\n",
+    "        return response\n",
+    "    return in_func\n",
+    "\n",
+    "@out_function # decorator fonksiyon, func_name=test_function() oluyor işlemlerde\n",
+    "def test_function():\n",
+    "    pass\n",
+    "\n",
+    "test_function()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# çalışma süresini hesaplama\n",
+    "import time\n",
+    "\n",
+    "def execution_time(f):\n",
+    "    def wrapper(*args, **kwargs):\n",
+    "        start = time.time()\n",
+    "        response = f(*args, **kwargs)\n",
+    "        end = time.time()\n",
+    "        execution_time = end - start\n",
+    "        print(f'Execution Time: {execution_time:.6f}')\n",
+    "        return response\n",
+    "    return wrapper"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "@execution_time\n",
+    "def test(num):\n",
+    "    for item in range(num):\n",
+    "        print(item*2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "2\n",
+      "4\n",
+      "Execution Time: 0.000282\n"
+     ]
+    }
+   ],
+   "source": [
+    "test(3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'md'"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Logging\n",
+    "import logging\n",
+    "\n",
+    "def logging_system(func):\n",
+    "    logging.basicConfig(filename=f'{func.__name__}.log', filemode=\"w\", level=logging.INFO) # w = varsa da oluştur\n",
+    "    def wrapper(*args, **kwargs):\n",
+    "        logging.info(\"test123\")\n",
+    "        response = func(*args, **kwargs)\n",
+    "        return response\n",
+    "    return wrapper\n",
+    "\n",
+    "@logging_system\n",
+    "def test(name):\n",
+    "    return name\n",
+    "\n",
+    "test(\"md\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ok\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "'md'"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Nested Decorators - bunun kodlarını al bi\n",
+    "\n",
+    "def test_deco(func):\n",
+    "    def wrapper(*args, **kwargs):\n",
+    "        print(\"ok\")\n",
+    "        return func(*args, **kwargs)\n",
+    "    return wrapper\n",
+    "\n",
+    "@logging_system\n",
+    "@test_deco\n",
+    "def test(name):\n",
+    "    return name\n",
+    "\n",
+    "test(\"md\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "havav\n",
+      "runrunrun\n"
+     ]
+    }
+   ],
+   "source": [
+    "#dekotatörler fonksiyonları evirip çevirip işlemler yapan şeyler\n",
+    "# bu dekoratör parametre ile verilen köpek cinsini kontrol etsin kaniş değilse hata versin\n",
+    "def kanish_checker(func):\n",
+    "    def inner(dog):\n",
+    "        if dog.tip != 'kanish':\n",
+    "            raise Error\n",
+    "        func(dog)\n",
+    "    return inner\n",
+    "\n",
+    "class Dog(object):\n",
+    "    def __init__(self, tip): self.tip = tip\n",
+    "    def talk(self): print(\"havav\")\n",
+    "    def run(self): print(\"runrunrun\")\n",
+    "\n",
+    "@kanish_checker\n",
+    "def make_dog_talk(dog): dog.talk() # dog kanish ise diye kontrol etmek lazım\n",
+    "@kanish_checker\n",
+    "def make_dog_run(dog): dog.run() # dog kanish ise diye kontrol etmek lazım\n",
+    "\n",
+    "# bunlar parametreleri kanish checkere koycak o da bu fonksiyonları çağırıcak \n",
+    "# bu sayede her birinde tek tek kanish mi diye kontrol yapmak zorunda kalmıyoruz\n",
+    "make_dog_talk(Dog(\"kanish\"))\n",
+    "make_dog_run(Dog(\"kanish\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "non pluto planet called\n",
+      "plut\n",
+      "non pluto planet called\n",
+      "plutus\n"
+     ]
+    }
+   ],
+   "source": [
+    "def reject_pluto(func):\n",
+    "    def inner(*args):\n",
+    "        if \"pluto\" in args:\n",
+    "            raise KeyError\n",
+    "        print(\"non pluto planet called\")\n",
+    "        func(*args)\n",
+    "    return inner\n",
+    "\n",
+    "@reject_pluto # tekrar yoksa dekoratöre gerek yok, her fonkta pluto değilse diye kontrol yapcaz\n",
+    "def print_planet(name):\n",
+    "    print(name)\n",
+    "\n",
+    "@reject_pluto\n",
+    "def show_img_of_planet(name):\n",
+    "    print(name)\n",
+    "\n",
+    "print_planet(\"plut\")\n",
+    "show_img_of_planet(\"plutus\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 1-decoratörlere parametre nasıl gönderilir? parametre sonucuna göre işlem yapılacak @test_deco(param=True)\n",
+    "# if param=True ise şunu print etsin yada başka bişe etsin gibi işte. dekoratörü param alcak hale getir\n",
+    "\n",
+    "# 2-decorator üzerine decorator koyup daha optimize hale getir\n",
+    "# parametre alması istenilen her dekoratörü modifiye etmek gerekir, bundan kaçmak için öyle bir dekorator\n",
+    "# yazmalısın ki parametreyle çalışsın ve dekoratörleri modifiye edebilsin.\n",
+    "# def zz(param): # decoratoru her işlem için yazmaya gerek olmasın böyle parametre alarak çalışabilsin.\n",
+    "#    def log_system(func)\n",
+    "#         def wrapper():..."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2**0.5 = 1.4142135623730951\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 1\n",
+    "import random\n",
+    "\n",
+    "def power(param):\n",
+    "    def decorator(func):\n",
+    "        def wrapper():\n",
+    "            digit = func()\n",
+    "            print(str(digit)+\"**\"+str(param)+\" =\", digit**param)\n",
+    "        return wrapper\n",
+    "    return decorator\n",
+    "\n",
+    "@power(.5)\n",
+    "def random_digits():\n",
+    "    return random.choice([1, 2, 3, 4, 5])\n",
+    "\n",
+    "random_digits()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 2\n",
+    "def power(param):\n",
+    "    power = .5\n",
+    "    def decorator(func):\n",
+    "        def wrapper():\n",
+    "            digit = func()\n",
+    "            print(str(digit)+\"**\"+str(power)+\" =\", digit**power)\n",
+    "        return wrapper\n",
+    "    \n",
+    "    if callable(param):\n",
+    "        #power = .2\n",
+    "        return decorator(param)\n",
+    "    else:\n",
+    "        power = param\n",
+    "        return decorator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3**0.5 = 1.7320508075688772\n"
+     ]
+    }
+   ],
+   "source": [
+    "@power\n",
+    "def random_digits():\n",
+    "    return random.choice([1, 2, 3, 4, 5])\n",
+    "\n",
+    "random_digits()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Classes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dosyayı direkt çalıştır\n",
+      "__main__\n"
+     ]
+    }
+   ],
+   "source": [
+    "class A:\n",
+    "    pass\n",
+    "\n",
+    "if __name__ == \"__main__\":\n",
+    "    print(\"dosyayı direkt çalıştır\") # sınıf buradaysa\n",
+    "else:\n",
+    "    print(\"dosyayı import ederek çalıştır.\") # A sınıfı from import A olarak alınmışsa\n",
+    "\n",
+    "print(__name__)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "test spam\n",
+      "nonlocal spam\n",
+      "nonlocal spam\n",
+      "global spam\n"
+     ]
+    }
+   ],
+   "source": [
+    "def spamming():\n",
+    "    \n",
+    "    def local_spam():\n",
+    "        spam = \"local spam\" # scopeu burası\n",
+    "    \n",
+    "    def nonlocal_spam():\n",
+    "        nonlocal spam\n",
+    "        spam = \"nonlocal spam\" # scopeu fonk içi namespace\n",
+    "    \n",
+    "    def global_spam():\n",
+    "        global spam\n",
+    "        spam = \"global spam\" # skopu global ama aşadaki spamı etkilemez o global değil\n",
+    "    \n",
+    "    spam = \"test spam\"\n",
+    "    local_spam()\n",
+    "    print(spam)\n",
+    "    nonlocal_spam()\n",
+    "    print(spam)\n",
+    "    global_spam()\n",
+    "    print(spam)\n",
+    "\n",
+    "spamming()\n",
+    "print(spam)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import ipdb\n",
+    "\n",
+    "ipdb.set_trace() # kullanımını öğren \"n\"ye basınca ilerler"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "class numberGenerator:\n",
+    "    \n",
+    "    liste = [1,2,3,4,5]\n",
+    "    \n",
+    "    def __init__(self):\n",
+    "        self.index = 0\n",
+    "    \n",
+    "    def __iter__(self):\n",
+    "        return self # kendini iterate etsin, listeyi versek listeyi iterate ederdi\n",
+    "    \n",
+    "    def __next__(self):\n",
+    "        try:\n",
+    "            num = self.liste[self.index]\n",
+    "        except IndexError:\n",
+    "            raise StopIteration\n",
+    "        self.index += 1\n",
+    "        return num\n",
+    "\n",
+    "for i in numberGenerator():\n",
+    "    print(i)\n",
+    "# generatorler üretir, iteratörler iterate eder. range() bir generatördür"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Exception Handling"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Çalışma hatasız bitti.\n"
+     ]
+    }
+   ],
+   "source": [
+    "try: pass\n",
+    "except (IndexError, NameError) as e: print(e)\n",
+    "else: print(\"Çalışma hatasız bitti.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Sonunda bitti.\n"
+     ]
+    }
+   ],
+   "source": [
+    "try: error = False\n",
+    "except (IndexError, NameError) as e: error = e\n",
+    "finally:\n",
+    "    if error:\n",
+    "        print(error)\n",
+    "    else:\n",
+    "        print(\"Sonunda bitti.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# File Operations"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "file = (\"path.txt\", \"w\", \"r\", \"a+\")\n",
+    "# w = sadece içeriğini sil ve yaz\n",
+    "# r = sadece oku\n",
+    "# hem okuyabil, hem yazabil, yazarken var olan veriyi silme devamına yaz\n",
+    "file.close() # her açıştan sonra illa kapat\n",
+    "file.read() # tüm dosyayı okur\n",
+    "file.readLine() # tek bir satırı okur, burada ilk satırı okur\n",
+    "file.readLine() # burada ikinci satırı okur, böyle okudukça diğer satıra geçer sürekli"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# with = __init__, ->, enter, ->, exit-close işlemlerini yapıyor (Content Manager diye geçiyor, magic functions)\n",
+    "with open(\"dosya.txt\", \"r\") as dosya:\n",
+    "    print(dosya.write())\n",
+    "\n",
+    "with open(\"dosya.txt\", \"r\") as f:\n",
+    "    veri = f.read()\n",
+    "    f.seek(0) # dosyayı başa sar\n",
+    "    f.write(\"aaaaaaa\" + veri)\n",
+    "\n",
+    "# shift + tab 1tab geri alır"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# ödev\n",
+    "yaml text dosyası bul json gibi bir veri tipi, bunu json'a çevir, jsona çevirdiğin veriyi de bir dosyanın içerisinde kaydet."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/Users/emrah.tema/.virtualenvs/jupyter/lib/python3.7/site-packages/ipykernel_launcher.py:4: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.\n",
+      "  after removing the cwd from sys.path.\n"
+     ]
+    }
+   ],
+   "source": [
+    "import yaml, json\n",
+    "\n",
+    "with open('input.yaml', 'r') as f:\n",
+    "    doc = json.dumps(yaml.load(f))\n",
+    "\n",
+    "with open(\"output.json\", \"w\") as f:\n",
+    "    f.write(doc)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Python Standart Libraries"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'2019-08-16 10:28:44.197910'"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from datetime import datetime\n",
+    "today = datetime.today()\n",
+    "str(today)\n",
+    "# rich comparison methods konusuna bak"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "00010','00014','00016','00023','00535','01007','01047','01051','01063','01064',\n",
+      "'01066','01069','01070','01073','01077','01081','01084','01088','01094','01096',\n",
+      "'01104','01106','01107','01112','01114','01115','01117','01120','01121','01122',\n",
+      "'01124','01125','01126','01128','01132','02004','02005','02006','02008','02011',\n",
+      "'02012','02013','02014','02016','02017','02018','02019','03002','03004','03012',\n",
+      "'03029','03049','03054','03059','03061','03062','03066','03067','03074','03092',\n",
+      "'03093','03097','03099','03101','03102','03115','03116','03117','03118','03121',\n",
+      "'03122','03123','03124','03125','03126','03130','03133','03134','03136','03143',\n",
+      "'03144','03147','03148','03149','03150','03151','03152','03153','03154','03155',\n",
+      "'03156','03157','03158','03160','03161','03162','03163','03164','03166','04030',\n",
+      "'04042','04073','04076','04077','04080','04083','04084','04085','04091','04098',\n",
+      "'04100','04106','04108','04109','04110','04111','04113','04115','04116','04117',\n",
+      "'04118','05002','05006','05016','05020','05022','05031','05035','05052','05063',\n",
+      "'05067','05084','05085','05093','05125','05139','05172','05182','05185','05201',\n",
+      "'05204','05206','05215','05219','05220','05224','05225','05226','05227','05230',\n",
+      "'05232','05240','05243','05244','05251','05259','05268','05271','05280','05281',\n",
+      "'05291','05297','05313','05315','05316','05323','05326','05328','05336','05338',\n",
+      "'05340','05341','05343','05345','05353','05357','05360','05362','05363','05364',\n",
+      "'05369','05370','05371','05377','05378','05382','05385','05386','05391','05397',\n",
+      "'05398','05399','05402','05403','05405','05406','05408','05416','05417','05421',\n",
+      "'05422','05423','05425','05426','05427','05429','05431','05432','05433','05435',\n",
+      "'05440','05441','05443','05444','05448','05453','05456','05457','05459','05461',\n",
+      "'05463','05465','05466','05469','05470','05471','05472','05473','05475','05476',\n",
+      "'05478','05479','05480','05481','05487','05488','05491','05492','05494','05497',\n",
+      "'05505','05508','05512','05514','05517','05518','05521','05522','05523','05525',\n",
+      "'05526','05533','05535','05536','05538','05543','05546','05548','05551','05555',\n",
+      "'05556','05557','05558','05560','05561','05562','05563','05565','05566','05569',\n",
+      "'05570','05571','05572','05574','05575','05577','05578','05581','05582','05586',\n",
+      "'05590','05592','05593','05595','05596','05597','05598','05599','05600','05601',\n",
+      "'05603','05604','05605','05606','05607','05610','05612','05613','05614','05619',\n",
+      "'05621','05622','05623','05625','05628','05630','05631','05634','05635','05636',\n",
+      "'05638','05639','05641','05642','05644','05645','05646','05651','05652','05653',\n",
+      "'05658','05660','05662','05663','05664','05665','05667','05669','05671','05672',\n",
+      "'05673','05674','05676','05677','05680','05681','05683','05685','05686','05687',\n",
+      "'05688','05689','05690','05691','05693','05694','05695','05696','05699','05700',\n",
+      "'05701','05703','05705','05706','05707','05708','05709','05710','05711','05712',\n",
+      "'05713','05715','05716','05718','05719','05720','05721','05722','05723','05724',\n",
+      "'05725','05726','05728','05730','05731','05732','05734','05735','05738','05739',\n",
+      "'05740','05741','05743','05744','05745','05746','05747','05748','05754','05755',\n",
+      "'05757','06001','06009','06029','06038','06040','06042','06044','06084','06098',\n",
+      "'06103','06108','06114','06144','06153','06156','06157','06161','06163','06164',\n",
+      "'06165','06167','06168','06169','06170','06171','06173','06178','06179','06180',\n",
+      "'06181','06182','06183','06184','06185','06186','06187','06188','06191','06193',\n",
+      "'06194','06196','07011','07012','07016','07018','07021','07025','07026','07029',\n",
+      "'08006','08010','09101','10011','10038','10096','10116','10150','10151','10168',\n",
+      "'10180','10184','10200','10206','10212','10214','10222','10225','10226','10246',\n",
+      "'10250','10254','10255','10267','10268','10269','10270','10271','10272','10277',\n",
+      "'10279','10280','10281','10283','10285','10286','10288','10289','10297','10302',\n",
+      "'10303','10306','10308','10314','10323','10324','10338','10341','10344','10346',\n",
+      "'10349','10352','10354','10355','10356','10359','10360','10361','10365','10366',\n",
+      "'10368','10370','10371','10372','10373','10377','10380','10381','10384','10385',\n",
+      "'10386','10387','10388','10389','10390','10391','10392','10394','10395','10397',\n",
+      "'10398','10399','10400','10401','10402','10403','10404','10405','10406','10407',\n",
+      "'10408','10409','10410','10411','10413','10414','10417','11045','11058','11067',\n",
+      "'11090','11101','11113','11118','11119','11120','11123','11133','11139','11141',\n",
+      "'11146','11154','11164','11170','11173','11178','11187','11190','11192','11194',\n",
+      "'11198','11203','11205','11208','11209','11211','11212','11213','11214','11215',\n",
+      "'11216','11217','11218','11220','11221','11223','11224','11225','11227','11231',\n",
+      "'12008','12012','13005','13027','13029','13032','13035','13037','13042','13044',\n",
+      "'13046','13047','13049','13050','13051','13052','13054','13055','13056','13057',\n",
+      "'13059','13060','13061','13062','14038','14092','14105','14108','14112','14119',\n",
+      "'14120','14129','14132','14135','14139','14147','14150','14151','14152','14155',\n",
+      "'14157','14159','14164','14170','14172','14180','14181','14182','14183','14185',\n",
+      "'14186','14188','14189','14190','14191','14193','14194','14195','14197','14198',\n",
+      "'14199','14201','14202','14203','14204','14205','14206','14208','14209','14210',\n",
+      "'14211','14212','14213','14214','14215','14216','14217','14218','14219','14221',\n",
+      "'15039','15061','15066','15067','15068','15069','15070','15071','15076','15077',\n",
+      "'15078','15083','15084','15085','15092','15095','15096','15100','15103','15104',\n",
+      "'15105','15107','15108','15110','15111','15113','15114','15116','15122','16032',\n",
+      "'16064','16066','16071','16073','16077','16081','16083','16085','16097','16099',\n",
+      "'16101','16103','16104','16107','16108','16109','16110','17013','17080','17107',\n",
+      "'17115','17116','17117','17118','17122','17124','17126','17127','17128','17129',\n",
+      "'17130','17131','17132','17133','17134','17136','17137','17138','17139','17140',\n",
+      "'17141','17143','17144','17145','18018','18021','18028','18051','18054','18056',\n",
+      "'18058','18062','18063','18068','18070','18075','18082','18085','18089','18091',\n",
+      "'18092','18094','18099','18100','18103','18105','18107','18108','18109','18110',\n",
+      "'18111','18112','18113','18114','18116','19010','19012','19024','19044','19045',\n",
+      "'19062','19066','19072','19073','19075','19077','19078','19083','19085','19087',\n",
+      "'19088','19093','19094','19095','19096','19098','19099','19100','19102','19103',\n",
+      "'19105','19106','19107','19109','19110','19111','19112','19113','19115','19116',\n",
+      "'19117','19118','19119','19120','19121','19122','19123','19124','20001','20009',\n",
+      "'20015','20020','20022','20023','20024','20025','21009','21028','21029','21035',\n",
+      "'21038','21039','21041','21044','21045','21046','21047','21048','21049','21052',\n",
+      "'21056','21057','21058','21061','21062','22009','22024','22031','22040','22041',\n",
+      "'22042','22046','22050','22055','22056','22057','22058','22060','22061','22062',\n",
+      "'22063','22064','22065','22066','22070','23043','23044','23059','23062','23078',\n",
+      "'23085','23089','23093','23094','23095','23098','23114','23117','23120','23127',\n",
+      "'23154','23155','23156','23157','23159','23161','23162','23163','23165','23166',\n",
+      "'23167','23168','23169','23170','23171','23172','23173','23174','23175','23178',\n",
+      "'23179','23184','24063','24091','24099','24104','24107','24113','24115','24124',\n",
+      "'24126','24127','24130','24131','24132','24133','24134','24135','24136','24138',\n",
+      "'24139','24140','24141','24142','24143','24144','24145','24146','24147','25008',\n",
+      "'25049','25055','25059','25060','25064','25067','25072','25076','25077','25079',\n",
+      "'25090','25093','25094','25096','25098','25099','25103','25104','25106','25107',\n",
+      "'25108','26032','26033','26059','26065','26066','26079','26081','26084','26134',\n",
+      "'26139','26140','26149','26150','26153','26157','26158','26163','26164','26165',\n",
+      "'26167','26169','26170','26171','26173','26174','26175','26176','26180','26181',\n",
+      "'26183','26186','27002','27013','27023','27027','27042','27059','27064','27065',\n",
+      "'27068','27071','27073','27075','27076','27077','27078','27079','27080','27081',\n",
+      "'28054','28064','28065','28067','28070','28071','28072','28073','28074','28075',\n",
+      "'29047','29058','29067','29069','29071','29078','29081','29082','29083','29084',\n",
+      "'29085','29086','29087','29088','29089','29090','29091','29092','29094','30017',\n",
+      "'30020','30021','30023','30025','30026','30027','30028','31007','31012','31015',\n",
+      "'31016','31028','31029','31033','31044','31046','31047','31049','31050','31056',\n",
+      "'31060','31061','31064','31066','31067','31068','31070','32036','32038','32066',\n",
+      "'32074','32076','32088','32090','32091','32093','32095','32097','32098','32101',\n",
+      "'32102','32103','32104','32105','32108','32110','32111','32112','32113','32114',\n",
+      "'32115','33001','33029','33035','33050','33051','33064','33065','33066','33070',\n",
+      "'33088','33094','33097','33102','33106','33107','33111','33114','33115','33116',\n",
+      "'33119','33121','33124','33125','33127','33128','33129','33130','33131','33132',\n",
+      "'33133','33138','33139','33140','33141','33142','33143','33144','33146','33147',\n",
+      "'33149','33150','33152','33154','33155','33156','33157','33158','33159','33162',\n",
+      "'33165','33166','33167','33172','33174','33175','33177','33178','33182','34035',\n",
+      "'34053','34071','34075','34079','34084','34093','34108','34111','34112','34113',\n",
+      "'34114','34117','34125','34126','34136','34140','34143','34146','34147','34148',\n",
+      "'34151','34155','34158','34160','34161','34163','34164','34167','34169','34170',\n",
+      "'34173','34175','34176','34177','34178','34179','34181','34182','34183','34185',\n",
+      "'35036','35038','35039','35040','36052','36077','36082','36092','36095','36102',\n",
+      "'36104','36106','36107','36108','36109','36122','36123','36124','36128','36135',\n",
+      "'36137','36139','36140','36141','36144','36145','36146','36149','36150','36151',\n",
+      "'36152','36154','36156','36157','36158','36159','36160','36161','36162','36163',\n",
+      "'36166','36167','36168','36169','36171','36172','36173','37019','37056','37070',\n",
+      "'37078','37081','37090','37091','37093','37094','37095','37096','37099','37102',\n",
+      "'37105','37106','37107','37110','37111','37112','37113','37115','37116','37117',\n",
+      "'37118','37120','37123','37124','37125','37126','37127','37128','37129','37130',\n",
+      "'37131','37132','37133','37134','37136','37137','37139','38013','38071','38077',\n",
+      "'38083','38086','38092','38097','38098','38099','38100','38102','38103','38105',\n",
+      "'38106','38107','38109','38111','38113','38114','38115','38118','38119','38121',\n",
+      "'38122','38124','38125','38129','38130','38132','38135','38136','38137','38138',\n",
+      "'38139','38140','38142','38144','38145','38147','38149','38154','38155','38156',\n",
+      "'38160','38161','38162','38163','38164','38165','38166','38168','38169','38170',\n",
+      "'38171','38172','38175','38179','39020','39023','39036','39039','39063','39066',\n",
+      "'39067','39069','39079','39080','39088','39090','39091','39094','39095','39099',\n",
+      "'39101','39102','39104','39105','39106','39111','39113','39114','39116','39119',\n",
+      "'39120','39121','39123','39125','39129','39130','39132','39133','39134','39135',\n",
+      "'39136','39137','39139','39141','39142','39143','39147','40003','40007','41038',\n",
+      "'41042','41046','41050','41063','41067','41068','41069','41075','41078','41082',\n",
+      "'41085','41087','41088','41089','41092','41096','41097','41098','41099','41100',\n",
+      "'41101','41102','41103','41104','41105','41106','41107','42003','42004','42008',\n",
+      "'42016','42022','42028','42038','42041','42044','42045','42046','42048','42049',\n",
+      "'42051','42054','42055','43003','43029','43047','43070','43078','43090','43111',\n",
+      "'43117','43120','43122','43127','43131','43134','43144','43150','43152','43154',\n",
+      "'43156','43159','43160','43162','43164','43166','43168','43172','43173','43175',\n",
+      "'43176','43178','43179','43180','43181','43183','43184','43185','43187','43188',\n",
+      "'43189','44044','44184','44203','44204','44282','44286','44296','44298','44309',\n",
+      "'44335','44341','44361','44366','44369','44391','44392','44393','44403','44406',\n",
+      "'44411','44413','44418','44421','44427','44428','44429','44433','44436','44438',\n",
+      "'44439','44442','44443','44446','44448','44451','44461','44463','44464','44468',\n",
+      "'44469','44471','44472','44473','44475','44476','44477','44478','44479','44481',\n",
+      "'44484','44486','44490','44494','44495','44497','44498','44499','44500','44501',\n",
+      "'44502','44503','44504','44507','44508','44509','44510','44515','44516','44517',\n",
+      "'44518','44522','44524','44525','44527','44528','44533','44535','44537','44541',\n",
+      "'44545','44548','44549','44550','44551','44552','44553','44554','44555','44556',\n",
+      "'44558','44559','44560','44562','44565','44568','44572','44573','44574','44576',\n",
+      "'44579','44580','44581','44586','44587','44588','44589','44590','44591','44592',\n",
+      "'44594','44595','44596','44598','44599','44600','44601','44602','44603','44604',\n",
+      "'44606','44607','44608','44609','44610','44611','44615','44620','44621','44623',\n",
+      "'44624','44625','44626','44627','44628','44629','44630','44632','44634','44635',\n",
+      "'44637','44640','44641','44643','44644','44646','44647','44648','44650','44653',\n",
+      "'44657','44659','44660','44661','44662','44663','44664','44665','44667','44668',\n",
+      "'44669','44670','44671','44672','44673','44674','44676','44677','44678','44679',\n",
+      "'44680','44681','44682','44683','44684','44686','44687','44688','44689','44691',\n",
+      "'44692','44693','44695','44696','44697','44698','44699','44701','44702','44703',\n",
+      "'44704','44705','44706','44707','44709','44711','44712','44713','44714','44715',\n",
+      "'44716','44717','44718','44719','44721','44722','44723','44725','44726','44727',\n",
+      "'44728','44729','44730','44731','44732','44734','44735','44736','44737','44738',\n",
+      "'44739','44740','44741','44742','44744','44745','44746','44747','44749','44750',\n",
+      "'44751','44752','44754','44755','44761','44763','44764','44766','45001','45005',\n",
+      "'45016','45023','45024','45027','45028','45029','45040','45041','45043','45050',\n",
+      "'45059','45060','45061','45062','45067','45071','45072','45073','45075','45079',\n",
+      "'45081','45082','45083','45085','45086','45088','45089','45090','45091','45092',\n",
+      "'45093','45096','45097','46001','46005','46013','46014','46015','47071','47076',\n",
+      "'47077','47080','47081','47084','47087','47089','47092','47093','47094','47101',\n",
+      "'47108','47109','47113','47114','47116','47117','47120','47122','47123','47125',\n",
+      "'47126','47127','47130','47131','47132','47134','47135','47136','47138','47139',\n",
+      "'47142','47143','47144','47146','47147','47148','47149','47150','48021','48045',\n",
+      "'48050','48070','48077','48083','48090','48092','48100','48106','48113','48115',\n",
+      "'48117','48118','48121','48122','48124','48127','48128','48129','48133','48140',\n",
+      "'48141','48144','48145','48146','48147','48148','48149','48152','48153','48154',\n",
+      "'48155','48157','48159','48161','48162','48166','48167','48168','48169','48170',\n",
+      "'48171','48172','48173','48174','48175','48176','48177','48178','48179','48180',\n",
+      "'48181','48182','48183','48184','48186','48188','49030','49032','49033','49035',\n",
+      "'50021','50023','50024','50025','50056','50061','50082','50085','50090','50092',\n",
+      "'50093','50102','50103','50106','50107','50110','50111','50115','50116','50118',\n",
+      "'50120','50121','50122','50126','50127','50131','50132','50134','50135','50136',\n",
+      "'50137','50139','50140','50141','50142','50143','50144','50145','50146','50147',\n",
+      "'50148','50149','51004','51006','51015','51018','51023','51024','51048','51054',\n",
+      "'51060','51063','51066','51068','51069','51070','51071','51072','51073','52002',\n",
+      "'52003','52004','52005','52006','52009','52011','52012','52013','52017','52018',\n",
+      "'52021','52022','52023','52024','52025','52031','52032','52033','52036','52043',\n",
+      "'52044','52045','52046','52047','52049','52050','52057','52058','52063','52067',\n",
+      "'53001','53005','53011','53012','53013','53014','53015','53017','53018','53019',\n",
+      "'53024','53026','53027','54002','54004','54009','54014','54016','54018','54027',\n",
+      "'54028','54031','54033','54034','54036','54038','54043','54045','54046','54047',\n",
+      "'54048','54049','54051','54052','54053','54058','54059','54061','54062','54063',\n",
+      "'54064','54071','54073','54076','54077','54078','54080','54085','54089','54098',\n",
+      "'54100','54101','54102','54108','54110','54111','54112','54120','54121','54124',\n",
+      "'54125','54126','54130','54132','55001','55003','55010','55014','55015','55020',\n",
+      "'55021','55030','55032','55040','55046','55047','55050','55052','55057','55064',\n",
+      "'55067','55068','55069','55072','55075','55077','55078','55082','55086','55087',\n",
+      "'55088','55089','55091','55092','55097','56001','56002','56003','56004','56005',\n",
+      "'56006','56007','56008','56009','56010','56011','56012','56013','56014','56015',\n",
+      "'56018','56019','56020','56021','56022','56023','56024','56025','56027','56028',\n",
+      "'56029','56030','56031','56032','56033','56034','56035','56036','56037','56038',\n",
+      "'56039','56100','56101','56102','56104','56109','56110','56200','56300','56301',\n",
+      "'56303','56304','56305','56307','56308','56400','56500','56701','56702','56703',\n",
+      "'58001','59200','59202','60003','61005','61027','61028','61030','61033','61035',\n",
+      "'61037','61039','61040','61041','61042','61043','61045','61049','61052','61057',\n",
+      "'61061','61062','61066','61069','61072','61075','61076','61077','61078','61079',\n",
+      "'61081','61082','61083','61085','61086','61088','61089','61091','61092','61093',\n",
+      "'61094','61095','61096','61097','61098','61099','61100','61102','61103','62001',\n",
+      "'62024','62025','62027','62046','62054','62059','62063','62067','62068','62072',\n",
+      "'62075','62076','62079','62085','62096','62099','62100','62101','62102','62103',\n",
+      "'62104','62105','62106','62108','62111','62113','62115','62116','62117','62119',\n",
+      "'62120','62121','62122','62126','62127','62128','62129','62130','62131','62132',\n",
+      "'62133','62134','62135','62137','62138','62139','62501','63011','63012','63014',\n",
+      "'63015','63016','63017','63018','63019','64007','64008','64009','64010','64011',\n",
+      "'64012','64014','65003','65009','65012','65013','65014','65015','66001','66006',\n",
+      "'66007','66015','66016','66017','66019','66023','66033','66036','66037','66038',\n",
+      "'66039','66042','66045','66046','66050','66053','66054','66055','66058','66059',\n",
+      "'66064','66065','66070','66077','66080','66081','66085','66086','66087','66088',\n",
+      "'66090','66092','66093','66094','66096','66098','66099','66100','66101','66105',\n",
+      "'66107','66110','66111','66112','66113','66114','66116','66117','66118','66121',\n",
+      "'66122','66123','66124','66125','66126','67007','67009','67012','67013','67015',\n",
+      "'67016','67019','67020','67023','67024','67026','67029','67031','68023','68025',\n",
+      "'68026','68028','68029','68030','68031','68032','68034','70078','70089','70090',\n",
+      "'70097','70099','70102','70104','70108','70111','70117','70119','70128','70132',\n",
+      "'70134','70142','70143','70144','70146','70148','70150','70154','70159','70162',\n",
+      "'70164','70165','70172','70177','70183','70186','70189','70191','70192','70195',\n",
+      "'70196','70197','70203','70207','70209','70253','70255','70257','70258','70262',\n",
+      "'70264','70270','70271','70275','70276','70278','70280','70281','70282','70284',\n",
+      "'70285','70286','70302','70405','70602','70604','70605','70606','70607','70618',\n",
+      "'70620','70702','70806','70807','70901','71022','71023','72064','73048','73083',\n",
+      "'73085','73090','73093','73103','73107','73113','73117','73122','73132','73133',\n",
+      "'74023','75023','75031','75101','75102','75103','75104','75152','75153','75300',\n",
+      "'75301','75303','75403','75407','75410','75413','75419','75550','75601','75700',\n",
+      "'76008','76062','76067','76068','76072','76074','76075','76079','76411','76413',\n",
+      "'76414','76417','76420','76421','76538','76545','76549','76559','76564','76565',\n",
+      "'76570','76579','76585','76587','76590','76591','76707','76750','76803','76851',\n",
+      "'76924','76925','76928','76929','76963','76968','76976','76982','76985','76986',\n",
+      "'76987','76988','77055','77060','77068','77104','77106','77107','77108','77109',\n",
+      "'77115','77118','77119','77120','77519','77522','77547','77552','77553','77560',\n",
+      "'77579','77586','77587','77596','77597','77601','77702','77703','77704','77705',\n",
+      "'77706','77710','77713','77719','77720','77721','77722','77723','77724','77725',\n",
+      "'77726','77727','77728','77729','78001','78004','78006','78013','78015','78018',\n",
+      "'78020','78023','78030','78031','78032','78033','78034','78035','78503','78507',\n",
+      "'78523','78527','78528','78529','78530','78531','78532','78533','78534','78535',\n",
+      "'78536','78537','78538','78539','78540','78541','78542','78604','78605','78613',\n",
+      "'78621','78642','78656','78658','78662','78665','78683','78690','78695','78698',\n",
+      "'78700','78711','78720','78721','78722','78729','78730','79011','79060','79101',\n",
+      "'81002','81007','81010','81014','81016','81017','81019','81023','81025','81026',\n",
+      "'81030','81032','81036','81037','81038','81039','81040','81042','81043','83007',\n",
+      "'83027','83062','83064','83070','83076','83106','83119','83174','83187','83226',\n",
+      "'83242','83261','83266','83269','83287','83294','83296','83326','83340','83346',\n",
+      "'83352','83354','83365','83373','83375','83383','83405','83406','83418','83424',\n",
+      "'83428','83440','83448','83463','83465','83481','83482','83484','83486','83488',\n",
+      "'83495','83496','83501','83507','83510','83514','83520','83525','83532','83533',\n",
+      "'83535','83536','83538','83540','83543','83544','83547','83550','83551','83552',\n",
+      "'83553','83554','83607','83642','83646','83647','83648','83650','83651','83652',\n",
+      "'83653','83654','83656','83663','83664','83665','83668','83673','83674','83676',\n",
+      "'83677','83679','83682','83683','83691','83695','83699','83705','83708','83710',\n",
+      "'83712','83721','83722','83723','83726','83728','83731','83732','83733','83735',\n",
+      "'83740','83742','83744','83745','83750','83751','83752','83757','83764','83768',\n",
+      "'83770','83773','83775','83776','83780','83789','83792','83796','83799','83801',\n",
+      "'83802','83804','83810','83812','83816','83819','83826','83830','83831','83838',\n",
+      "'83847','83849','83851','83852','83857','83858','83862','83864','83869','83872',\n",
+      "'83873','83874','83875','83877','83878','83880','83881','83883','83884','83888',\n",
+      "'83889','83893','83895','83897','83898','83900','83901','83906','83907','83909',\n",
+      "'83912','83913','83915','83919','83920','83922','83923','83924','83926','83931',\n",
+      "'83932','83933','83934','83935','83937','83939','83941','83942','83943','83947',\n",
+      "'83948','83950','83952','83953','83954','83956','83959','83961','83967','83970',\n",
+      "'83971','83972','83974','83975','83976','83978','83979','83983','83984','83985',\n",
+      "'83991','83993','83994','84054','84088','84090','84204','84205','84206','84207',\n",
+      "'84208','84209','84210','84211','84212','84213','84215','84216','84217','84218',\n",
+      "'84221','84222','84223','84225','84226','84227','84229','84231','84232','84235',\n",
+      "'84236','84242','84244','84245','84246','84247','84248','84251','84253','84255',\n",
+      "'84256','84257','84258','84262','84264','84265','84266','84269','84270','84273',\n",
+      "'85064','85451','85460','85462','85465','85468','85483','88057','88060','88063',\n",
+      "'88072','88098','88101','88107','88119','88125','88126','88131','88132','88133',\n",
+      "'88134','88136','88137','88138','88139','88141','88142','88143','88144','88145',\n",
+      "'88146','88148','88149','88151','88152','88153','88154','88157','88158','88159',\n",
+      "'88161','88166','88167','88168','88169','88170','88171','88173','88175','88180',\n",
+      "'88181','88183','88186','88187','88188','88189','88191','88193','88196','88197',\n",
+      "'88198','88199','88200','88201','88202','88203','88205','88206','88207','88208',\n",
+      "'88209','88210','88211','88213','88214','88215','88216','88220','88222','88223',\n",
+      "'88224','88226','88227','88229','88230','88231','88232','88233','88234','88235',\n",
+      "'88237','88238','88239','88240','88241','88242','88243','88244','89091','89093',\n",
+      "'89097','89115','89118','89139','89140','89142','89143','89144','89145','89146',\n",
+      "'89147','89148','89318','89400','89403','89405','89502','89505','89619','89620',\n",
+      "'89802','89803','89900','90152','90253','90343','90400','90466','90473','90503',\n",
+      "'90534','90541','90543','90562','90653','90665','90709','90711','90740','90782',\n",
+      "'90792','90855','90862','90867','90897','90902','90903','90912','90919','90935',\n",
+      "'90969','90976','91081','91207','91209','91211','91215','91232','91233','91400',\n",
+      "'91401','91450','91451','91453','91456','91457','91458','92097','92112','92200',\n",
+      "'92210','92521','92523','92571','92579','92591','92597','92613','92615','92627',\n",
+      "'92628','92642','92647','92672','92676','92681','92687','92694','92702','92718',\n",
+      "'92722','92723','92725','92729','92731','92732','92733','92734','92736','92737',\n",
+      "'92738','92739','92740','92741','92742','92743','92744','92914','92922','92925',\n",
+      "'92927','92931','92933','92939','92941','92943','92945','92946','92947','92948',\n",
+      "'93007','93013','93032','93037','93079','93090','93092','93098','93126','93160',\n",
+      "'93170','93185','93196','93201','93203','93212','93225','93255','93261','93278',\n",
+      "'93281','93285','93293','93307','93333','93364','93366','93374','93375','93385',\n",
+      "'93388','93390','93394','93396','93412','93417','93421','93427','93437','93449',\n",
+      "'93454','93456','93458','93462','93469','93475','93477','93478','93481','93483',\n",
+      "'93485','93486','93490','93492','93493','93497','93498','93501','93507','93511',\n",
+      "'93516','93520','93526','93527','93529','93530','93532','93533','93534','93536',\n",
+      "'93540','93541','93543','93544','93546','93547','93550','93552','93556','93557',\n",
+      "'93559','93561','93563','93571','93574','93576','93578','93582','93583','93585',\n",
+      "'93588','93589','93593','93597','93598','93601','93602','93603','93604','93606',\n",
+      "'93608','93610','93612','93613','93616','93617','93618','93620','93621','93629',\n",
+      "'93631','93633','93634','93635','93636','93640','93641','93642','93645','93652',\n",
+      "'93654','93656','93657','93658','93659','93662','93667','93668','93669','93670',\n",
+      "'93671','93672','93675','93676','93677','93678','93679','93683','93684','93685',\n",
+      "'93686','93691','93693','93695','93696','93700','93701','93702','93704','93707',\n",
+      "'93712','93713','93714','93716','93720','93721','93722','93725','93728','93729',\n",
+      "'93731','93732','93734','93736','93737','93742','93747','93749','93750','93752',\n",
+      "'93755','93756','93757','93758','93759','93761','93763','93764','93765','93768',\n",
+      "'93771','93774','93775','93776','93777','93778','93780','93781','93782','93783',\n",
+      "'93785','93787','93788','93789','93790','93791','93792','93795','93796','93799',\n",
+      "'93800','93802','93804','93806','93807','93808','93809','93810','93811','93812',\n",
+      "'93813','93815','93816','93817','93818','93819','93820','93821','93822','93823',\n",
+      "'93824','93826','93827','93828','93829','93831','93832','93833','93834','93835',\n",
+      "'93836','93837','93838','93841','93842','93843','93844','93845','93846','93847',\n",
+      "'93848','93849','93850','93851','93852','93853','93854','93855','93856','93857',\n",
+      "'93858','93859','93860','93861','93862','93863','93864','93865','93867','93868',\n",
+      "'93869','93870','93871','93874','93875','93876','93878','93879','93880','93881',\n",
+      "'93882','93883','93884','93885','93886','93888','93889','93890','94023','94083',\n",
+      "'94091','94183','94208','94213','94228','94229','94230','94231','94232','94233',\n",
+      "'94234','94235','95010','95012','95013','95017','95023','95025','95077','95086',\n",
+      "'95091','95092','95103','95123','95125','95132','95134','95140','95146','95156',\n",
+      "'95173','95178','95180','95181','95182','95183','95187','95197','95202','95204',\n",
+      "'95208','95209','95216','95224','95240','95242','95260','95263','95265','95270',\n",
+      "'95271','95273','95275','95276','95278','95282','95290','95291','95292','95293',\n",
+      "'95294','95295','95296','95304','95305','95308','95310','95314','95315','95318',\n",
+      "'95323','95324','95325','95327','95328','95329','95330','95333','95338','95341',\n",
+      "'95344','95352','95353','95354','95355','95360','95361','95362','95363','95364',\n",
+      "'95367','95368','95369','95371','95372','95376','95379','95380','95381','95382',\n",
+      "'95383','95386','95387','95388','95389','95390','95393','95394','95405','95406',\n",
+      "'95408','95412','95416','95417','95424','95425','95426','95429','95430','95432',\n",
+      "'95435','95439','95440','95441','95442','95444','95445','95447','95448','95449',\n",
+      "'95450','95451','95454','95455','95456','95457','95458','95460','95461','95463',\n",
+      "'95464','95465','95466','95467','95468','95470','95471','95472','95473','95474',\n",
+      "'95475','95477','95478','95479','95480','95481','95482','95483','95484','95486',\n",
+      "'95487','95488','95490','95491','95492','95493','95495','95496','95498','95499',\n",
+      "'95501','95502','95503','95504','95505','95506','95507','95508','95509','95510',\n",
+      "'95511','95512','95513','95515','95516','95518','95519','95520','95521','95525',\n",
+      "'95526','95527','95528','95529','95532','95533','95536','96006','96012','96059',\n",
+      "'96062','96069','96073','96079','96080','96087','96092','96093','96094','96095',\n",
+      "'96097','97103','97113','97121','97158','97160','97165','97173','97207','97224',\n",
+      "'97236','97241','97261','97270','97273','97297','97304','97318','97320','97321',\n",
+      "'97322','97329','97330','97350','97358','97360','97362','97369','97374','97379',\n",
+      "'97381','97384','97388','97390','97391','97393','97402','97409','97412','97413',\n",
+      "'97419','97421','97425','97426','97428','97430','97431','97433','97434','97435',\n",
+      "'97436','97442','97447','97450','97452','97453','97454','97455','97456','97459',\n",
+      "'97460','97461','97462','97463','97464','97465','97466','97467','98024','98025',\n",
+      "'98033','98041','98050','98058','98068','98073','98080','98088','98091','98094',\n",
+      "'98097','98103','98105','98107','98108','98119','98120','98124','98125','98130',\n",
+      "'98133','98134','98139','98144','98147','98150','98151','98152','98154','98159',\n",
+      "'98161','98163','98166','98171','98177','98182','98183','98188','98191','98195',\n",
+      "'98196','98204','98205','98206','98207','98212','98213','98215','98217','98219',\n",
+      "'98221','98222','98227','98229','98233','98234','98235','98236','98237','98241',\n",
+      "'98242','98244','98245','98246','98247','98248','98250','98252','98254','98257',\n",
+      "'98261','98264','98265','98270','98274','98276','98280','98281','98282','98284',\n",
+      "'98286','98289','98290','98291','98293','98294','98295','98296','98299','98304',\n",
+      "'98305','98306','98307','98308','98311','98315','98316','98317','98318','98320',\n",
+      "'98321','98323','98325','98326','98327','98331','98332','98334','98336','98338',\n",
+      "'98339','98340','98342','98343','98345','98346','98347','98351','98352','98353',\n",
+      "'98354','98356','98359','98360','98361','98363','98364','98365','98366','98367',\n",
+      "'98368','98369','98370','98371','98373','98374','98376','98378','98379','98380',\n",
+      "'98381','98382','98385','98388','98390','98391','98392','98393','98394','98395',\n",
+      "'98396','98397','98398','98399','99003','99028','99033','99034','99035','99036',\n",
+      "'99043','99044','99045','99049','99060','99061','99103','99104','99105','99106',\n",
+      "'99107','99312','99313','99325','99330','99353','99356','99360','99363','99365',\n",
+      "'99366','99367','99368','99507','99509','99512','99516','99520','99522','99524',\n",
+      "'99525','99526','99527','99528','99529','99701','99702','99805','99806','99807',\n",
+      "'99808','99809','99810','99811','99812','99813\n"
+     ]
+    }
+   ],
+   "source": [
+    "pilots = ['00010', '00014', '00016', '00023', '00535', '01007', '01047', '01051', '01063', '01064', '01066', '01069', '01070', '01073', '01077', '01081', '01084', '01088', '01094', '01096', '01104', '01106', '01107', '01112', '01114', '01115', '01117', '01120', '01121', '01122', '01124', '01125', '01126', '01128', '01132', '02004', '02005', '02006', '02008', '02011', '02012', '02013', '02014', '02016', '02017', '02018', '02019', '03002', '03004', '03012', '03029', '03049', '03054', '03059', '03061', '03062', '03066', '03067', '03074', '03092', '03093', '03097', '03099', '03101', '03102', '03115', '03116', '03117', '03118', '03121', '03122', '03123', '03124', '03125', '03126', '03130', '03133', '03134', '03136', '03143', '03144', '03147', '03148', '03149', '03150', '03151', '03152', '03153', '03154', '03155', '03156', '03157', '03158', '03160', '03161', '03162', '03163', '03164', '03166', '04030', '04042', '04073', '04076', '04077', '04080', '04083', '04084', '04085', '04091', '04098', '04100', '04106', '04108', '04109', '04110', '04111', '04113', '04115', '04116', '04117', '04118', '05002', '05006', '05016', '05020', '05022', '05031', '05035', '05052', '05063', '05067', '05084', '05085', '05093', '05125', '05139', '05172', '05182', '05185', '05201', '05204', '05206', '05215', '05219', '05220', '05224', '05225', '05226', '05227', '05230', '05232', '05240', '05243', '05244', '05251', '05259', '05268', '05271', '05280', '05281', '05291', '05297', '05313', '05315', '05316', '05323', '05326', '05328', '05336', '05338', '05340', '05341', '05343', '05345', '05353', '05357', '05360', '05362', '05363', '05364', '05369', '05370', '05371', '05377', '05378', '05382', '05385', '05386', '05391', '05397', '05398', '05399', '05402', '05403', '05405', '05406', '05408', '05416', '05417', '05421', '05422', '05423', '05425', '05426', '05427', '05429', '05431', '05432', '05433', '05435', '05440', '05441', '05443', '05444', '05448', '05453', '05456', '05457', '05459', '05461', '05463', '05465', '05466', '05469', '05470', '05471', '05472', '05473', '05475', '05476', '05478', '05479', '05480', '05481', '05487', '05488', '05491', '05492', '05494', '05497', '05505', '05508', '05512', '05514', '05517', '05518', '05521', '05522', '05523', '05525', '05526', '05533', '05535', '05536', '05538', '05543', '05546', '05548', '05551', '05555', '05556', '05557', '05558', '05560', '05561', '05562', '05563', '05565', '05566', '05569', '05570', '05571', '05572', '05574', '05575', '05577', '05578', '05581', '05582', '05586', '05590', '05592', '05593', '05595', '05596', '05597', '05598', '05599', '05600', '05601', '05603', '05604', '05605', '05606', '05607', '05610', '05612', '05613', '05614', '05619', '05621', '05622', '05623', '05625', '05628', '05630', '05631', '05634', '05635', '05636', '05638', '05639', '05641', '05642', '05644', '05645', '05646', '05651', '05652', '05653', '05658', '05660', '05662', '05663', '05664', '05665', '05667', '05669', '05671', '05672', '05673', '05674', '05676', '05677', '05680', '05681', '05683', '05685', '05686', '05687', '05688', '05689', '05690', '05691', '05693', '05694', '05695', '05696', '05699', '05700', '05701', '05703', '05705', '05706', '05707', '05708', '05709', '05710', '05711', '05712', '05713', '05715', '05716', '05718', '05719', '05720', '05721', '05722', '05723', '05724', '05725', '05726', '05728', '05730', '05731', '05732', '05734', '05735', '05738', '05739', '05740', '05741', '05743', '05744', '05745', '05746', '05747', '05748', '05754', '05755', '05757', '06001', '06009', '06029', '06038', '06040', '06042', '06044', '06084', '06098', '06103', '06108', '06114', '06144', '06153', '06156', '06157', '06161', '06163', '06164', '06165', '06167', '06168', '06169', '06170', '06171', '06173', '06178', '06179', '06180', '06181', '06182', '06183', '06184', '06185', '06186', '06187', '06188', '06191', '06193', '06194', '06196', '07011', '07012', '07016', '07018', '07021', '07025', '07026', '07029', '08006', '08010', '09101', '10011', '10038', '10096', '10116', '10150', '10151', '10168', '10180', '10184', '10200', '10206', '10212', '10214', '10222', '10225', '10226', '10246', '10250', '10254', '10255', '10267', '10268', '10269', '10270', '10271', '10272', '10277', '10279', '10280', '10281', '10283', '10285', '10286', '10288', '10289', '10297', '10302', '10303', '10306', '10308', '10314', '10323', '10324', '10338', '10341', '10344', '10346', '10349', '10352', '10354', '10355', '10356', '10359', '10360', '10361', '10365', '10366', '10368', '10370', '10371', '10372', '10373', '10377', '10380', '10381', '10384', '10385', '10386', '10387', '10388', '10389', '10390', '10391', '10392', '10394', '10395', '10397', '10398', '10399', '10400', '10401', '10402', '10403', '10404', '10405', '10406', '10407', '10408', '10409', '10410', '10411', '10413', '10414', '10417', '11045', '11058', '11067', '11090', '11101', '11113', '11118', '11119', '11120', '11123', '11133', '11139', '11141', '11146', '11154', '11164', '11170', '11173', '11178', '11187', '11190', '11192', '11194', '11198', '11203', '11205', '11208', '11209', '11211', '11212', '11213', '11214', '11215', '11216', '11217', '11218', '11220', '11221', '11223', '11224', '11225', '11227', '11231', '12008', '12012', '13005', '13027', '13029', '13032', '13035', '13037', '13042', '13044', '13046', '13047', '13049', '13050', '13051', '13052', '13054', '13055', '13056', '13057', '13059', '13060', '13061', '13062', '14038', '14092', '14105', '14108', '14112', '14119', '14120', '14129', '14132', '14135', '14139', '14147', '14150', '14151', '14152', '14155', '14157', '14159', '14164', '14170', '14172', '14180', '14181', '14182', '14183', '14185', '14186', '14188', '14189', '14190', '14191', '14193', '14194', '14195', '14197', '14198', '14199', '14201', '14202', '14203', '14204', '14205', '14206', '14208', '14209', '14210', '14211', '14212', '14213', '14214', '14215', '14216', '14217', '14218', '14219', '14221', '15039', '15061', '15066', '15067', '15068', '15069', '15070', '15071', '15076', '15077', '15078', '15083', '15084', '15085', '15092', '15095', '15096', '15100', '15103', '15104', '15105', '15107', '15108', '15110', '15111', '15113', '15114', '15116', '15122', '16032', '16064', '16066', '16071', '16073', '16077', '16081', '16083', '16085', '16097', '16099', '16101', '16103', '16104', '16107', '16108', '16109', '16110', '17013', '17080', '17107', '17115', '17116', '17117', '17118', '17122', '17124', '17126', '17127', '17128', '17129', '17130', '17131', '17132', '17133', '17134', '17136', '17137', '17138', '17139', '17140', '17141', '17143', '17144', '17145', '18018', '18021', '18028', '18051', '18054', '18056', '18058', '18062', '18063', '18068', '18070', '18075', '18082', '18085', '18089', '18091', '18092', '18094', '18099', '18100', '18103', '18105', '18107', '18108', '18109', '18110', '18111', '18112', '18113', '18114', '18116', '19010', '19012', '19024', '19044', '19045', '19062', '19066', '19072', '19073', '19075', '19077', '19078', '19083', '19085', '19087', '19088', '19093', '19094', '19095', '19096', '19098', '19099', '19100', '19102', '19103', '19105', '19106', '19107', '19109', '19110', '19111', '19112', '19113', '19115', '19116', '19117', '19118', '19119', '19120', '19121', '19122', '19123', '19124', '20001', '20009', '20015', '20020', '20022', '20023', '20024', '20025', '21009', '21028', '21029', '21035', '21038', '21039', '21041', '21044', '21045', '21046', '21047', '21048', '21049', '21052', '21056', '21057', '21058', '21061', '21062', '22009', '22024', '22031', '22040', '22041', '22042', '22046', '22050', '22055', '22056', '22057', '22058', '22060', '22061', '22062', '22063', '22064', '22065', '22066', '22070', '23043', '23044', '23059', '23062', '23078', '23085', '23089', '23093', '23094', '23095', '23098', '23114', '23117', '23120', '23127', '23154', '23155', '23156', '23157', '23159', '23161', '23162', '23163', '23165', '23166', '23167', '23168', '23169', '23170', '23171', '23172', '23173', '23174', '23175', '23178', '23179', '23184', '24063', '24091', '24099', '24104', '24107', '24113', '24115', '24124', '24126', '24127', '24130', '24131', '24132', '24133', '24134', '24135', '24136', '24138', '24139', '24140', '24141', '24142', '24143', '24144', '24145', '24146', '24147', '25008', '25049', '25055', '25059', '25060', '25064', '25067', '25072', '25076', '25077', '25079', '25090', '25093', '25094', '25096', '25098', '25099', '25103', '25104', '25106', '25107', '25108', '26032', '26033', '26059', '26065', '26066', '26079', '26081', '26084', '26134', '26139', '26140', '26149', '26150', '26153', '26157', '26158', '26163', '26164', '26165', '26167', '26169', '26170', '26171', '26173', '26174', '26175', '26176', '26180', '26181', '26183', '26186', '27002', '27013', '27023', '27027', '27042', '27059', '27064', '27065', '27068', '27071', '27073', '27075', '27076', '27077', '27078', '27079', '27080', '27081', '28054', '28064', '28065', '28067', '28070', '28071', '28072', '28073', '28074', '28075', '29047', '29058', '29067', '29069', '29071', '29078', '29081', '29082', '29083', '29084', '29085', '29086', '29087', '29088', '29089', '29090', '29091', '29092', '29094', '30017', '30020', '30021', '30023', '30025', '30026', '30027', '30028', '31007', '31012', '31015', '31016', '31028', '31029', '31033', '31044', '31046', '31047', '31049', '31050', '31056', '31060', '31061', '31064', '31066', '31067', '31068', '31070', '32036', '32038', '32066', '32074', '32076', '32088', '32090', '32091', '32093', '32095', '32097', '32098', '32101', '32102', '32103', '32104', '32105', '32108', '32110', '32111', '32112', '32113', '32114', '32115', '33001', '33029', '33035', '33050', '33051', '33064', '33065', '33066', '33070', '33088', '33094', '33097', '33102', '33106', '33107', '33111', '33114', '33115', '33116', '33119', '33121', '33124', '33125', '33127', '33128', '33129', '33130', '33131', '33132', '33133', '33138', '33139', '33140', '33141', '33142', '33143', '33144', '33146', '33147', '33149', '33150', '33152', '33154', '33155', '33156', '33157', '33158', '33159', '33162', '33165', '33166', '33167', '33172', '33174', '33175', '33177', '33178', '33182', '34035', '34053', '34071', '34075', '34079', '34084', '34093', '34108', '34111', '34112', '34113', '34114', '34117', '34125', '34126', '34136', '34140', '34143', '34146', '34147', '34148', '34151', '34155', '34158', '34160', '34161', '34163', '34164', '34167', '34169', '34170', '34173', '34175', '34176', '34177', '34178', '34179', '34181', '34182', '34183', '34185', '35036', '35038', '35039', '35040', '36052', '36077', '36082', '36092', '36095', '36102', '36104', '36106', '36107', '36108', '36109', '36122', '36123', '36124', '36128', '36135', '36137', '36139', '36140', '36141', '36144', '36145', '36146', '36149', '36150', '36151', '36152', '36154', '36156', '36157', '36158', '36159', '36160', '36161', '36162', '36163', '36166', '36167', '36168', '36169', '36171', '36172', '36173', '37019', '37056', '37070', '37078', '37081', '37090', '37091', '37093', '37094', '37095', '37096', '37099', '37102', '37105', '37106', '37107', '37110', '37111', '37112', '37113', '37115', '37116', '37117', '37118', '37120', '37123', '37124', '37125', '37126', '37127', '37128', '37129', '37130', '37131', '37132', '37133', '37134', '37136', '37137', '37139', '38013', '38071', '38077', '38083', '38086', '38092', '38097', '38098', '38099', '38100', '38102', '38103', '38105', '38106', '38107', '38109', '38111', '38113', '38114', '38115', '38118', '38119', '38121', '38122', '38124', '38125', '38129', '38130', '38132', '38135', '38136', '38137', '38138', '38139', '38140', '38142', '38144', '38145', '38147', '38149', '38154', '38155', '38156', '38160', '38161', '38162', '38163', '38164', '38165', '38166', '38168', '38169', '38170', '38171', '38172', '38175', '38179', '39020', '39023', '39036', '39039', '39063', '39066', '39067', '39069', '39079', '39080', '39088', '39090', '39091', '39094', '39095', '39099', '39101', '39102', '39104', '39105', '39106', '39111', '39113', '39114', '39116', '39119', '39120', '39121', '39123', '39125', '39129', '39130', '39132', '39133', '39134', '39135', '39136', '39137', '39139', '39141', '39142', '39143', '39147', '40003', '40007', '41038', '41042', '41046', '41050', '41063', '41067', '41068', '41069', '41075', '41078', '41082', '41085', '41087', '41088', '41089', '41092', '41096', '41097', '41098', '41099', '41100', '41101', '41102', '41103', '41104', '41105', '41106', '41107', '42003', '42004', '42008', '42016', '42022', '42028', '42038', '42041', '42044', '42045', '42046', '42048', '42049', '42051', '42054', '42055', '43003', '43029', '43047', '43070', '43078', '43090', '43111', '43117', '43120', '43122', '43127', '43131', '43134', '43144', '43150', '43152', '43154', '43156', '43159', '43160', '43162', '43164', '43166', '43168', '43172', '43173', '43175', '43176', '43178', '43179', '43180', '43181', '43183', '43184', '43185', '43187', '43188', '43189', '44044', '44184', '44203', '44204', '44282', '44286', '44296', '44298', '44309', '44335', '44341', '44361', '44366', '44369', '44391', '44392', '44393', '44403', '44406', '44411', '44413', '44418', '44421', '44427', '44428', '44429', '44433', '44436', '44438', '44439', '44442', '44443', '44446', '44448', '44451', '44461', '44463', '44464', '44468', '44469', '44471', '44472', '44473', '44475', '44476', '44477', '44478', '44479', '44481', '44484', '44486', '44490', '44494', '44495', '44497', '44498', '44499', '44500', '44501', '44502', '44503', '44504', '44507', '44508', '44509', '44510', '44515', '44516', '44517', '44518', '44522', '44524', '44525', '44527', '44528', '44533', '44535', '44537', '44541', '44545', '44548', '44549', '44550', '44551', '44552', '44553', '44554', '44555', '44556', '44558', '44559', '44560', '44562', '44565', '44568', '44572', '44573', '44574', '44576', '44579', '44580', '44581', '44586', '44587', '44588', '44589', '44590', '44591', '44592', '44594', '44595', '44596', '44598', '44599', '44600', '44601', '44602', '44603', '44604', '44606', '44607', '44608', '44609', '44610', '44611', '44615', '44620', '44621', '44623', '44624', '44625', '44626', '44627', '44628', '44629', '44630', '44632', '44634', '44635', '44637', '44640', '44641', '44643', '44644', '44646', '44647', '44648', '44650', '44653', '44657', '44659', '44660', '44661', '44662', '44663', '44664', '44665', '44667', '44668', '44669', '44670', '44671', '44672', '44673', '44674', '44676', '44677', '44678', '44679', '44680', '44681', '44682', '44683', '44684', '44686', '44687', '44688', '44689', '44691', '44692', '44693', '44695', '44696', '44697', '44698', '44699', '44701', '44702', '44703', '44704', '44705', '44706', '44707', '44709', '44711', '44712', '44713', '44714', '44715', '44716', '44717', '44718', '44719', '44721', '44722', '44723', '44725', '44726', '44727', '44728', '44729', '44730', '44731', '44732', '44734', '44735', '44736', '44737', '44738', '44739', '44740', '44741', '44742', '44744', '44745', '44746', '44747', '44749', '44750', '44751', '44752', '44754', '44755', '44761', '44763', '44764', '44766', '45001', '45005', '45016', '45023', '45024', '45027', '45028', '45029', '45040', '45041', '45043', '45050', '45059', '45060', '45061', '45062', '45067', '45071', '45072', '45073', '45075', '45079', '45081', '45082', '45083', '45085', '45086', '45088', '45089', '45090', '45091', '45092', '45093', '45096', '45097', '46001', '46005', '46013', '46014', '46015', '47071', '47076', '47077', '47080', '47081', '47084', '47087', '47089', '47092', '47093', '47094', '47101', '47108', '47109', '47113', '47114', '47116', '47117', '47120', '47122', '47123', '47125', '47126', '47127', '47130', '47131', '47132', '47134', '47135', '47136', '47138', '47139', '47142', '47143', '47144', '47146', '47147', '47148', '47149', '47150', '48021', '48045', '48050', '48070', '48077', '48083', '48090', '48092', '48100', '48106', '48113', '48115', '48117', '48118', '48121', '48122', '48124', '48127', '48128', '48129', '48133', '48140', '48141', '48144', '48145', '48146', '48147', '48148', '48149', '48152', '48153', '48154', '48155', '48157', '48159', '48161', '48162', '48166', '48167', '48168', '48169', '48170', '48171', '48172', '48173', '48174', '48175', '48176', '48177', '48178', '48179', '48180', '48181', '48182', '48183', '48184', '48186', '48188', '49030', '49032', '49033', '49035', '50021', '50023', '50024', '50025', '50056', '50061', '50082', '50085', '50090', '50092', '50093', '50102', '50103', '50106', '50107', '50110', '50111', '50115', '50116', '50118', '50120', '50121', '50122', '50126', '50127', '50131', '50132', '50134', '50135', '50136', '50137', '50139', '50140', '50141', '50142', '50143', '50144', '50145', '50146', '50147', '50148', '50149', '51004', '51006', '51015', '51018', '51023', '51024', '51048', '51054', '51060', '51063', '51066', '51068', '51069', '51070', '51071', '51072', '51073', '52002', '52003', '52004', '52005', '52006', '52009', '52011', '52012', '52013', '52017', '52018', '52021', '52022', '52023', '52024', '52025', '52031', '52032', '52033', '52036', '52043', '52044', '52045', '52046', '52047', '52049', '52050', '52057', '52058', '52063', '52067', '53001', '53005', '53011', '53012', '53013', '53014', '53015', '53017', '53018', '53019', '53024', '53026', '53027', '54002', '54004', '54009', '54014', '54016', '54018', '54027', '54028', '54031', '54033', '54034', '54036', '54038', '54043', '54045', '54046', '54047', '54048', '54049', '54051', '54052', '54053', '54058', '54059', '54061', '54062', '54063', '54064', '54071', '54073', '54076', '54077', '54078', '54080', '54085', '54089', '54098', '54100', '54101', '54102', '54108', '54110', '54111', '54112', '54120', '54121', '54124', '54125', '54126', '54130', '54132', '55001', '55003', '55010', '55014', '55015', '55020', '55021', '55030', '55032', '55040', '55046', '55047', '55050', '55052', '55057', '55064', '55067', '55068', '55069', '55072', '55075', '55077', '55078', '55082', '55086', '55087', '55088', '55089', '55091', '55092', '55097', '56001', '56002', '56003', '56004', '56005', '56006', '56007', '56008', '56009', '56010', '56011', '56012', '56013', '56014', '56015', '56018', '56019', '56020', '56021', '56022', '56023', '56024', '56025', '56027', '56028', '56029', '56030', '56031', '56032', '56033', '56034', '56035', '56036', '56037', '56038', '56039', '56100', '56101', '56102', '56104', '56109', '56110', '56200', '56300', '56301', '56303', '56304', '56305', '56307', '56308', '56400', '56500', '56701', '56702', '56703', '58001', '59200', '59202', '60003', '61005', '61027', '61028', '61030', '61033', '61035', '61037', '61039', '61040', '61041', '61042', '61043', '61045', '61049', '61052', '61057', '61061', '61062', '61066', '61069', '61072', '61075', '61076', '61077', '61078', '61079', '61081', '61082', '61083', '61085', '61086', '61088', '61089', '61091', '61092', '61093', '61094', '61095', '61096', '61097', '61098', '61099', '61100', '61102', '61103', '62001', '62024', '62025', '62027', '62046', '62054', '62059', '62063', '62067', '62068', '62072', '62075', '62076', '62079', '62085', '62096', '62099', '62100', '62101', '62102', '62103', '62104', '62105', '62106', '62108', '62111', '62113', '62115', '62116', '62117', '62119', '62120', '62121', '62122', '62126', '62127', '62128', '62129', '62130', '62131', '62132', '62133', '62134', '62135', '62137', '62138', '62139', '62501', '63011', '63012', '63014', '63015', '63016', '63017', '63018', '63019', '64007', '64008', '64009', '64010', '64011', '64012', '64014', '65003', '65009', '65012', '65013', '65014', '65015', '66001', '66006', '66007', '66015', '66016', '66017', '66019', '66023', '66033', '66036', '66037', '66038', '66039', '66042', '66045', '66046', '66050', '66053', '66054', '66055', '66058', '66059', '66064', '66065', '66070', '66077', '66080', '66081', '66085', '66086', '66087', '66088', '66090', '66092', '66093', '66094', '66096', '66098', '66099', '66100', '66101', '66105', '66107', '66110', '66111', '66112', '66113', '66114', '66116', '66117', '66118', '66121', '66122', '66123', '66124', '66125', '66126', '67007', '67009', '67012', '67013', '67015', '67016', '67019', '67020', '67023', '67024', '67026', '67029', '67031', '68023', '68025', '68026', '68028', '68029', '68030', '68031', '68032', '68034', '70078', '70089', '70090', '70097', '70099', '70102', '70104', '70108', '70111', '70117', '70119', '70128', '70132', '70134', '70142', '70143', '70144', '70146', '70148', '70150', '70154', '70159', '70162', '70164', '70165', '70172', '70177', '70183', '70186', '70189', '70191', '70192', '70195', '70196', '70197', '70203', '70207', '70209', '70253', '70255', '70257', '70258', '70262', '70264', '70270', '70271', '70275', '70276', '70278', '70280', '70281', '70282', '70284', '70285', '70286', '70302', '70405', '70602', '70604', '70605', '70606', '70607', '70618', '70620', '70702', '70806', '70807', '70901', '71022', '71023', '72064', '73048', '73083', '73085', '73090', '73093', '73103', '73107', '73113', '73117', '73122', '73132', '73133', '74023', '75023', '75031', '75101', '75102', '75103', '75104', '75152', '75153', '75300', '75301', '75303', '75403', '75407', '75410', '75413', '75419', '75550', '75601', '75700', '76008', '76062', '76067', '76068', '76072', '76074', '76075', '76079', '76411', '76413', '76414', '76417', '76420', '76421', '76538', '76545', '76549', '76559', '76564', '76565', '76570', '76579', '76585', '76587', '76590', '76591', '76707', '76750', '76803', '76851', '76924', '76925', '76928', '76929', '76963', '76968', '76976', '76982', '76985', '76986', '76987', '76988', '77055', '77060', '77068', '77104', '77106', '77107', '77108', '77109', '77115', '77118', '77119', '77120', '77519', '77522', '77547', '77552', '77553', '77560', '77579', '77586', '77587', '77596', '77597', '77601', '77702', '77703', '77704', '77705', '77706', '77710', '77713', '77719', '77720', '77721', '77722', '77723', '77724', '77725', '77726', '77727', '77728', '77729', '78001', '78004', '78006', '78013', '78015', '78018', '78020', '78023', '78030', '78031', '78032', '78033', '78034', '78035', '78503', '78507', '78523', '78527', '78528', '78529', '78530', '78531', '78532', '78533', '78534', '78535', '78536', '78537', '78538', '78539', '78540', '78541', '78542', '78604', '78605', '78613', '78621', '78642', '78656', '78658', '78662', '78665', '78683', '78690', '78695', '78698', '78700', '78711', '78720', '78721', '78722', '78729', '78730', '79011', '79060', '79101', '81002', '81007', '81010', '81014', '81016', '81017', '81019', '81023', '81025', '81026', '81030', '81032', '81036', '81037', '81038', '81039', '81040', '81042', '81043', '83007', '83027', '83062', '83064', '83070', '83076', '83106', '83119', '83174', '83187', '83226', '83242', '83261', '83266', '83269', '83287', '83294', '83296', '83326', '83340', '83346', '83352', '83354', '83365', '83373', '83375', '83383', '83405', '83406', '83418', '83424', '83428', '83440', '83448', '83463', '83465', '83481', '83482', '83484', '83486', '83488', '83495', '83496', '83501', '83507', '83510', '83514', '83520', '83525', '83532', '83533', '83535', '83536', '83538', '83540', '83543', '83544', '83547', '83550', '83551', '83552', '83553', '83554', '83607', '83642', '83646', '83647', '83648', '83650', '83651', '83652', '83653', '83654', '83656', '83663', '83664', '83665', '83668', '83673', '83674', '83676', '83677', '83679', '83682', '83683', '83691', '83695', '83699', '83705', '83708', '83710', '83712', '83721', '83722', '83723', '83726', '83728', '83731', '83732', '83733', '83735', '83740', '83742', '83744', '83745', '83750', '83751', '83752', '83757', '83764', '83768', '83770', '83773', '83775', '83776', '83780', '83789', '83792', '83796', '83799', '83801', '83802', '83804', '83810', '83812', '83816', '83819', '83826', '83830', '83831', '83838', '83847', '83849', '83851', '83852', '83857', '83858', '83862', '83864', '83869', '83872', '83873', '83874', '83875', '83877', '83878', '83880', '83881', '83883', '83884', '83888', '83889', '83893', '83895', '83897', '83898', '83900', '83901', '83906', '83907', '83909', '83912', '83913', '83915', '83919', '83920', '83922', '83923', '83924', '83926', '83931', '83932', '83933', '83934', '83935', '83937', '83939', '83941', '83942', '83943', '83947', '83948', '83950', '83952', '83953', '83954', '83956', '83959', '83961', '83967', '83970', '83971', '83972', '83974', '83975', '83976', '83978', '83979', '83983', '83984', '83985', '83991', '83993', '83994', '84054', '84088', '84090', '84204', '84205', '84206', '84207', '84208', '84209', '84210', '84211', '84212', '84213', '84215', '84216', '84217', '84218', '84221', '84222', '84223', '84225', '84226', '84227', '84229', '84231', '84232', '84235', '84236', '84242', '84244', '84245', '84246', '84247', '84248', '84251', '84253', '84255', '84256', '84257', '84258', '84262', '84264', '84265', '84266', '84269', '84270', '84273', '85064', '85451', '85460', '85462', '85465', '85468', '85483', '88057', '88060', '88063', '88072', '88098', '88101', '88107', '88119', '88125', '88126', '88131', '88132', '88133', '88134', '88136', '88137', '88138', '88139', '88141', '88142', '88143', '88144', '88145', '88146', '88148', '88149', '88151', '88152', '88153', '88154', '88157', '88158', '88159', '88161', '88166', '88167', '88168', '88169', '88170', '88171', '88173', '88175', '88180', '88181', '88183', '88186', '88187', '88188', '88189', '88191', '88193', '88196', '88197', '88198', '88199', '88200', '88201', '88202', '88203', '88205', '88206', '88207', '88208', '88209', '88210', '88211', '88213', '88214', '88215', '88216', '88220', '88222', '88223', '88224', '88226', '88227', '88229', '88230', '88231', '88232', '88233', '88234', '88235', '88237', '88238', '88239', '88240', '88241', '88242', '88243', '88244', '89091', '89093', '89097', '89115', '89118', '89139', '89140', '89142', '89143', '89144', '89145', '89146', '89147', '89148', '89318', '89400', '89403', '89405', '89502', '89505', '89619', '89620', '89802', '89803', '89900', '90152', '90253', '90343', '90400', '90466', '90473', '90503', '90534', '90541', '90543', '90562', '90653', '90665', '90709', '90711', '90740', '90782', '90792', '90855', '90862', '90867', '90897', '90902', '90903', '90912', '90919', '90935', '90969', '90976', '91081', '91207', '91209', '91211', '91215', '91232', '91233', '91400', '91401', '91450', '91451', '91453', '91456', '91457', '91458', '92097', '92112', '92200', '92210', '92521', '92523', '92571', '92579', '92591', '92597', '92613', '92615', '92627', '92628', '92642', '92647', '92672', '92676', '92681', '92687', '92694', '92702', '92718', '92722', '92723', '92725', '92729', '92731', '92732', '92733', '92734', '92736', '92737', '92738', '92739', '92740', '92741', '92742', '92743', '92744', '92914', '92922', '92925', '92927', '92931', '92933', '92939', '92941', '92943', '92945', '92946', '92947', '92948', '93007', '93013', '93032', '93037', '93079', '93090', '93092', '93098', '93126', '93160', '93170', '93185', '93196', '93201', '93203', '93212', '93225', '93255', '93261', '93278', '93281', '93285', '93293', '93307', '93333', '93364', '93366', '93374', '93375', '93385', '93388', '93390', '93394', '93396', '93412', '93417', '93421', '93427', '93437', '93449', '93454', '93456', '93458', '93462', '93469', '93475', '93477', '93478', '93481', '93483', '93485', '93486', '93490', '93492', '93493', '93497', '93498', '93501', '93507', '93511', '93516', '93520', '93526', '93527', '93529', '93530', '93532', '93533', '93534', '93536', '93540', '93541', '93543', '93544', '93546', '93547', '93550', '93552', '93556', '93557', '93559', '93561', '93563', '93571', '93574', '93576', '93578', '93582', '93583', '93585', '93588', '93589', '93593', '93597', '93598', '93601', '93602', '93603', '93604', '93606', '93608', '93610', '93612', '93613', '93616', '93617', '93618', '93620', '93621', '93629', '93631', '93633', '93634', '93635', '93636', '93640', '93641', '93642', '93645', '93652', '93654', '93656', '93657', '93658', '93659', '93662', '93667', '93668', '93669', '93670', '93671', '93672', '93675', '93676', '93677', '93678', '93679', '93683', '93684', '93685', '93686', '93691', '93693', '93695', '93696', '93700', '93701', '93702', '93704', '93707', '93712', '93713', '93714', '93716', '93720', '93721', '93722', '93725', '93728', '93729', '93731', '93732', '93734', '93736', '93737', '93742', '93747', '93749', '93750', '93752', '93755', '93756', '93757', '93758', '93759', '93761', '93763', '93764', '93765', '93768', '93771', '93774', '93775', '93776', '93777', '93778', '93780', '93781', '93782', '93783', '93785', '93787', '93788', '93789', '93790', '93791', '93792', '93795', '93796', '93799', '93800', '93802', '93804', '93806', '93807', '93808', '93809', '93810', '93811', '93812', '93813', '93815', '93816', '93817', '93818', '93819', '93820', '93821', '93822', '93823', '93824', '93826', '93827', '93828', '93829', '93831', '93832', '93833', '93834', '93835', '93836', '93837', '93838', '93841', '93842', '93843', '93844', '93845', '93846', '93847', '93848', '93849', '93850', '93851', '93852', '93853', '93854', '93855', '93856', '93857', '93858', '93859', '93860', '93861', '93862', '93863', '93864', '93865', '93867', '93868', '93869', '93870', '93871', '93874', '93875', '93876', '93878', '93879', '93880', '93881', '93882', '93883', '93884', '93885', '93886', '93888', '93889', '93890', '94023', '94083', '94091', '94183', '94208', '94213', '94228', '94229', '94230', '94231', '94232', '94233', '94234', '94235', '95010', '95012', '95013', '95017', '95023', '95025', '95077', '95086', '95091', '95092', '95103', '95123', '95125', '95132', '95134', '95140', '95146', '95156', '95173', '95178', '95180', '95181', '95182', '95183', '95187', '95197', '95202', '95204', '95208', '95209', '95216', '95224', '95240', '95242', '95260', '95263', '95265', '95270', '95271', '95273', '95275', '95276', '95278', '95282', '95290', '95291', '95292', '95293', '95294', '95295', '95296', '95304', '95305', '95308', '95310', '95314', '95315', '95318', '95323', '95324', '95325', '95327', '95328', '95329', '95330', '95333', '95338', '95341', '95344', '95352', '95353', '95354', '95355', '95360', '95361', '95362', '95363', '95364', '95367', '95368', '95369', '95371', '95372', '95376', '95379', '95380', '95381', '95382', '95383', '95386', '95387', '95388', '95389', '95390', '95393', '95394', '95405', '95406', '95408', '95412', '95416', '95417', '95424', '95425', '95426', '95429', '95430', '95432', '95435', '95439', '95440', '95441', '95442', '95444', '95445', '95447', '95448', '95449', '95450', '95451', '95454', '95455', '95456', '95457', '95458', '95460', '95461', '95463', '95464', '95465', '95466', '95467', '95468', '95470', '95471', '95472', '95473', '95474', '95475', '95477', '95478', '95479', '95480', '95481', '95482', '95483', '95484', '95486', '95487', '95488', '95490', '95491', '95492', '95493', '95495', '95496', '95498', '95499', '95501', '95502', '95503', '95504', '95505', '95506', '95507', '95508', '95509', '95510', '95511', '95512', '95513', '95515', '95516', '95518', '95519', '95520', '95521', '95525', '95526', '95527', '95528', '95529', '95532', '95533', '95536', '96006', '96012', '96059', '96062', '96069', '96073', '96079', '96080', '96087', '96092', '96093', '96094', '96095', '96097', '97103', '97113', '97121', '97158', '97160', '97165', '97173', '97207', '97224', '97236', '97241', '97261', '97270', '97273', '97297', '97304', '97318', '97320', '97321', '97322', '97329', '97330', '97350', '97358', '97360', '97362', '97369', '97374', '97379', '97381', '97384', '97388', '97390', '97391', '97393', '97402', '97409', '97412', '97413', '97419', '97421', '97425', '97426', '97428', '97430', '97431', '97433', '97434', '97435', '97436', '97442', '97447', '97450', '97452', '97453', '97454', '97455', '97456', '97459', '97460', '97461', '97462', '97463', '97464', '97465', '97466', '97467', '98024', '98025', '98033', '98041', '98050', '98058', '98068', '98073', '98080', '98088', '98091', '98094', '98097', '98103', '98105', '98107', '98108', '98119', '98120', '98124', '98125', '98130', '98133', '98134', '98139', '98144', '98147', '98150', '98151', '98152', '98154', '98159', '98161', '98163', '98166', '98171', '98177', '98182', '98183', '98188', '98191', '98195', '98196', '98204', '98205', '98206', '98207', '98212', '98213', '98215', '98217', '98219', '98221', '98222', '98227', '98229', '98233', '98234', '98235', '98236', '98237', '98241', '98242', '98244', '98245', '98246', '98247', '98248', '98250', '98252', '98254', '98257', '98261', '98264', '98265', '98270', '98274', '98276', '98280', '98281', '98282', '98284', '98286', '98289', '98290', '98291', '98293', '98294', '98295', '98296', '98299', '98304', '98305', '98306', '98307', '98308', '98311', '98315', '98316', '98317', '98318', '98320', '98321', '98323', '98325', '98326', '98327', '98331', '98332', '98334', '98336', '98338', '98339', '98340', '98342', '98343', '98345', '98346', '98347', '98351', '98352', '98353', '98354', '98356', '98359', '98360', '98361', '98363', '98364', '98365', '98366', '98367', '98368', '98369', '98370', '98371', '98373', '98374', '98376', '98378', '98379', '98380', '98381', '98382', '98385', '98388', '98390', '98391', '98392', '98393', '98394', '98395', '98396', '98397', '98398', '98399', '99003', '99028', '99033', '99034', '99035', '99036', '99043', '99044', '99045', '99049', '99060', '99061', '99103', '99104', '99105', '99106', '99107', '99312', '99313', '99325', '99330', '99353', '99356', '99360', '99363', '99365', '99366', '99367', '99368', '99507', '99509', '99512', '99516', '99520', '99522', '99524', '99525', '99526', '99527', '99528', '99529', '99701', '99702', '99805', '99806', '99807', '99808', '99809', '99810', '99811', '99812', '99813']\n",
+    "\n",
+    "i = 1\n",
+    "lis = []\n",
+    "for item in pilots:\n",
+    "    if i == 11:\n",
+    "        lis.append(\"\\n\")\n",
+    "        i = 1\n",
+    "    lis.append(item)\n",
+    "    i+=1\n",
+    "st = \"','\".join(lis)\n",
+    "st = st.replace(\"'\\n','\", \"\\n'\")\n",
+    "st = st.replace()\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Functional Programming"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from dataclasses import dataclass\n",
+    "@dataclass\n",
+    "class InventoryItem:\n",
+    "    name: str\n",
+    "    unit_price: float\n",
+    "    quantity_on_hand: int = 2\n",
+    "        \n",
+    "    def total_cost(self) -> float:\n",
+    "        return self.unit_price*self.quantity_on_hand\n",
+    "    \n",
+    "    def __post_init__(self, *args, **kwargs):\n",
+    "        assert isinstance(self.name, str)\n",
+    "    \n",
+    "    def xx_(name: dict, lastname: str) -> int:\n",
+    "        # dokümantasyon için, name dict lastname str gelmeli, gelmese de hata çıkmaz ama\n",
+    "        # şu tipi istiyorum diye göstermek için. fonk çıktı olarak int çıktı veriyormuş\n",
+    "        # -> Union[str, int] fonk çıktısı ya str olcak ya int\n",
+    "        ... # pass demek"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "InventoryItem(\"2\",3).total_cost() # name için 2 gönderdik, normalde hata çıkmaz ama\n",
+    "# bunu zorunlu yapmak, gelmedimi hata vermesi için post_init ekleyebiliyoruz\n",
+    "# int(2) yi str(2) ye çevirdik"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "None\n"
+     ]
+    }
+   ],
+   "source": [
+    "class x:\n",
+    "    name = None\n",
+    "    lastname = None\n",
+    "resp = x()\n",
+    "print(resp.name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "isinstance(5, int) # 5in tipi int mi"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[3, 4, 5]\n",
+      "[None, None, 3, 4, 5]\n"
+     ]
+    }
+   ],
+   "source": [
+    "s = [x for x in [1,2,3,4,5] if x > 2]\n",
+    "print(s)\n",
+    "s = [x if x > 2 else None for x in [1,2,3,4,5]]\n",
+    "print(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print([x for x in range(1_000) if x%10==0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'name': 'emrah'}"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data = {\"name\":\"emrah\", \"lastname\":None, \"age\":0}\n",
+    "data = {key:val for key,val in data.items() if val}\n",
+    "data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'m - d'"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "xx_ = lambda name, lastname : f'{name} - {lastname}'\n",
+    "data = {\"name\":\"m\", \"lastname\":\"d\"}\n",
+    "xx_(**data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'age' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-44-c1c0468195a9>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mdata\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mage\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;36m27\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0mxx_\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mdata\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'age' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "data[age] = 27\n",
+    "xx_(**data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[-5, -4, -3, -2, -1]\n"
+     ]
+    }
+   ],
+   "source": [
+    "num_list = range(-5, 5)\n",
+    "less_than_zero = list(filter(lambda x: x<0, num_list))\n",
+    "print(less_than_zero)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 4, 9, 16, 25]"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "items = [1,2,3,4,5]\n",
+    "squared = list(map(lambda x: x**2, items))\n",
+    "squared"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "24"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from functools import reduce\n",
+    "product = reduce((lambda x,y: x*y), [1,2,3,4])\n",
+    "product # reduce işlem sonucunu hafızada tutup sonraki sonuçlarla işleme sokar fakt, sum vb gibi\n",
+    "# count gerektiren işlemler yapmak için güzeldir"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'22'"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "nt_str = lambda x: (lambda y: str(y))(x)*x\n",
+    "nt_str(2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "770.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "def yap(para, yuzde, islem):\n",
+    "    if islem == \"zam\":\n",
+    "        return para + para*(yuzde/100)\n",
+    "    elif islem == \"indirim\":\n",
+    "        return para - para*(yuzde/100)\n",
+    "    else:\n",
+    "        return None\n",
+    "\n",
+    "print(yap(1000, 23, \"indirim\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'md'"
+      ]
+     },
+     "execution_count": 87,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "class A:\n",
+    "    name = \"md\"\n",
+    "\n",
+    "getattr(A(), \"name\", 0) # ya name attr getir yada sıfır"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "110.0"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import operator\n",
+    "def calculate_price(price, percentage, operation):\n",
+    "    return getattr(operator, operation)(price, (price*percentage)/100)\n",
+    "calculate_price(100, 10, \"add\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'m'"
+      ]
+     },
+     "execution_count": 90,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "from collections import namedtuple\n",
+    "\n",
+    "xx_ = namedtuple('B', \"name lastname\") # B adında class ve attributelerini oluşturduk\n",
+    "res = xx_(name=\"m\", lastname=\"d\")\n",
+    "res.name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'m'"
+      ]
+     },
+     "execution_count": 91,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data = {\"name\":\"m\", \"lastname\":\"d\"}\n",
+    "res = xx_(**data)\n",
+    "res.name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "__new__() got an unexpected keyword argument 'city'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-124-5518626e9a8c>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m     26\u001b[0m        \"department\":\"İK\", \"city\":\"istanbul\", \"country\":\"tr\", \"adres\":\"yok\", \"phone\":\"0033333\"}\n\u001b[1;32m     27\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 28\u001b[0;31m \u001b[0ma\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mEmployee\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m**\u001b[0m\u001b[0mdic\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     29\u001b[0m \u001b[0ma\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mTypeError\u001b[0m: __new__() got an unexpected keyword argument 'city'"
+     ]
+    }
+   ],
+   "source": [
+    "# 2\n",
+    "from dataclasses import dataclass\n",
+    "@dataclass\n",
+    "class Employee(object):\n",
+    "    name: str\n",
+    "    lastname: str\n",
+    "    age: int or None\n",
+    "    salary: int\n",
+    "    department: str\n",
+    "    \n",
+    "    def __new__(cls, name, lastname, age, salary, department):\n",
+    "        return object.__new__(cls)\n",
+    "    \n",
+    "    def __post_init__(self):\n",
+    "        if type(self.age) == str:\n",
+    "            self.age = int(self.age) or None\n",
+    "            \n",
+    "    def __str__(self):\n",
+    "        return f'{self.name}, {self.lastname}, {self.age}'\n",
+    "        \n",
+    "\n",
+    "dic = {\"name\":\"abdülmutallip\", \"lastname\":\"uzunkavakağacıaltındauzanıroğlu\", \"age\":\"24\", \"salary\":2000, \n",
+    "       \"department\":\"İK\", \"city\":\"istanbul\", \"country\":\"tr\", \"adres\":\"yok\", \"phone\":\"0033333\"}\n",
+    "\n",
+    "a = Employee(**dic)\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "bir veri oluştur dict halinde en az 10 key olsun, sonra verideki fieldleri dataclassa aktar, istediğin 3 tane parametreyi print ettir. dictte clasta olmayan bir field de olsun ama hata vermesin, fazla olsn yani dictin verisi. örn dataclasta 5 field olsn dictte 10 key olsn. kendimizce bir validasyon oluştur(gelen string ise ve inte çevrilebiliyorsa inte çevir, olmazsa None olsun gibi) _ _new_ _(cls, *args, * *kwargs) kullanılır bunun için. zorunlulukları kaldırır."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "27"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 1\n",
+    "lamdba = lambda func: func\n",
+    "\n",
+    "@lamdba\n",
+    "def func(param=0):\n",
+    "    return param**3 or None\n",
+    "\n",
+    "func(3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Employee(name='abdülmutallip', lastname='uzunkavakağacıaltındauzanıroğlu', age=None, salary=2000, department='İK')"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# 2\n",
+    "from dataclasses import dataclass\n",
+    "\n",
+    "@dataclass\n",
+    "class Employee:\n",
+    "    name: str\n",
+    "    lastname: str\n",
+    "    age: int or None \n",
+    "    salary: int\n",
+    "    department: str\n",
+    "    \n",
+    "    def __init__(self,name: str, lastname: str, age: int or None, salary: int,\n",
+    "                 department: str, **kwargs: any) -> None:\n",
+    "        self.name = name\n",
+    "        self.lastname = lastname\n",
+    "        try:\n",
+    "            self.age = int(age)\n",
+    "        except ValueError:\n",
+    "            self.age = None\n",
+    "        self.salary = salary\n",
+    "        self.department = department\n",
+    "    \n",
+    "    def __str__(self) -> str:\n",
+    "        return f'{self.name}, {self.lastname}, {self.age}'\n",
+    "\n",
+    "\n",
+    "dic = {\"name\":\"abdülmutallip\", \"lastname\":\"uzunkavakağacıaltındauzanıroğlu\", \"age\":\"24g\", \"salary\":2000,\n",
+    "       \"department\":\"İK\", \"city\":\"istanbul\", \"country\":\"tr\", \"adres\":\"yok\", \"phone\":\"0033333\"}\n",
+    "a = Employee(**dic)\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "__new__ neden dataclasslarda kullanılamaz? decorator zaten kullanıyor o yüzden decoratorun new'ini ezmek lazım. Normal classlarda kullanabiliyoruz. @classmethod ne onu felan araştır."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "FileNotFoundError",
+     "evalue": "[Errno 2] No such file or directory: 'Downloads/HotelsList2.csv'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-2-77db44ecc99a>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0;32mwith\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Downloads/HotelsList2.csv'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'r'\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m     \u001b[0mdoc1\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mread\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mwith\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Downloads/HotelsList.csv'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'r'\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m     \u001b[0mdoc2\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mf\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mread\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: 'Downloads/HotelsList2.csv'"
+     ]
+    }
+   ],
+   "source": [
+    "with open('Downloads/HotelsList2.csv', 'r') as f:\n",
+    "    doc1 = f.read()\n",
+    "\n",
+    "with open('Downloads/HotelsList.csv', 'r') as f:\n",
+    "    doc2 = f.read()\n",
+    "\n",
+    "print(doc1==doc2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
